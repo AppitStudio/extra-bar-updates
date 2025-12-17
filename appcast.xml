@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>ExtraBar</title>
+        <item>
+            <title>1.0</title>
+            <pubDate>Wed, 17 Dec 2025 22:57:30 +0200</pubDate>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/extra-bar-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+                <h2>What's New in ExtraBar 0.1</h2>
+                <h3>Major Improvements</h3>
+                <ul>
+                    <li>Will be updated soon</li>
+                </ul>
+
+            ]]></description>
+            <enclosure
+                url="https://github.com/AppitStudio/extra-bar-updates/releases/download/prod/ExtraBar.dmg"
+                length="2820453" type="application/octet-stream"
+                sparkle:edSignature="x58buXHhevk/E5+DaWya+EJ2gzdO7Z/2blRHTjgfujwgjbQPvjFizEknDlMdL0KE1mAAlm6SZguVLuyramJYCw==" />
+        </item>
+    </channel>
+</rss>

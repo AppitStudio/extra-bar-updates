@@ -1,6 +1,4 @@
-VERSION: 4.0.7
+VERSION: 1.0
 DETAILS:
-Improve macOS Tahoe support, fixed the collapse animations and dock covering area when the dock is collapsed.
-Improved Folder icons customizations, URL widget icon, and one more super beta widget: Shelf 🙈
-You can now add a shelf widget to your dock, drag a file/folder to it, and drop it later on when you need it,
-This is a super beta feature so use it with caution.
+First release of ExtraBar.
+Based on extraBar-product-introduction.md write some release notes.

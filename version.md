@@ -1,4 +1,3 @@
-VERSION: 1.0
+VERSION: 1.1
 DETAILS:
-First release of ExtraBar.
-Based on extraBar-product-introduction.md write some release notes.
+Update UI and make the app more user friendly.

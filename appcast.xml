@@ -3,50 +3,38 @@
     <channel>
         <title>ExtraBar</title>
         <item>
-            <title>1.0</title>
-            <pubDate>Sat, 20 Dec 2025 17:38:48 +0200</pubDate>
-            <sparkle:version>1</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <title>1.1</title>
+            <pubDate>Sun, 21 Dec 2025 13:32:35 +0200</pubDate>
+            <sparkle:version>101</sparkle:version>
+            <sparkle:shortVersionString>1.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-bar-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
-                <h2>ExtraBar 1.0 – Your Mac, Your Rules, Your Bar! 🎉</h2>
+                <h2>ExtraBar 1.1 – Smoother, Sleeker, Better! ✨</h2>
 
-                <h3>✨ Introducing ExtraBar</h3>
-                <p>Welcome to <strong>ExtraBar</strong> – the customizable menu bar that finally gives power users the control they deserve!</p>
-
-                <h3>🚀 Core Features</h3>
+                <h3>🎨 What's New & Improved</h3>
                 <ul>
-                    <li><strong>Two Display Modes:</strong> Choose between a sleek floating bar or native menu bar integration – whatever fits your workflow!</li>
-                    <li><strong>16 Custom Action Types:</strong> Go beyond "Open" and "Quit" – run scripts, trigger shortcuts, make API calls, and more!</li>
-                    <li><strong>Deep Links:</strong> Jump directly into Zoom meetings, Slack channels, Spotify playlists, and Notion pages with one click!</li>
-                    <li><strong>36+ App Presets:</strong> Works out of the box with your favorite apps – VS Code, Figma, Zoom, Slack, Notion, and many more!</li>
-                    <li><strong>Full Keyboard Support:</strong> Navigate and trigger actions without touching your mouse!</li>
-                    <li><strong>Multi-Monitor Support:</strong> Seamless experience across all your displays!</li>
+                    <li><strong>Refreshed UI:</strong> We've given ExtraBar a visual makeover to make everything cleaner and more intuitive!</li>
+                    <li><strong>Enhanced User Experience:</strong> Smoother interactions and improved navigation throughout the app!</li>
+                    <li><strong>Better Usability:</strong> We've streamlined common workflows so you can get things done faster!</li>
                 </ul>
 
-                <h3>💡 Perfect For</h3>
+                <h3>🔧 Under the Hood</h3>
                 <ul>
-                    <li><strong>Meeting Warriors:</strong> One-click access to all your recurring Zoom meetings!</li>
-                    <li><strong>Developers:</strong> Deep links to your 30+ projects – no more "recent items" limitations!</li>
-                    <li><strong>Designers:</strong> Jump straight into your Figma files and design systems!</li>
-                    <li><strong>Power Users:</strong> Automate complex workflows with scripts and shortcuts!</li>
+                    <li><strong>Performance Optimizations:</strong> The app feels snappier and more responsive than ever!</li>
+                    <li><strong>Polished Interactions:</strong> Subtle refinements that make using ExtraBar a joy!</li>
                 </ul>
 
-                <h3>🎯 What Makes ExtraBar Different</h3>
-                <ul>
-                    <li>Unlike Bartender/Ice – we don't just organize, we <strong>create</strong> new functionality!</li>
-                    <li>Unlike Alfred/Raycast – we're <strong>visual and persistent</strong>, always at your fingertips!</li>
-                    <li>Unlike the native Dock – we're about <strong>using</strong> apps, not just launching them!</li>
-                </ul>
+                <h3>🚀 What's Next?</h3>
+                <p>This is just the beginning! We're listening to your feedback and have exciting features planned for upcoming releases. Stay tuned!</p>
 
-                <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraBar journey! We can't wait to see how you customize your workflow. 💙</em></p>
+                <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraBar community! Your support means the world to us. 💙</em></p>
             ]]></description>
             <enclosure
                 url="https://github.com/AppitStudio/extra-bar-updates/releases/download/prod/ExtraBar.dmg"
-                length="4358404" type="application/octet-stream"
-                sparkle:edSignature="QgbhBXDM4aKfYhYW2Tyuv1rGmfT4CIQJf3dPMtBREuFtZnlFXT6XVH3MlMXZXJfXAxJFYhFCjDJsJkR34QMTDw=="/>
+                length="5115842" type="application/octet-stream"
+                sparkle:edSignature="kq66L4oLr2yhfngzzx9TIvnqJ6M14KyBQc0yuqK9ivHK/NOMFj6af25Vv2hNM7BGpRA2L5CLblVtE+gkyhy8CA=="/>
         </item>
     </channel>
 </rss>

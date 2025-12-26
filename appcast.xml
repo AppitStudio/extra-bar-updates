@@ -3,38 +3,42 @@
     <channel>
         <title>ExtraBar</title>
         <item>
-            <title>1.1</title>
-            <pubDate>Sun, 21 Dec 2025 13:32:35 +0200</pubDate>
-            <sparkle:version>101</sparkle:version>
-            <sparkle:shortVersionString>1.1</sparkle:shortVersionString>
+            <title>1.1.2</title>
+            <pubDate>Sat, 27 Dec 2025 01:02:07 +0200</pubDate>
+            <sparkle:version>112</sparkle:version>
+            <sparkle:shortVersionString>1.1.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-bar-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
-                <h2>ExtraBar 1.1 – Smoother, Sleeker, Better! ✨</h2>
+                <h2>ExtraBar 1.1.2 – Polished & Ready to Shine! 🌟</h2>
+
+                <h3>🎉 Official Release</h3>
+                <p>ExtraBar is now officially out of beta! We've refined every detail to bring you the best experience possible.</p>
 
                 <h3>🎨 What's New & Improved</h3>
                 <ul>
-                    <li><strong>Refreshed UI:</strong> We've given ExtraBar a visual makeover to make everything cleaner and more intuitive!</li>
-                    <li><strong>Enhanced User Experience:</strong> Smoother interactions and improved navigation throughout the app!</li>
-                    <li><strong>Better Usability:</strong> We've streamlined common workflows so you can get things done faster!</li>
+                    <li><strong>Refreshed User Interface:</strong> A cleaner, more intuitive UI that makes navigating ExtraBar even easier!</li>
+                    <li><strong>Enhanced Actions & Presets:</strong> We've expanded action options and presets for even more flexibility in your workflows!</li>
+                    <li><strong>Deep Links Integrations:</strong> Improved deep links support for seamless app integrations!</li>
                 </ul>
 
                 <h3>🔧 Under the Hood</h3>
                 <ul>
-                    <li><strong>Performance Optimizations:</strong> The app feels snappier and more responsive than ever!</li>
-                    <li><strong>Polished Interactions:</strong> Subtle refinements that make using ExtraBar a joy!</li>
+                    <li><strong>Better Tahoe Compatibility:</strong> Full support for macOS Tahoe – everything runs smoothly on the latest macOS!</li>
+                    <li><strong>Performance Improvements:</strong> General optimizations for a snappier, more responsive experience!</li>
+                    <li><strong>Refined Settings:</strong> Settings have been polished for better usability!</li>
                 </ul>
 
                 <h3>🚀 What's Next?</h3>
-                <p>This is just the beginning! We're listening to your feedback and have exciting features planned for upcoming releases. Stay tuned!</p>
+                <p>We're just getting started! More exciting features and improvements are on the way. Stay tuned!</p>
 
-                <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraBar community! Your support means the world to us. 💙</em></p>
+                <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraBar community! Your support and feedback make all the difference. 💙</em></p>
             ]]></description>
             <enclosure
                 url="https://github.com/AppitStudio/extra-bar-updates/releases/download/prod/ExtraBar.dmg"
-                length="5115842" type="application/octet-stream"
-                sparkle:edSignature="kq66L4oLr2yhfngzzx9TIvnqJ6M14KyBQc0yuqK9ivHK/NOMFj6af25Vv2hNM7BGpRA2L5CLblVtE+gkyhy8CA=="/>
+                length="6472110" type="application/octet-stream"
+                sparkle:edSignature="8JyOSduxYrOCFb+QZnkXVh8stbwpWIXWcwJbTQtANYmvqaX96r93qo3t0HjgHnCM5olFapkGwnffP1vpG7XhAA=="/>
         </item>
     </channel>
 </rss>

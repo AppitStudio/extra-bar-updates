@@ -1,3 +1,7 @@
-VERSION: 1.1
+VERSION: 1.1.2
 DETAILS:
-Update UI and make the app more user friendly.
+Official release of the app,
+Update UI to make it more user friendly,
+Update actions options, presets and deep links integrations.
+Better Tahoe compatibility,
+improve settings and general performance.

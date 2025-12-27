@@ -23,10 +23,11 @@
 
                 <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraBar community! Your support means everything to us. 💙</em></p>
             ]]></description>
+
             <enclosure
                 url="https://github.com/AppitStudio/extra-bar-updates/releases/download/prod/ExtraBar.dmg"
-                length="6467263" type="application/octet-stream"
-                sparkle:edSignature="3rV4r3be8+0E84kOlI9v4ntrU5KQjaNSNpnsoBLxXTLYF4PkZ1Y3zqSbRtNvT2s0O2kbioz5DCZQJtgoUdRlAA=="/>
+                length="6465786" type="application/octet-stream"
+                sparkle:edSignature="gmS55EIdlmnIWKJXME2v0lSx5BuBw6G2T+zqmBtK2okjanP2UCGeFypCupLxHAJnJgYtsGX1CjwFlxkzlpK4CA==" />
         </item>
     </channel>
 </rss>

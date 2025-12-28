@@ -3,31 +3,31 @@
     <channel>
         <title>ExtraBar</title>
         <item>
-            <title>1.1.3</title>
-            <pubDate>Sat, 27 Dec 2025 22:50:47 +0200</pubDate>
-            <sparkle:version>113</sparkle:version>
-            <sparkle:shortVersionString>1.1.3</sparkle:shortVersionString>
+            <title>1.1.4</title>
+            <pubDate>Sun, 28 Dec 2025 17:49:53 +0200</pubDate>
+            <sparkle:version>114</sparkle:version>
+            <sparkle:shortVersionString>1.1.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-bar-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
-                <h2>ExtraBar 1.1.3 – Quick Fix, Smooth Sailing! 🛠️</h2>
+                <h2>ExtraBar 1.1.4 – Polish & Perfection! ✨</h2>
 
-                <h3>🐛 Bug Fixes</h3>
+                <h3>🎨 What's New & Improved</h3>
                 <ul>
-                    <li><strong>Stability Improvements:</strong> We've squashed a pesky bug to keep ExtraBar running smoothly!</li>
+                    <li><strong>Minor UI Fix:</strong> We've polished up the interface for an even cleaner, more refined look!</li>
                 </ul>
 
                 <h3>🚀 What's Next?</h3>
-                <p>More features and improvements are on the way! Keep your feedback coming – it helps us make ExtraBar even better.</p>
+                <p>More exciting features and improvements are on the way! Keep your feedback coming – it helps us make ExtraBar even better.</p>
 
                 <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraBar community! Your support means everything to us. 💙</em></p>
             ]]></description>
 
             <enclosure
                 url="https://github.com/AppitStudio/extra-bar-updates/releases/download/prod/ExtraBar.dmg"
-                length="6465786" type="application/octet-stream"
-                sparkle:edSignature="gmS55EIdlmnIWKJXME2v0lSx5BuBw6G2T+zqmBtK2okjanP2UCGeFypCupLxHAJnJgYtsGX1CjwFlxkzlpK4CA==" />
+                length="6466305" type="application/octet-stream"
+                sparkle:edSignature="CkTSTB+d9AA3EqV7fqpRqRc3IliKwlFFOF+wgoCZJ40Xs/eQ1R2U6DEgchBThUOHzBIT4aII739eMGPef2PBBA==" />
         </item>
     </channel>
 </rss>

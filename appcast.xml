@@ -3,31 +3,36 @@
     <channel>
         <title>ExtraBar</title>
         <item>
-            <title>1.1.4</title>
-            <pubDate>Sun, 28 Dec 2025 17:49:53 +0200</pubDate>
-            <sparkle:version>114</sparkle:version>
-            <sparkle:shortVersionString>1.1.4</sparkle:shortVersionString>
+            <title>1.1.5</title>
+            <pubDate>Mon, 29 Dec 2025 22:31:43 +0200</pubDate>
+            <sparkle:version>115</sparkle:version>
+            <sparkle:shortVersionString>1.1.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-bar-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
-                <h2>ExtraBar 1.1.4 – Polish & Perfection! ✨</h2>
+                <h2>ExtraBar 1.1.5 – Enhanced Multi-Monitor Experience! 🖥️✨</h2>
 
-                <h3>🎨 What's New & Improved</h3>
+                <h3>✨ What's New & Improved</h3>
                 <ul>
-                    <li><strong>Minor UI Fix:</strong> We've polished up the interface for an even cleaner, more refined look!</li>
+                    <li><strong>Multi-Monitor Floating Mode:</strong> ExtraBar now supports showing the bar in floating mode on both monitors when using multiple displays! The menu will intelligently appear on the screen with focus when you start using it – fully customizable in settings!</li>
+                </ul>
+
+                <h3>🔧 Technical Improvements</h3>
+                <ul>
+                    <li><strong>macOS Tahoe Enhancements:</strong> Yes, Tahoe again! We're continuously discovering and fixing issues with macOS Tahoe. This version addresses several bugs we've identified, with more improvements on the way!</li>
+                    <li><strong>Bug Fixes & Stability:</strong> Various fixes and improvements to keep ExtraBar running smoothly across all your workflows!</li>
                 </ul>
 
                 <h3>🚀 What's Next?</h3>
-                <p>More exciting features and improvements are on the way! Keep your feedback coming – it helps us make ExtraBar even better.</p>
+                <p>We're committed to making ExtraBar better with every update! More Tahoe optimizations and exciting features are in development. Keep your feedback coming!</p>
 
-                <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraBar community! Your support means everything to us. 💙</em></p>
+                <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraBar community! Your support and feedback help us build something amazing. 💙</em></p>
             ]]></description>
-
             <enclosure
                 url="https://github.com/AppitStudio/extra-bar-updates/releases/download/prod/ExtraBar.dmg"
-                length="6466305" type="application/octet-stream"
-                sparkle:edSignature="CkTSTB+d9AA3EqV7fqpRqRc3IliKwlFFOF+wgoCZJ40Xs/eQ1R2U6DEgchBThUOHzBIT4aII739eMGPef2PBBA==" />
+                length="6500225" type="application/octet-stream"
+                sparkle:edSignature="bDk65ygz+oFTGAkROHZvs8Al9eoevjVP9AcfTl8A50hjhTqkMWXBMvfGXnh/kDIVR2eRcJVty4enpDh51vhQCQ==" />
         </item>
     </channel>
 </rss>

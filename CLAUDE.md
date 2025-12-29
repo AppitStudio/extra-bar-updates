@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This repository manages the Sparkle auto-update feed for ExtraDock, a macOS dock management application by AppIt Studio. The repository's sole purpose is to distribute app updates and release notes through Sparkle's RSS-based update system via GitHub Pages.
+This repository manages the Sparkle auto-update feed for ExtraBar, a macOS dock management application by AppIt Studio. The repository's sole purpose is to distribute app updates and release notes through Sparkle's RSS-based update system via GitHub Pages.
 
 ## Architecture
 
@@ -26,14 +26,14 @@ This repository manages the Sparkle auto-update feed for ExtraDock, a macOS dock
 ### Sparkle Integration
 - **Minimum System Version:** macOS 11.5+
 - **Security:** Uses EdDSA signatures (`sparkle:edSignature`) for secure update verification
-- **File Hosting:** DMG files hosted on GitHub Releases at `/releases/download/prod/extraDock.dmg`
+- **File Hosting:** DMG files hosted on GitHub Releases at `/releases/download/prod/ExtraBar.dmg`
 - **Distribution:** GitHub Pages serves the static XML/HTML files
 
 ## Common Development Tasks
 
 ### Publishing a New Release
 
-When publishing a new version of ExtraDock:
+When publishing a new version of ExtraBar:
 
 1. **Update `appcast.xml`:**
    - Increment `sparkle:version` (integer build number, e.g., 390 → 391)
@@ -76,4 +76,4 @@ When publishing a new version of ExtraDock:
 
 ## Historical Context
 
-ExtraDock was acquired by AppIt Studio (creators of DockFlow) and has been maintained under new ownership since version 3.4. Release notes often reference this transition and the commitment to ongoing development.
+ExtraBar was acquired by AppIt Studio (creators of DockFlow) and has been maintained under new ownership since version 3.4. Release notes often reference this transition and the commitment to ongoing development.

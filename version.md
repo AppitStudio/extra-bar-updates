@@ -1,5 +1,10 @@
-VERSION: 1.1.5
+VERSION: 1.1.6
 DETAILS:
 Bug fixes and improvements:
-1. Support showing the bar on floating mode when using multiple monitors on both monitors, and when startig to use it the screen with focus will open the menu -  optinal in the settings
-2. macOS Tahoe improvments - Yes Tahoe again, we are finding more and mroe issues with Tahoe and working hard to fix them - there is more work on it but this version will improve some bugs that we already found.
+1. Notion deep link improved - now you can copy and paste a regular link and it will converted to a deep link automatically, updated the UI for the deep link settings for Notion.
+2. Fixed bugs with clicking on the menu bar item didn't worked sometimes.
+3. Add "Launch on Startup" option in the settings.
+4. Added "Divder" option to add to the menu bar items - with custom icon and title and color.
+Big thanks for all the support and feedback since launching the app, we are working hard to make it better and more useful for you.
+A lot more of new features and improvements are coming soon, stay tuned!
+Happy New Year!

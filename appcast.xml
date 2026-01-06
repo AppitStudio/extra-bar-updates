@@ -3,37 +3,39 @@
     <channel>
         <title>ExtraBar</title>
         <item>
-            <title>1.1.7</title>
-            <pubDate>Fri, 02 Jan 2026 23:27:54 +0200</pubDate>
-            <sparkle:version>117</sparkle:version>
-            <sparkle:shortVersionString>1.1.7</sparkle:shortVersionString>
+            <title>1.1.8</title>
+            <pubDate>Tue, 06 Jan 2026 00:27:49 +0200</pubDate>
+            <sparkle:version>118</sparkle:version>
+            <sparkle:shortVersionString>1.1.8</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-bar-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
-                <h2>ExtraBar 1.1.7 – Single Menu Mode is Here! 🎯✨</h2>
+                <h2>ExtraBar 1.1.8 – Bar Presets Have Arrived! 🎛️✨</h2>
 
                 <h3>✨ What's New & Improved</h3>
                 <ul>
-                    <li><strong>Single Menu Mode:</strong> The feature you've been asking for! Now you can have a single, customizable menu bar item that houses all your apps and actions in one place. Choose your perfect icon – SF Symbol, text, or even an emoji 😁!</li>
-                    <li><strong>Two Layout Options:</strong> Pick the layout that works best for you:
-                        <ul>
-                            <li><strong>Submenu Layout:</strong> All items visible at a glance with smooth arrow key navigation!</li>
-                            <li><strong>Single Menu Layout:</strong> A dynamic menu that changes content based on your selection, with full keyboard navigation using number and letter keys!</li>
-                        </ul>
-                    </li>
-                    <li><strong>Full Customization:</strong> Make it yours – customize the look and feel of your single menu bar item to match your workflow perfectly!</li>
+                    <li><strong>Bar Presets:</strong> One of our most requested features is finally here! Create multiple bar configurations and switch between them effortlessly. Perfect for different workflows, projects, or moods!</li>
+                    <li><strong>New Main Screen:</strong> A fresh home screen showcasing all your presets at a glance – your default preset is automatically created when you update!</li>
+                    <li><strong>Easy Preset Management:</strong> Create, edit, copy, and delete presets with just a few clicks!</li>
+                    <li><strong>Flexible Switching:</strong> Switch between presets your way – through the app UI, the main menu bar, or assign a custom hotkey!</li>
+                    <li><strong>Leader Key Support:</strong> Set a key combination to activate preset switching mode – power users rejoice!</li>
+                </ul>
+
+                <h3>🔧 Bug Fixes & Performance</h3>
+                <ul>
+                    <li><strong>Stability Improvements:</strong> We've squashed bugs and optimized performance for a smoother, more stable experience!</li>
                 </ul>
 
                 <h3>🚀 What's Next?</h3>
-                <p>We're thrilled to bring you this highly requested feature! This is just the beginning – we're working hard to make Single Menu Mode even more powerful and useful based on your feedback!</p>
+                <p>Bar Presets open up so many new possibilities for customizing your workflow! We can't wait to see the creative ways you'll use them. More exciting features are in development!</p>
 
-                <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraBar community! Your requests made this feature happen – we can't wait to hear what you think! 💙</em></p>
+                <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraBar community! Your feedback made this feature happen – we love hearing from you! 💙</em></p>
             ]]></description>
             <enclosure
                 url="https://github.com/AppitStudio/extra-bar-updates/releases/download/prod/ExtraBar.dmg"
-                length="6833645" type="application/octet-stream"
-                sparkle:edSignature="o8snk7gYPpNsd8k78H6x4c5t5V9FXV5WY5ImSPlJm8IJPc8RBqWvis44g/Sw38wsxllxybN1Ds4gEfeE85EWBQ==" />
+                length="7819629" type="application/octet-stream"
+                sparkle:edSignature="5CUnnEw3ykFCIbZwB+UvxFlzCfWxcKblcW9nQYrxH9jQ94lCKgmSKhiOL6WHuuEYKV3Z4yIO2imI27zweVTaDA==" />
         </item>
     </channel>
 </rss>

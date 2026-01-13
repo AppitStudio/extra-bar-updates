@@ -3,39 +3,35 @@
     <channel>
         <title>ExtraBar</title>
         <item>
-            <title>1.1.8</title>
-            <pubDate>Tue, 06 Jan 2026 00:27:49 +0200</pubDate>
-            <sparkle:version>118</sparkle:version>
-            <sparkle:shortVersionString>1.1.8</sparkle:shortVersionString>
+            <title>1.1.9</title>
+            <pubDate>Sun, 11 Jan 2026 00:02:04 +0200</pubDate>
+            <sparkle:version>119</sparkle:version>
+            <sparkle:shortVersionString>1.1.9</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-bar-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
-                <h2>ExtraBar 1.1.8 – Bar Presets Have Arrived! 🎛️✨</h2>
+                <h2>ExtraBar 1.1.9 – Organize Like Never Before! 📁✨</h2>
 
                 <h3>✨ What's New & Improved</h3>
                 <ul>
-                    <li><strong>Bar Presets:</strong> One of our most requested features is finally here! Create multiple bar configurations and switch between them effortlessly. Perfect for different workflows, projects, or moods!</li>
-                    <li><strong>New Main Screen:</strong> A fresh home screen showcasing all your presets at a glance – your default preset is automatically created when you update!</li>
-                    <li><strong>Easy Preset Management:</strong> Create, edit, copy, and delete presets with just a few clicks!</li>
-                    <li><strong>Flexible Switching:</strong> Switch between presets your way – through the app UI, the main menu bar, or assign a custom hotkey!</li>
-                    <li><strong>Leader Key Support:</strong> Set a key combination to activate preset switching mode – power users rejoice!</li>
+                    <li><strong>Actions Folders:</strong> Group your actions together into folders for a cleaner, more organized menu bar! Perfect for keeping related actions in one place and reducing clutter!</li>
+                    <li><strong>Apps Folders:</strong> Create a single menu bar item that contains multiple apps, each with its own set of actions! One icon, endless possibilities – your workflows just got a whole lot neater!</li>
+                    <li><strong>Action Widget:</strong> Trigger actions instantly without opening any menu! Create a menu bar item that executes an action with a single click – connect it to an app or use it as a custom standalone action!</li>
                 </ul>
 
-                <h3>🔧 Bug Fixes & Performance</h3>
-                <ul>
-                    <li><strong>Stability Improvements:</strong> We've squashed bugs and optimized performance for a smoother, more stable experience!</li>
-                </ul>
+                <h3>🚀 The Power of Customization</h3>
+                <p>These three powerful features, combined with the presets from version 1.1.8, unlock the ultimate customization experience. Design your workflow exactly the way you want it – more efficient, more organized, and perfectly tailored to your needs!</p>
 
-                <h3>🚀 What's Next?</h3>
-                <p>Bar Presets open up so many new possibilities for customizing your workflow! We can't wait to see the creative ways you'll use them. More exciting features are in development!</p>
+                <h3>🔮 What's Next?</h3>
+                <p>The next few versions will focus on stability, UI/UX improvements, performance enhancements, and making existing features even more powerful and easier to use!</p>
 
-                <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraBar community! Your feedback made this feature happen – we love hearing from you! 💙</em></p>
+                <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraBar community! Your feature requests made this update happen – we love hearing from you! 💙</em></p>
             ]]></description>
             <enclosure
                 url="https://github.com/AppitStudio/extra-bar-updates/releases/download/prod/ExtraBar.dmg"
-                length="7819629" type="application/octet-stream"
-                sparkle:edSignature="5CUnnEw3ykFCIbZwB+UvxFlzCfWxcKblcW9nQYrxH9jQ94lCKgmSKhiOL6WHuuEYKV3Z4yIO2imI27zweVTaDA==" />
+                length="8330644" type="application/octet-stream"
+                sparkle:edSignature="bipphbE6Qxykt+EcU0rYu+bfWXrqXfYW/D+OoIBXcsLq2OaNGUUhTIrV8nhqZLVN2DubySdMLQRBgqNw795CCA==" />
         </item>
     </channel>
 </rss>

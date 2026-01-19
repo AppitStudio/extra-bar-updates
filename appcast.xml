@@ -3,35 +3,42 @@
     <channel>
         <title>ExtraBar</title>
         <item>
-            <title>1.1.9</title>
-            <pubDate>Sun, 11 Jan 2026 00:02:04 +0200</pubDate>
-            <sparkle:version>119</sparkle:version>
-            <sparkle:shortVersionString>1.1.9</sparkle:shortVersionString>
+            <title>1.2.0</title>
+            <pubDate>Thu, 15 Jan 2026 16:20:45 +0200</pubDate>
+            <sparkle:version>120</sparkle:version>
+            <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-bar-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
-                <h2>ExtraBar 1.1.9 – Organize Like Never Before! 📁✨</h2>
+                <h2>ExtraBar 1.2.0 – Stability & Style Unleashed! 🎨⚡</h2>
 
                 <h3>✨ What's New & Improved</h3>
                 <ul>
-                    <li><strong>Actions Folders:</strong> Group your actions together into folders for a cleaner, more organized menu bar! Perfect for keeping related actions in one place and reducing clutter!</li>
-                    <li><strong>Apps Folders:</strong> Create a single menu bar item that contains multiple apps, each with its own set of actions! One icon, endless possibilities – your workflows just got a whole lot neater!</li>
-                    <li><strong>Action Widget:</strong> Trigger actions instantly without opening any menu! Create a menu bar item that executes an action with a single click – connect it to an app or use it as a custom standalone action!</li>
+                    <li><strong>Auto Save:</strong> Every change you make is now saved automatically! Enjoy a faster, more reliable workflow without worrying about losing your customizations!</li>
+                    <li><strong>Enhanced Screens UI/UX:</strong> We've redesigned the screens experience with editable lists by default, improved sorting, and a smoother overall interface!</li>
+                    <li><strong>Live Bar Sync:</strong> Settings and item changes now sync instantly to your bar – no manual refresh needed! See your customizations update in real-time!</li>
+                    <li><strong>Colorful Widget Icons:</strong> Add a splash of personality! You can now set custom colors for each widget icon to match your style or brand!</li>
+                    <li><strong>Full Custom Icons Support:</strong> A brand new icon library tool for all apps and widgets! Upload icons from your Mac or download directly from a URL – unlimited customization awaits!</li>
+                    <li><strong>Three Floating Bar Sizes:</strong> Choose from small, medium, or large bar sizes in floating mode for improved accessibility and the perfect fit for your workflow!</li>
+                    <li><strong>Name on Hover:</strong> See app and item names when hovering or using keyboard navigation – easily toggleable in settings!</li>
                 </ul>
 
-                <h3>🚀 The Power of Customization</h3>
-                <p>These three powerful features, combined with the presets from version 1.1.8, unlock the ultimate customization experience. Design your workflow exactly the way you want it – more efficient, more organized, and perfectly tailored to your needs!</p>
+                <h3>🔧 Technical Improvements</h3>
+                <ul>
+                    <li><strong>Stability Focus:</strong> This release is all about reliability! We've squashed bugs and optimized performance throughout the app!</li>
+                    <li><strong>Smoother Experience:</strong> Countless refinements under the hood for a snappier, more responsive ExtraBar!</li>
+                </ul>
 
-                <h3>🔮 What's Next?</h3>
-                <p>The next few versions will focus on stability, UI/UX improvements, performance enhancements, and making existing features even more powerful and easier to use!</p>
+                <h3>🚀 What's Next?</h3>
+                <p>We're continuing to polish and perfect ExtraBar based on your feedback! More customization options and exciting features are in development!</p>
 
-                <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraBar community! Your feature requests made this update happen – we love hearing from you! 💙</em></p>
+                <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraBar community! Your feedback drives every improvement we make – keep it coming! 💙</em></p>
             ]]></description>
             <enclosure
                 url="https://github.com/AppitStudio/extra-bar-updates/releases/download/prod/ExtraBar.dmg"
-                length="8330644" type="application/octet-stream"
-                sparkle:edSignature="bipphbE6Qxykt+EcU0rYu+bfWXrqXfYW/D+OoIBXcsLq2OaNGUUhTIrV8nhqZLVN2DubySdMLQRBgqNw795CCA==" />
+                length="8678520" type="application/octet-stream"
+                sparkle:edSignature="/e7v5Cwza/9g3APx/l5JEht1wbFjgjYemSV1f+Nawl6Y2OlwnGAkZ5ARGdwAH1Yp+wenGlYnBAXwWHoylQDCAQ==" />
         </item>
     </channel>
 </rss>

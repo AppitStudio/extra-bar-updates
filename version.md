@@ -1,11 +1,11 @@
-VERSION: 1.1.9
+VERSION: 1.2.0
 DETAILS:
-We have added 3 main features that will give ExtraBar all the most requested features by you since we launched it:
-1. Actions folders - you can now create folders for apps to group actions together
-2. Apps Folders - You can create a item in the bar that will have multiple apps in it, each one with its own actions
-3. Action widget - You can now create a menu item that will trigger event right away without any menu being open.
-This action can be connected to an app or just custom action.
-
-This 3 action togther with the presets from the previous version unlock fully customizing your workflow and making it more efficient and fit your needs.
-
-The next few version will be focused on stability, UI UX, performance and make exsiting features more easier to use and more powerful.
+In this version we foucs on stability, UI UX, and more customizability.
+We have added the following features:
+- Auto save - now every change you make is saved automatically for faster and more reliable workflow
+- Improved screens UI UX - Editable list by default, sort improvements, and more
+= Improved bar live updates sync - Now changes for the settings/items are synced live to the bar without any need to refresh
+- Add an option to set colors for widget icons - You can now set a color for each widget icon to match your style or brand
+- Add custom icons support for all apps and widgets with a full icon library tool - upload from the Mac or download from a URL
+- 3 Bar sizes for floating mode to improve app accessibility
+- Show app/item name on hover and on keyboard navigation mode - toggleable in the settings

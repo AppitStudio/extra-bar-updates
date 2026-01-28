@@ -1,11 +1,25 @@
-VERSION: 1.2.0
+VERSION: 1.2.1
 DETAILS:
-In this version we foucs on stability, UI UX, and more customizability.
-We have added the following features:
-- Auto save - now every change you make is saved automatically for faster and more reliable workflow
-- Improved screens UI UX - Editable list by default, sort improvements, and more
-= Improved bar live updates sync - Now changes for the settings/items are synced live to the bar without any need to refresh
-- Add an option to set colors for widget icons - You can now set a color for each widget icon to match your style or brand
-- Add custom icons support for all apps and widgets with a full icon library tool - upload from the Mac or download from a URL
-- 3 Bar sizes for floating mode to improve app accessibility
-- Show app/item name on hover and on keyboard navigation mode - toggleable in the settings
+  Run Script Action - Major Enhancements
+  - Inline script support: Write and execute scripts directly without needing external files
+  - Script output window: New toggle to show real-time script output in a dedicated window with async streaming
+  - Shell environment options: Choose how scripts load your shell profile:
+    - Default (no profile loading)
+    - zsh with login profile (.zprofile/.zlogin)
+    - zsh interactive (.zshrc)
+    - bash with login profile (.bash_profile/.profile)
+  - Improved script editor UI: Better parameters form with validation and multi-action creation support
+  - Script language selection: Support for multiple scripting languages with appropriate syntax highlighting
+
+  Menu Bar Inline Mode Improvements
+
+  - Faster tooltip display: Reimplemented per-item popovers for immediate tooltip response during keyboard navigation
+  - Improved popover management: Eliminated delays when navigating between items
+
+  Bug Fixes
+
+  - Fixed dual-mode visibility after wake: Bar no longer shows in both floating and inline modes after system sleep
+  - Fixed tooltip persistence issue: Tooltips now properly clean up when system enters sleep
+  - Status items restore correctly: Menu bar items properly restore after system wake
+
+  ---

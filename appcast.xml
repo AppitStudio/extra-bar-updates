@@ -3,54 +3,63 @@
     <channel>
         <title>ExtraBar</title>
         <item>
-            <title>1.2.1</title>
-            <pubDate>Thu, 22 Jan 2026 20:42:50 +0200</pubDate>
-            <sparkle:version>121</sparkle:version>
-            <sparkle:shortVersionString>1.2.1</sparkle:shortVersionString>
+            <title>1.2.2</title>
+            <pubDate>Tue, 03 Feb 2026 18:50:27 +0200</pubDate>
+            <sparkle:version>122</sparkle:version>
+            <sparkle:shortVersionString>1.2.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-bar-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
-                <h2>ExtraBar 1.2.1 – Scripting Supercharged! 🚀💻</h2>
-
-                <h3>✨ Run Script Action – Major Enhancements</h3>
+                <h2>ExtraBar 1.2.2 – Your Bookmarks, Always Within Reach! 🔖✨</h2>
+                <a target="_blank" href="https://shiori.extrabar.app/">Check Out Shiori Bookmark Manager</a>
+                <h3>✨ What's New – Shiori Bookmark Manager Integration</h3>
                 <ul>
-                    <li><strong>Inline Script Support:</strong> Write and execute scripts directly without needing external files! Your automation just got way more convenient!</li>
-                    <li><strong>Script Output Window:</strong> New toggle to show real-time script output in a dedicated window with async streaming – see exactly what's happening as it runs!</li>
-                    <li><strong>Shell Environment Options:</strong> Choose how scripts load your shell profile:
-                        <ul>
-                            <li>Default (no profile loading)</li>
-                            <li>zsh with login profile (.zprofile/.zlogin)</li>
-                            <li>zsh interactive (.zshrc)</li>
-                            <li>bash with login profile (.bash_profile/.profile)</li>
-                        </ul>
-                    </li>
-                    <li><strong>Improved Script Editor UI:</strong> Better parameters form with validation and multi-action creation support!</li>
-                    <li><strong>Script Language Selection:</strong> Support for multiple scripting languages with appropriate syntax highlighting!</li>
+                    <li><strong>Bookmark Widget:</strong> Access your entire Shiori bookmark library right from your menu bar! Search, browse folders, and open bookmarks without leaving your workflow!</li>
+                    <li><strong>Full Bookmark Manager:</strong> A dedicated window to organize your bookmarks – create folders, manage tags with color coding, and bulk-edit your library with ease!</li>
+                    <li><strong>Quick Add & Edit:</strong> Add new bookmarks with Cmd+, edit details inline, copy URLs with one click, and delete bookmarks – all from the widget!</li>
+                    <li><strong>Folder Navigation:</strong> Browse your bookmark folders with full subfolder support and smooth keyboard navigation!</li>
+                    <li><strong>Smart Search & Filters:</strong> Find any bookmark instantly by keyword, folder, or tag – your library is always organized!</li>
                 </ul>
 
-                <h3>⚡ Menu Bar Inline Mode Improvements</h3>
+                <h3>📥 Import & Export</h3>
                 <ul>
-                    <li><strong>Faster Tooltip Display:</strong> Reimplemented per-item popovers for immediate tooltip response during keyboard navigation!</li>
-                    <li><strong>Improved Popover Management:</strong> Eliminated delays when navigating between items – everything feels snappier!</li>
+                    <li><strong>Import From Anywhere:</strong> Bring in bookmarks from browser HTML exports, JSON files, Raindrop.io, Pocket, and Pinboard!</li>
+                    <li><strong>Export Your Way:</strong> Export your bookmarks to JSON, CSV, or browser-compatible HTML – your data, your choice!</li>
                 </ul>
 
-                <h3>🐛 Bug Fixes</h3>
+                <h3>🔄 Offline & Sync</h3>
                 <ul>
-                    <li><strong>Fixed Dual-Mode Visibility After Wake:</strong> Bar no longer shows in both floating and inline modes after system sleep!</li>
-                    <li><strong>Fixed Tooltip Persistence Issue:</strong> Tooltips now properly clean up when system enters sleep!</li>
-                    <li><strong>Status Items Restore Correctly:</strong> Menu bar items properly restore after system wake!</li>
+                    <li><strong>Offline Access:</strong> Full access to your bookmarks even without an internet connection – cached locally for instant loading!</li>
+                    <li><strong>Background Sync:</strong> Automatic synchronization with configurable intervals and smart network reconnect detection!</li>
+                    <li><strong>Pending Changes:</strong> Offline edits are preserved and synced when you're back online!</li>
+                </ul>
+
+                <h3>🔐 Account & Subscription</h3>
+                <ul>
+                    <li><strong>Keyper Authentication:</strong> Sign in with your Keyper account for streamlined registration and login!</li>
+                    <li><strong>Deep Link Login:</strong> Authenticate directly from the Shiori website into ExtraBar – seamless and secure!</li>
+                    <li><strong>Subscription Management:</strong> View your plan, usage limits, and upgrade options right from Settings!</li>
+                </ul>
+
+                <h3>🔧 Other Improvements</h3>
+                <ul>
+                    <li><strong>Bookmark Manager Menu Item:</strong> Quick access from the application menu!</li>
+                    <li><strong>Improved Keyboard Navigation:</strong> Better focus handling in bar content!</li>
+                    <li><strong>Enhanced Popover Handling:</strong> Smoother bookmark widget popovers in bar and menu bar modes!</li>
+                    <li><strong>Theme Switcher:</strong> Toggle between System, Light, and Dark appearance for the bookmark popover!</li>
                 </ul>
 
                 <h3>🚀 What's Next?</h3>
-                <p>We're continuing to enhance ExtraBar's scripting capabilities and polish the experience based on your feedback!</p>
+                <p>We're excited to bring Shiori integration to ExtraBar! More integrations and improvements are on the way based on your feedback!</p>
 
                 <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraBar community! Your feedback drives every improvement we make – keep it coming! 💙</em></p>
             ]]></description>
+
             <enclosure
-                url="https://github.com/AppitStudio/extra-bar-updates/releases/download/v1.2.1/ExtraBar.dmg"
-                length="8932615" type="application/octet-stream"
-                sparkle:edSignature="aW4D0Er4FbfK5Lzm2O3BclyB0ci8aWMgVrYALHeAgB/Q8mLcMarrDMZd/G6uYeXJNltzF+aOaYOvzZBGkLCZCA==" />
+                url="https://github.com/AppitStudio/extra-bar-updates/releases/download/v1.2.2/ExtraBar.dmg"
+                length="11049999" type="application/octet-stream"
+                sparkle:edSignature="Aa1j585wUZVpznCAu+wFsFTwwirBnFuiVv0aUURiEZsgX6NzIG1oRLsTw8z8XtQBqjZn22lfbsr/5vLQT0l5CQ==" />
         </item>
     </channel>
 </rss>

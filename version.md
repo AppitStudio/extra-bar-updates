@@ -1,86 +1,28 @@
-VERSION: 1.2.1
+VERSION: 1.2.3
 DETAILS:
 
-This is technical release notes for ExtraBar 1.2.1.
+This is technical release notes for ExtraBar
 Convert it to be more user-friendly and concise.
 
-## Shiori Bookmark Manager Integration
+ExtraBar v1.2.3 — Release Notes
 
-ExtraBar now integrates with **Shiori**, a powerful bookmark manager, bringing your entire bookmark library directly into your menu bar. Browse, search, organize, and manage bookmarks without leaving your workflow.
+New Features
 
----
+Keyboard Shortcut Action Type — New menu action type that simulates keyboard shortcuts via CGEvent. Configure any key + modifier combination (Cmd, Shift, Opt, Ctrl, Fn) and send it to the previously focused app. "Restore App Focus" returns focus to your app before sending keys so shortcuts act on the correct context.
+Move/Copy Items Between Presets & Folders — Batch move or copy items between presets and folder widgets. Multi-select mode with Select All, action bar, and context menu support.
+Global Hotkey for Shiori Bookmark Manager — Open the Bookmark Manager with Shift+Cmd+B. Configurable shortcut in Settings.
+Keyboard Navigation in Tag/Folder Pickers — Arrow key navigation with highlighted state in bookmark tag and folder pickers. Return/Space opens pickers when focused.
+Auto-Save Indicator — Replaced manual Save buttons with a subtle inline saving/saved status indicator on screens that already auto-save.
+Clickable List Rows — Clicking anywhere on a preset, app/widget, or action row now opens its settings, matching the cog icon behavior.
+Improvements
 
-### Bookmark Widget
+Folder Widget Settings Redesign — Revamped folder widget settings with inlined header (Name, Icon, Color) and dedicated screen for item selection instead of popup. Add action now opens the action library directly.
+Consolidated Widget Editor UI — New CompactNameIconColorRow component streamlines name, icon, and color fields across Action, Folder, and Bookmark widget editors.
+Inline Action Parameters — Action parameters are now shown inline in folder widget and batch creation flows instead of a separate popup.
+Bookmark Widget Polish — Anchored window for menu-mode bookmark widget, rounded neutral chrome, and improved popover anchor positioning.
+Responsive Widget Editor Layout — Widget editor uses flexible max-width/max-height for better adaptation to various screen sizes.
+Bug Fixes
 
-- **Bar widget** — Add a Shiori bookmark widget to your bar for instant access to your bookmarks from the menu bar.
-- **Search & filter** — Search bookmarks by keyword, filter by folder or tags, all within the widget popover.
-- **Folder navigation** — Browse bookmark folders with full subfolder navigation using arrow keys.
-- **Quick Add** — Add a new bookmark directly from the widget with `Cmd +` keyboard shortcut.
-- **Edit & delete** — Edit bookmark details or delete bookmarks inline from the widget.
-- **Copy URL** — One-click copy of any bookmark URL to clipboard with visual confirmation.
-- **Theme switcher** — Toggle between System, Light, and Dark appearance for the bookmark popover.
-- **Freshness indicator** — See at a glance whether your bookmarks are fresh from the server, cached, or offline.
-- **Keyboard navigation** — Full keyboard support for navigating folders and bookmark lists.
-
-### Bookmark Manager Window
-
-A dedicated full-featured Bookmark Manager for organizing your library:
-
-- **Bookmarks** — View all bookmarks with search, folder/tag filters, and pagination.
-- **Folders** — Create, edit, rename, and delete folders with hierarchical subfolder support.
-- **Tags** — Manage tags with color coding for visual organization.
-- **Bulk operations** — Multi-select mode for bulk deleting bookmarks, tags, and folders.
-- **Batch move** — Move multiple bookmarks to a folder in one action.
-- **Sync fix** — Identify and resolve out-of-sync bookmarks with dedicated fix actions.
-- **Styled bookmark cards** — Each bookmark row features a colored accent border, favicon, tags, and hover actions (edit, copy, delete).
-
-### Import & Export
-
-- **Import** from multiple sources:
-  - Browser HTML bookmark exports
-  - JSON files
-  - Raindrop.io exports
-  - Pocket exports
-  - Pinboard exports
-- **Export** your bookmarks to:
-  - JSON
-  - CSV
-  - HTML (browser-compatible)
-- Import progress tracking with status polling.
-
-### Authentication & Accounts
-
-- **Keyper authentication** — Sign in with your Keyper account for streamlined registration and login.
-- **Deep link login** — Authenticate from the Shiori website directly into ExtraBar via `extrabar://` URL scheme.
-- **Subscription management** — View your current plan (Free / Pro / Plus (Soon)), usage limits, and upgrade options.
-- **Web-based checkout** — One-click upgrade to Pro or Plus (Soon) plans
-- **Checkout callbacks** — Automatic subscription sync.
-- **Persistent sessions** — Stay signed in across app restarts with secure Keychain token storage.
-
-### Offline & Sync
-
-- **Online-first caching** — Bookmarks load instantly from local cache, then refresh from the server in the background.
-- **Offline mode** — Full access to cached bookmarks when the network is unavailable.
-- **Background sync** — Automatic synchronization with configurable intervals and network reconnect detection.
-- **Pending changes** — Offline edits are preserved and synced when connectivity is restored.
-
-### Data & Storage
-
-- **CoreData cache layer** — Local cache for bookmarks, folders, and tags with fast search.
-- **Favicon caching** — Website favicons are cached locally for fast rendering.
-- **Device-scoped bookmarks** — Support for device-specific and shared bookmark visibility.
-
-### Settings
-
-- **Shiori section** in Settings for managing your account, viewing subscription details, and configuring the integration.
-- **Bookmark Manager** accessible from Settings or directly from the app menu.
-
----
-
-### Other Improvements
-
-- Added Bookmark Manager menu item to the application menu for quick access.
-- Improved keyboard navigation focus handling in bar content.
-- Enhanced popover handling for bookmark widgets in bar and menu bar modes.
-
----
+Fixed preset item list not updating after removing an app — The Combine publisher handler was reading the old value during willSet; now correctly uses the new value from the publisher.
+Fixed bookmark widget popover anchor in menu mode — Popover now anchors correctly when using menu bar mode.
+Renamed sync status label from "Fresh" to "Sync" for clarity.

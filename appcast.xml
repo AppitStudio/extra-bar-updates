@@ -3,63 +3,52 @@
     <channel>
         <title>ExtraBar</title>
         <item>
-            <title>1.2.2</title>
-            <pubDate>Tue, 03 Feb 2026 18:50:27 +0200</pubDate>
-            <sparkle:version>122</sparkle:version>
-            <sparkle:shortVersionString>1.2.2</sparkle:shortVersionString>
+            <title>1.2.3</title>
+            <pubDate>Wed, 11 Feb 2026 20:00:45 +0200</pubDate>
+            <sparkle:version>123</sparkle:version>
+            <sparkle:shortVersionString>1.2.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-bar-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
-                <h2>ExtraBar 1.2.2 – Your Bookmarks, Always Within Reach! 🔖✨</h2>
-                <a target="_blank" href="https://shiori.extrabar.app/">Check Out Shiori Bookmark Manager</a>
-                <h3>✨ What's New – Shiori Bookmark Manager Integration</h3>
+                <h2>ExtraBar 1.2.3 – Power at Your Fingertips! ⌨️🚀</h2>
+
+                <h3>✨ What's New</h3>
                 <ul>
-                    <li><strong>Bookmark Widget:</strong> Access your entire Shiori bookmark library right from your menu bar! Search, browse folders, and open bookmarks without leaving your workflow!</li>
-                    <li><strong>Full Bookmark Manager:</strong> A dedicated window to organize your bookmarks – create folders, manage tags with color coding, and bulk-edit your library with ease!</li>
-                    <li><strong>Quick Add & Edit:</strong> Add new bookmarks with Cmd+, edit details inline, copy URLs with one click, and delete bookmarks – all from the widget!</li>
-                    <li><strong>Folder Navigation:</strong> Browse your bookmark folders with full subfolder support and smooth keyboard navigation!</li>
-                    <li><strong>Smart Search & Filters:</strong> Find any bookmark instantly by keyword, folder, or tag – your library is always organized!</li>
+                    <li><strong>Keyboard Shortcut Actions:</strong> A brand-new action type that sends keyboard shortcuts to your apps! Configure any key + modifier combination and fire it with a single click – perfect for automating repetitive tasks!</li>
+                    <li><strong>Move & Copy Items Between Presets:</strong> Batch move or copy items between presets and folders! Multi-select, Select All, and context menu support make reorganizing your setup a breeze!</li>
+                    <li><strong>Global Hotkey for Bookmark Manager:</strong> Open Shiori Bookmark Manager instantly with Shift+Cmd+B – fully customizable in Settings!</li>
+                    <li><strong>Auto-Save Indicator:</strong> A subtle inline saving/saved status replaces manual Save buttons on auto-saving screens – cleaner and more intuitive!</li>
+                    <li><strong>Clickable List Rows:</strong> Click anywhere on a preset, app, or widget row to open its settings – no more hunting for the cog icon!</li>
                 </ul>
 
-                <h3>📥 Import & Export</h3>
+                <h3>🎨 UI & Experience Improvements</h3>
                 <ul>
-                    <li><strong>Import From Anywhere:</strong> Bring in bookmarks from browser HTML exports, JSON files, Raindrop.io, Pocket, and Pinboard!</li>
-                    <li><strong>Export Your Way:</strong> Export your bookmarks to JSON, CSV, or browser-compatible HTML – your data, your choice!</li>
+                    <li><strong>Folder Widget Settings Redesign:</strong> Revamped layout with inlined header fields and a dedicated item selection screen – organizing your folders has never felt better!</li>
+                    <li><strong>Streamlined Widget Editors:</strong> A new unified component brings consistent name, icon, and color fields across all widget editors!</li>
+                    <li><strong>Inline Action Parameters:</strong> Action parameters now display inline instead of in a separate popup – fewer clicks, faster setup!</li>
+                    <li><strong>Bookmark Widget Polish:</strong> Improved anchoring, rounded chrome, and better popover positioning for a refined bookmark experience!</li>
+                    <li><strong>Responsive Widget Editor:</strong> Flexible sizing adapts beautifully to different screen sizes!</li>
+                    <li><strong>Keyboard Navigation in Pickers:</strong> Arrow key navigation with visual highlighting in tag and folder pickers – navigate effortlessly!</li>
                 </ul>
 
-                <h3>🔄 Offline & Sync</h3>
+                <h3>🐛 Bug Fixes</h3>
                 <ul>
-                    <li><strong>Offline Access:</strong> Full access to your bookmarks even without an internet connection – cached locally for instant loading!</li>
-                    <li><strong>Background Sync:</strong> Automatic synchronization with configurable intervals and smart network reconnect detection!</li>
-                    <li><strong>Pending Changes:</strong> Offline edits are preserved and synced when you're back online!</li>
-                </ul>
-
-                <h3>🔐 Account & Subscription</h3>
-                <ul>
-                    <li><strong>Keyper Authentication:</strong> Sign in with your Keyper account for streamlined registration and login!</li>
-                    <li><strong>Deep Link Login:</strong> Authenticate directly from the Shiori website into ExtraBar – seamless and secure!</li>
-                    <li><strong>Subscription Management:</strong> View your plan, usage limits, and upgrade options right from Settings!</li>
-                </ul>
-
-                <h3>🔧 Other Improvements</h3>
-                <ul>
-                    <li><strong>Bookmark Manager Menu Item:</strong> Quick access from the application menu!</li>
-                    <li><strong>Improved Keyboard Navigation:</strong> Better focus handling in bar content!</li>
-                    <li><strong>Enhanced Popover Handling:</strong> Smoother bookmark widget popovers in bar and menu bar modes!</li>
-                    <li><strong>Theme Switcher:</strong> Toggle between System, Light, and Dark appearance for the bookmark popover!</li>
+                    <li><strong>Preset List Sync:</strong> Fixed an issue where the preset item list didn't update after removing an app!</li>
+                    <li><strong>Bookmark Popover Anchor:</strong> Popover now anchors correctly in menu bar mode!</li>
+                    <li><strong>Clearer Sync Status:</strong> Renamed status label from "Fresh" to "Sync" for better clarity!</li>
                 </ul>
 
                 <h3>🚀 What's Next?</h3>
-                <p>We're excited to bring Shiori integration to ExtraBar! More integrations and improvements are on the way based on your feedback!</p>
+                <p>We're continuing to refine and expand ExtraBar with more powerful automation features and quality-of-life improvements based on your feedback!</p>
 
                 <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraBar community! Your feedback drives every improvement we make – keep it coming! 💙</em></p>
             ]]></description>
 
             <enclosure
-                url="https://github.com/AppitStudio/extra-bar-updates/releases/download/v1.2.2/ExtraBar.dmg"
-                length="11049999" type="application/octet-stream"
-                sparkle:edSignature="Aa1j585wUZVpznCAu+wFsFTwwirBnFuiVv0aUURiEZsgX6NzIG1oRLsTw8z8XtQBqjZn22lfbsr/5vLQT0l5CQ==" />
+                url="https://github.com/AppitStudio/extra-bar-updates/releases/download/v1.2.3/ExtraBar.dmg"
+                length="11454492" type="application/octet-stream"
+                sparkle:edSignature="YsLfiNZMYrysc+gywSlRvMfuiWHffxxptM3mMhSMM8IUhdeqcJu9rE9OYqR6KhtDY3OcSXG9wyafZ/2Wau22CQ==" />
         </item>
     </channel>
 </rss>

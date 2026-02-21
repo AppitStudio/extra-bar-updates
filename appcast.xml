@@ -3,52 +3,44 @@
     <channel>
         <title>ExtraBar</title>
         <item>
-            <title>1.2.3</title>
-            <pubDate>Wed, 11 Feb 2026 20:00:45 +0200</pubDate>
-            <sparkle:version>123</sparkle:version>
-            <sparkle:shortVersionString>1.2.3</sparkle:shortVersionString>
+            <title>1.2.4</title>
+            <pubDate>Sat, 21 Feb 2026 19:27:15 +0200</pubDate>
+            <sparkle:version>124</sparkle:version>
+            <sparkle:shortVersionString>1.2.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-bar-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
-                <h2>ExtraBar 1.2.3 – Power at Your Fingertips! ⌨️🚀</h2>
+                <h2>ExtraBar 1.2.4 – Move It, Make It Yours! 🚀📦</h2>
 
                 <h3>✨ What's New</h3>
                 <ul>
-                    <li><strong>Keyboard Shortcut Actions:</strong> A brand-new action type that sends keyboard shortcuts to your apps! Configure any key + modifier combination and fire it with a single click – perfect for automating repetitive tasks!</li>
-                    <li><strong>Move & Copy Items Between Presets:</strong> Batch move or copy items between presets and folders! Multi-select, Select All, and context menu support make reorganizing your setup a breeze!</li>
-                    <li><strong>Global Hotkey for Bookmark Manager:</strong> Open Shiori Bookmark Manager instantly with Shift+Cmd+B – fully customizable in Settings!</li>
-                    <li><strong>Auto-Save Indicator:</strong> A subtle inline saving/saved status replaces manual Save buttons on auto-saving screens – cleaner and more intuitive!</li>
-                    <li><strong>Clickable List Rows:</strong> Click anywhere on a preset, app, or widget row to open its settings – no more hunting for the cog icon!</li>
+                    <li><strong>Action Move & Copy:</strong> Move or copy any action or folder anywhere in the app! Multi-select support, maximum flexibility – reorganize your setup exactly how you want!</li>
+                    <li><strong>Per-Preset Menu Mode:</strong> Menu Mode is now a per-preset setting instead of global! Enable or disable it for each preset in Settings, toggle instantly with Option+Shift+Cmd+M (customizable), or use the new toggle in the ExtraBar context menu!</li>
+                    <li><strong>Menu Mode Persistence:</strong> Presets now remember their Menu Mode settings – enabled state and icon are saved per preset for a seamless experience!</li>
                 </ul>
 
-                <h3>🎨 UI & Experience Improvements</h3>
+                <h3>🔖 Shiori Bookmarks Improvements</h3>
                 <ul>
-                    <li><strong>Folder Widget Settings Redesign:</strong> Revamped layout with inlined header fields and a dedicated item selection screen – organizing your folders has never felt better!</li>
-                    <li><strong>Streamlined Widget Editors:</strong> A new unified component brings consistent name, icon, and color fields across all widget editors!</li>
-                    <li><strong>Inline Action Parameters:</strong> Action parameters now display inline instead of in a separate popup – fewer clicks, faster setup!</li>
-                    <li><strong>Bookmark Widget Polish:</strong> Improved anchoring, rounded chrome, and better popover positioning for a refined bookmark experience!</li>
-                    <li><strong>Responsive Widget Editor:</strong> Flexible sizing adapts beautifully to different screen sizes!</li>
-                    <li><strong>Keyboard Navigation in Pickers:</strong> Arrow key navigation with visual highlighting in tag and folder pickers – navigate effortlessly!</li>
+                    <li><strong>Enhanced Bookmark Experience:</strong> UI and UX refinements for a smoother, more polished bookmark workflow!</li>
+                    <li><strong>New Lifetime Plan:</strong> Introducing a fixed-price lifetime plan for ExtraBar users – no limits, one price, forever!</li>
                 </ul>
 
-                <h3>🐛 Bug Fixes</h3>
+                <h3>🧹 Cleanup</h3>
                 <ul>
-                    <li><strong>Preset List Sync:</strong> Fixed an issue where the preset item list didn't update after removing an app!</li>
-                    <li><strong>Bookmark Popover Anchor:</strong> Popover now anchors correctly in menu bar mode!</li>
-                    <li><strong>Clearer Sync Status:</strong> Renamed status label from "Fresh" to "Sync" for better clarity!</li>
+                    <li><strong>Removed "Import from Preset":</strong> The new move/copy workflow now covers this use case – cleaner UI, less redundancy!</li>
                 </ul>
 
                 <h3>🚀 What's Next?</h3>
-                <p>We're continuing to refine and expand ExtraBar with more powerful automation features and quality-of-life improvements based on your feedback!</p>
+                <p>We're always working on making ExtraBar more powerful and intuitive! More features and improvements are on the way based on your feedback!</p>
 
                 <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraBar community! Your feedback drives every improvement we make – keep it coming! 💙</em></p>
             ]]></description>
 
             <enclosure
-                url="https://github.com/AppitStudio/extra-bar-updates/releases/download/v1.2.3/ExtraBar.dmg"
-                length="11454492" type="application/octet-stream"
-                sparkle:edSignature="YsLfiNZMYrysc+gywSlRvMfuiWHffxxptM3mMhSMM8IUhdeqcJu9rE9OYqR6KhtDY3OcSXG9wyafZ/2Wau22CQ==" />
+                url="https://github.com/AppitStudio/extra-bar-updates/releases/download/v1.2.4/ExtraBar.dmg"
+                length="11719121" type="application/octet-stream"
+                sparkle:edSignature="nPJ6QjWzx/kOhyQZCAe0HfGaf3ZGFpKFBAHh7H4hjernp93ix2Mmtk06kgoZrqjeej+mPWavIpRJ2v3ggg8OAw==" />
         </item>
     </channel>
 </rss>

@@ -3,32 +3,35 @@
     <channel>
         <title>ExtraBar</title>
         <item>
-            <title>1.2.4</title>
-            <pubDate>Sat, 21 Feb 2026 19:27:15 +0200</pubDate>
-            <sparkle:version>124</sparkle:version>
-            <sparkle:shortVersionString>1.2.4</sparkle:shortVersionString>
+            <title>1.2.5</title>
+            <pubDate>Sun, 08 Mar 2026 23:03:45 +0200</pubDate>
+            <sparkle:version>125</sparkle:version>
+            <sparkle:shortVersionString>1.2.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-bar-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
-                <h2>ExtraBar 1.2.4 – Move It, Make It Yours! 🚀📦</h2>
+                <h2>ExtraBar 1.2.5 – Pick It, Link It, Launch It! 🎨🔗</h2>
 
-                <h3>✨ What's New</h3>
+                <h3>✨ What's New & Improved</h3>
                 <ul>
-                    <li><strong>Action Move & Copy:</strong> Move or copy any action or folder anywhere in the app! Multi-select support, maximum flexibility – reorganize your setup exactly how you want!</li>
-                    <li><strong>Per-Preset Menu Mode:</strong> Menu Mode is now a per-preset setting instead of global! Enable or disable it for each preset in Settings, toggle instantly with Option+Shift+Cmd+M (customizable), or use the new toggle in the ExtraBar context menu!</li>
-                    <li><strong>Menu Mode Persistence:</strong> Presets now remember their Menu Mode settings – enabled state and icon are saved per preset for a seamless experience!</li>
+                    <li><strong>Unified Icon Picker:</strong> A brand-new icon picker sheet combining Library, SF Symbols, App Icons, and URL icons – one beautiful picker for all your icon needs!</li>
+                    <li><strong>Icons Everywhere:</strong> The unified picker is now available across bar items, widgets, and folder items – consistent icon customization everywhere you look!</li>
+                    <li><strong>Widget Custom Icons:</strong> Widgets now support custom icon overrides! Set SF Symbols, app icons, library icons, or URL icons on any widget with new customization properties!</li>
+                    <li><strong>Custom Icons in All Modes:</strong> Custom icons render perfectly in both the floating bar and menu bar inline mode!</li>
                 </ul>
 
-                <h3>🔖 Shiori Bookmarks Improvements</h3>
+                <h3>🔗 Action Deep Links</h3>
                 <ul>
-                    <li><strong>Enhanced Bookmark Experience:</strong> UI and UX refinements for a smoother, more polished bookmark workflow!</li>
-                    <li><strong>New Lifetime Plan:</strong> Introducing a fixed-price lifetime plan for ExtraBar users – no limits, one price, forever!</li>
+                    <li><strong>URL Scheme Actions:</strong> A powerful new deep link system lets you execute actions directly via URL scheme (extrabar://action/...)!</li>
+                    <li><strong>4 Action Kinds:</strong> Supports menu actions, action widgets, folder widget actions, and folder widget app menu actions – trigger anything from anywhere!</li>
+                    <li><strong>Copy Deep Link:</strong> New "Copy Deep Link" button in menu configuration, folder widget editors, and widget app menu editors – easily share or automate any action!</li>
                 </ul>
 
-                <h3>🧹 Cleanup</h3>
+                <h3>🐛 Bug Fixes</h3>
                 <ul>
-                    <li><strong>Removed "Import from Preset":</strong> The new move/copy workflow now covers this use case – cleaner UI, less redundancy!</li>
+                    <li><strong>SF Symbol Categories:</strong> Fixed category filtering in the symbol picker for proper browsing!</li>
+                    <li><strong>Code Cleanup:</strong> Various optimizations and code improvements under the hood!</li>
                 </ul>
 
                 <h3>🚀 What's Next?</h3>
@@ -37,10 +40,7 @@
                 <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraBar community! Your feedback drives every improvement we make – keep it coming! 💙</em></p>
             ]]></description>
 
-            <enclosure
-                url="https://github.com/AppitStudio/extra-bar-updates/releases/download/v1.2.4/ExtraBar.dmg"
-                length="11719121" type="application/octet-stream"
-                sparkle:edSignature="nPJ6QjWzx/kOhyQZCAe0HfGaf3ZGFpKFBAHh7H4hjernp93ix2Mmtk06kgoZrqjeej+mPWavIpRJ2v3ggg8OAw==" />
+            <enclosure url="https://github.com/AppitStudio/extra-bar-updates/releases/download/v1.2.5/ExtraBar.dmg" length="11916905" type="application/octet-stream" sparkle:edSignature="mWk9OdZxc20WDfIp4/B+AgqlV0vfGfVQbKy1ZkQImTxIsFCHGOxt8YcNNNd48fmrNiPSIDUhU72nKtYB9suvCg=="/>
         </item>
     </channel>
 </rss>

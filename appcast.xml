@@ -3,44 +3,55 @@
     <channel>
         <title>ExtraBar</title>
         <item>
-            <title>1.2.5</title>
-            <pubDate>Sun, 08 Mar 2026 23:03:45 +0200</pubDate>
-            <sparkle:version>125</sparkle:version>
-            <sparkle:shortVersionString>1.2.5</sparkle:shortVersionString>
+            <title>1.2.6</title>
+            <pubDate>Sat, 14 Mar 2026 21:14:30 +0200</pubDate>
+            <sparkle:version>126</sparkle:version>
+            <sparkle:shortVersionString>1.2.6</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-bar-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
-                <h2>ExtraBar 1.2.5 – Pick It, Link It, Launch It! 🎨🔗</h2>
+                <h2>ExtraBar 1.2.6 – Redesigned for Clarity! ⚙️✨</h2>
 
-                <h3>✨ What's New & Improved</h3>
+                <h3>⚙️ Settings Overhaul</h3>
                 <ul>
-                    <li><strong>Unified Icon Picker:</strong> A brand-new icon picker sheet combining Library, SF Symbols, App Icons, and URL icons – one beautiful picker for all your icon needs!</li>
-                    <li><strong>Icons Everywhere:</strong> The unified picker is now available across bar items, widgets, and folder items – consistent icon customization everywhere you look!</li>
-                    <li><strong>Widget Custom Icons:</strong> Widgets now support custom icon overrides! Set SF Symbols, app icons, library icons, or URL icons on any widget with new customization properties!</li>
-                    <li><strong>Custom Icons in All Modes:</strong> Custom icons render perfectly in both the floating bar and menu bar inline mode!</li>
+                    <li><strong>Position Mode Picker:</strong> "Display Modes" is now "Position" with beautiful visual cards – tap to select Menu Bar or Floating Bar instead of the old toggle!</li>
+                    <li><strong>Collapse Mode:</strong> Renamed "Menu Mode" to "Collapse Mode" across the entire app for clarity!</li>
+                    <li><strong>Streamlined Appearance:</strong> Bar Size and Icon Labels moved from Accessibility to Appearance – all visual settings in one place!</li>
+                    <li><strong>Reorganized General:</strong> Dock Icon and Menu Bar Icon pickers now live in General settings for easier access!</li>
+                    <li><strong>Unified Shortcuts:</strong> Three separate hotkey sections merged into one flat "Shortcuts" list – no more hunting for your keyboard shortcuts!</li>
+                    <li><strong>Better Navigation:</strong> Collapse Mode picker changed from toggle to segmented control for clearer mode selection!</li>
+                    <li><strong>Cleaner Labels:</strong> "Toggle Bar" renamed to "Show / Hide Bar" for better clarity!</li>
                 </ul>
 
-                <h3>🔗 Action Deep Links</h3>
+                <h3>🎨 UX Polish</h3>
                 <ul>
-                    <li><strong>URL Scheme Actions:</strong> A powerful new deep link system lets you execute actions directly via URL scheme (extrabar://action/...)!</li>
-                    <li><strong>4 Action Kinds:</strong> Supports menu actions, action widgets, folder widget actions, and folder widget app menu actions – trigger anything from anywhere!</li>
-                    <li><strong>Copy Deep Link:</strong> New "Copy Deep Link" button in menu configuration, folder widget editors, and widget app menu editors – easily share or automate any action!</li>
+                    <li><strong>Simplified Copy:</strong> Removed redundant subtitles and descriptions across all settings – less clutter, more focus!</li>
+                    <li><strong>Specific Language:</strong> Replaced vague "items" with specific terms like "apps" and "icons" – always know what you're working with!</li>
+                    <li><strong>Solid Backgrounds:</strong> All settings now use opaque backgrounds instead of translucent blur – better readability and consistency!</li>
+                    <li><strong>Unified Navigation:</strong> All back buttons now use the same style and position throughout the app!</li>
+                    <li><strong>Smooth Transitions:</strong> Fixed inconsistent button animations when entering or exiting multi-select mode!</li>
+                    <li><strong>Icon-Only Footer:</strong> Footer buttons simplified to icon-only with helpful tooltips – cleaner interface!</li>
+                    <li><strong>Streamlined Permissions:</strong> Simplified the Accessibility permission popover for easier understanding!</li>
                 </ul>
 
-                <h3>🐛 Bug Fixes</h3>
+                <h3>⚡ Technical Improvements</h3>
                 <ul>
-                    <li><strong>SF Symbol Categories:</strong> Fixed category filtering in the symbol picker for proper browsing!</li>
-                    <li><strong>Code Cleanup:</strong> Various optimizations and code improvements under the hood!</li>
+                    <li><strong>High-Res App Icons:</strong> App icons now load in high resolution, avoiding macOS Tahoe's padded rendering – crisp and beautiful!</li>
+                    <li><strong>High-Res SF Symbols:</strong> SF Symbols in the floating bar now render at stunning high resolution!</li>
+                    <li><strong>Scalable Menu Icons:</strong> Collapse Mode menu icons now properly scale with your bar size preference!</li>
+                    <li><strong>True Transparency:</strong> Transparent mode now produces a truly invisible bar – hooray for minimalism!</li>
+                    <li><strong>Native Menu Bar Size:</strong> Menu bar icons bumped from 18pt to 22pt to match native macOS status item size!</li>
+                    <li><strong>Smooth Navigation:</strong> Fixed flash when navigating back from the action editor!</li>
                 </ul>
 
                 <h3>🚀 What's Next?</h3>
-                <p>We're always working on making ExtraBar more powerful and intuitive! More features and improvements are on the way based on your feedback!</p>
+                <p>We're constantly refining ExtraBar based on your feedback! This settings redesign makes the app more intuitive and easier to navigate – but we're not stopping here! More improvements are on the way!</p>
 
                 <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraBar community! Your feedback drives every improvement we make – keep it coming! 💙</em></p>
             ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/extra-bar-updates/releases/download/v1.2.5/ExtraBar.dmg" length="11916905" type="application/octet-stream" sparkle:edSignature="mWk9OdZxc20WDfIp4/B+AgqlV0vfGfVQbKy1ZkQImTxIsFCHGOxt8YcNNNd48fmrNiPSIDUhU72nKtYB9suvCg=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-bar-updates/releases/download/v1.2.6/ExtraBar.dmg" length="11929611" type="application/octet-stream" sparkle:edSignature="U8Eua27r9CY0ot1OFUJx3rW+zliJFHkIyhefhQnfjFnmShl2CZZ7v6f8yG5bHVloNT5G67E45TT4WDhwqsL2Ag=="/>
         </item>
     </channel>
 </rss>

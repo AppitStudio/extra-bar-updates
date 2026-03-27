@@ -3,55 +3,53 @@
     <channel>
         <title>ExtraBar</title>
         <item>
-            <title>1.2.6</title>
-            <pubDate>Sat, 14 Mar 2026 21:14:30 +0200</pubDate>
-            <sparkle:version>126</sparkle:version>
-            <sparkle:shortVersionString>1.2.6</sparkle:shortVersionString>
+            <title>1.2.7</title>
+            <pubDate>Tue, 24 Mar 2026 14:16:39 +0200</pubDate>
+            <sparkle:version>127</sparkle:version>
+            <sparkle:shortVersionString>1.2.7</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-bar-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
-                <h2>ExtraBar 1.2.6 – Redesigned for Clarity! ⚙️✨</h2>
+                <h2>ExtraBar 1.2.7 – Welcome Aboard! 🎓✨</h2>
 
-                <h3>⚙️ Settings Overhaul</h3>
+                <h3>✨ What's New</h3>
                 <ul>
-                    <li><strong>Position Mode Picker:</strong> "Display Modes" is now "Position" with beautiful visual cards – tap to select Menu Bar or Floating Bar instead of the old toggle!</li>
-                    <li><strong>Collapse Mode:</strong> Renamed "Menu Mode" to "Collapse Mode" across the entire app for clarity!</li>
-                    <li><strong>Streamlined Appearance:</strong> Bar Size and Icon Labels moved from Accessibility to Appearance – all visual settings in one place!</li>
-                    <li><strong>Reorganized General:</strong> Dock Icon and Menu Bar Icon pickers now live in General settings for easier access!</li>
-                    <li><strong>Unified Shortcuts:</strong> Three separate hotkey sections merged into one flat "Shortcuts" list – no more hunting for your keyboard shortcuts!</li>
-                    <li><strong>Better Navigation:</strong> Collapse Mode picker changed from toggle to segmented control for clearer mode selection!</li>
-                    <li><strong>Cleaner Labels:</strong> "Toggle Bar" renamed to "Show / Hide Bar" for better clarity!</li>
+                    <li><strong>Interactive Onboarding:</strong> New users get a guided walkthrough that sets up their bar with real apps, live customization, and pre-built actions – the best first impression yet!</li>
+                    <li><strong>Smart App Detection:</strong> Onboarding detects installed apps like Raycast, Figma, Cursor, VS Code, Bear, Bloom, and CleanShot X and offers to configure them automatically – your bar is ready in seconds!</li>
                 </ul>
 
-                <h3>🎨 UX Polish</h3>
+                <h3>⚡ Improvements</h3>
                 <ul>
-                    <li><strong>Simplified Copy:</strong> Removed redundant subtitles and descriptions across all settings – less clutter, more focus!</li>
-                    <li><strong>Specific Language:</strong> Replaced vague "items" with specific terms like "apps" and "icons" – always know what you're working with!</li>
-                    <li><strong>Solid Backgrounds:</strong> All settings now use opaque backgrounds instead of translucent blur – better readability and consistency!</li>
-                    <li><strong>Unified Navigation:</strong> All back buttons now use the same style and position throughout the app!</li>
-                    <li><strong>Smooth Transitions:</strong> Fixed inconsistent button animations when entering or exiting multi-select mode!</li>
-                    <li><strong>Icon-Only Footer:</strong> Footer buttons simplified to icon-only with helpful tooltips – cleaner interface!</li>
-                    <li><strong>Streamlined Permissions:</strong> Simplified the Accessibility permission popover for easier understanding!</li>
+                    <li><strong>Widget Custom Icon Overrides:</strong> Widgets now support custom icon overrides in both floating bar and menu bar modes – full flexibility!</li>
+                    <li><strong>Crisp SF Symbols:</strong> SF Symbols in the floating bar render at proper sizes – no more clipping on tall symbols!</li>
+                    <li><strong>Scalable Folder Icons:</strong> Widget folder menu icons now scale with your bar size setting!</li>
+                    <li><strong>Safe Deletions:</strong> Deleting a preset or removing a menu action now requires confirmation. Active presets can't be deleted until you switch away!</li>
+                    <li><strong>App Row Context Menu:</strong> Each app row now has a "..." menu with Move/Copy, Change Icon, and Remove – replacing the old delete button!</li>
+                    <li><strong>Preset Row Context Menu:</strong> Preset rows now have a "..." menu with Rename, Duplicate, and Delete!</li>
+                    <li><strong>Better Floating Bar Icons:</strong> Icons now resize correctly according to your Bar Size in Floating Bar mode – no more tiny, hard-to-read menus!</li>
                 </ul>
 
-                <h3>⚡ Technical Improvements</h3>
+                <h3>🐛 Bug Fixes</h3>
                 <ul>
-                    <li><strong>High-Res App Icons:</strong> App icons now load in high resolution, avoiding macOS Tahoe's padded rendering – crisp and beautiful!</li>
-                    <li><strong>High-Res SF Symbols:</strong> SF Symbols in the floating bar now render at stunning high resolution!</li>
-                    <li><strong>Scalable Menu Icons:</strong> Collapse Mode menu icons now properly scale with your bar size preference!</li>
-                    <li><strong>True Transparency:</strong> Transparent mode now produces a truly invisible bar – hooray for minimalism!</li>
-                    <li><strong>Native Menu Bar Size:</strong> Menu bar icons bumped from 18pt to 22pt to match native macOS status item size!</li>
-                    <li><strong>Smooth Navigation:</strong> Fixed flash when navigating back from the action editor!</li>
+                    <li><strong>Floating Bar Menus:</strong> Fixed menus misbehaving when clicking on apps in Floating Bar mode!</li>
+                    <li><strong>Deep Link Screen Fix:</strong> Fixed the deep link action screen freezing the app when closed via the window's close button!</li>
+                    <li><strong>Consistent Widget Icons:</strong> Fixed widget icons rendering inconsistently across display modes!</li>
+                    <li><strong>Tahoe Tray Fix:</strong> Removed a checkmark incorrectly appearing next to Quit in the system tray on macOS Tahoe!</li>
+                </ul>
+
+                <h3>🏷️ Renamed</h3>
+                <ul>
+                    <li><strong>"Select" → "Move/Copy":</strong> Clearer about what multi-select does – no more guessing!</li>
                 </ul>
 
                 <h3>🚀 What's Next?</h3>
-                <p>We're constantly refining ExtraBar based on your feedback! This settings redesign makes the app more intuitive and easier to navigate – but we're not stopping here! More improvements are on the way!</p>
+                <p>We're always working on making ExtraBar more powerful and intuitive! More features and improvements are on the way based on your feedback!</p>
 
                 <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraBar community! Your feedback drives every improvement we make – keep it coming! 💙</em></p>
             ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/extra-bar-updates/releases/download/v1.2.6/ExtraBar.dmg" length="11929611" type="application/octet-stream" sparkle:edSignature="U8Eua27r9CY0ot1OFUJx3rW+zliJFHkIyhefhQnfjFnmShl2CZZ7v6f8yG5bHVloNT5G67E45TT4WDhwqsL2Ag=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-bar-updates/releases/download/v1.2.7/ExtraBar.dmg" length="12263149" type="application/octet-stream" sparkle:edSignature="6yUMQr0Nsm9TuFgMVJ0NWLsvZ+9i+fpUuRFDNQU4w/UNxVSm1mNHSAAtBpxqPxw5wEybxNB5vkPBOAK7f6nwDw=="/>
         </item>
     </channel>
 </rss>

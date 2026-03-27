@@ -1,27 +1,20 @@
-VERSION: 1.2.6
+VERSION: 1.2.7
 DETAILS:
 
-⚙️ settings: Renamed "Display Modes" to "Position" with visual mode picker cards — tap to select Menu Bar or Floating Bar instead of the old toggle.
-⚙️ settings: Renamed "Menu Mode" to "Collapse Mode" across the entire app.
-⚙️ settings: Removed the Accessibility settings page — Bar Size and Icon Labels now live under Appearance.
-⚙️ settings: Moved Dock Icon and Menu Bar Icon pickers from Appearance to General.
-⚙️ settings: Merged three hotkey sections (Bar Control, Mode Control, Shiori) into one flat "Shortcuts" list.
-⚙️ settings: Removed duplicate Shiori shortcut recorder from the Shiori settings page.
-⚙️ settings: Renamed "Toggle Bar" to "Show / Hide Bar".
-⚙️ settings: Collapse Mode navigation picker changed from a toggle to a segmented control.
+✨ new: Interactive onboarding — new users get a guided walkthrough that sets up their bar with real apps, live customization, and pre-built actions.
+✨ new: Onboarding detects installed apps like Raycast, Figma, Cursor, VS Code, Bear, Bloom, and CleanShot X and offers to configure them automatically.
 
-🎨 ux: Removed redundant subtitles and descriptions across all settings.
-🎨 ux: Replaced vague "items" with specific terms — "apps", "icons" etc.
-🎨 ux: All settings now use solid opaque backgrounds instead of translucent blur.
-🎨 ux: Standardized all back buttons to use the same style and position.
-🎨 ux: Fixed inconsistent button animations when entering/exiting multi-select mode.
-🎨 ux: Footer buttons changed from icon+text to icon-only with tooltips.
-🎨 ux: Simplified the Accessibility permission popover.
-🎨 ux: Removed keyboard navigation reference guide from Hotkeys and footer.
+⚡ improved: Widgets now support custom icon overrides in both floating bar and menu bar modes.
+⚡ improved: SF Symbols in the floating bar render at proper sizes — no more clipping on tall symbols.
+⚡ improved: Widget folder menu icons now scale with your bar size setting.
+⚡ improved: Deleting a preset or removing a menu action now requires confirmation. Active presets can't be deleted until you switch away.
+⚡ improved: Each app row now has a "..." menu with Move/Copy, Change Icon, and Remove — replacing the old delete button.
+⚡ improved: Preset rows now have a "..." menu with Rename, Duplicate, and Delete.
+⚡ improved: Icons now resize correctly and according to your Bar Size in Floating Bar mode (previously the menu was very small and hard to read).
 
-⚡ improved: App icons now load in high resolution, avoiding macOS Tahoe's padded app icon rendering.
-⚡ improved: SF Symbols in the floating bar now render at high resolution.
-⚡ improved: Collapse Mode menu icons now scale with bar size.
-⚡ improved: Transparent mode now produces a truly invisible bar — hooray for minimalism.
-⚡ improved: Menu bar icons bumped from 18pt to 22pt to match native macOS status item size.
-⚡ improved: Fixed flash when navigating back from the action editor.
+🐞 bug fix: Fixed menus misbehaving when clicking on apps in Floating Bar mode.
+🐞 bug fix: Fixed the deep link action screen freezing the app when closed via the window's close button.
+🐞 bug fix: Fixed widget icons rendering inconsistently across display modes.
+🐞 bug fix: Removed a checkmark incorrectly appearing next to Quit in the system tray on macOS Tahoe.
+
+🏷️ renamed: "Select" mode → "Move/Copy" — clearer about what multi-select does.

@@ -1,15 +1,14 @@
-VERSION: 1.2.9
+VERSION: 1.3.0
 DETAILS:
 
+✨ new: Single Menu mode. Combine ExtraBar's app menu with the bar into one menu bar icon, hide the app icon entirely, or keep them separate. Settings → General → App Menu.
 
-✨ new: Link Groups. Save a set of URLs and launch them all with one click — right from the bookmark widget or the bookmark manager. Syncs across devices and works offline.
-✨ new: Chrome profile routing for Shiori bookmarks (Beta). Route bookmarks into specific Google Chrome profiles based on their tags. Configure it under Shiori → Browser Routing.
-✨ new: "Focused App" as the default browser destination. When a bookmark has no matching profile rule, it opens in whatever app you were just using instead of forcing Chrome.
+✨ new: Hide items, actions, and widgets. New eye toggle in the menu lets you hide apps and preserving their configuration.
 
-⚡ improved: Free plan now includes 500 bookmarks and 2 Link Groups (up from 100 bookmarks). Feature list across plans has been cleaned up.
-⚡ improved: Bookmark widget quick actions. Edit/copy/delete buttons now sit side-by-side instead of stacked, with a larger hit area and a friendlier edit icon.
-⚡ improved: Shiori settings layout. Paid users get a new "Open Dashboard" shortcut and the action buttons have been restyled.
+🎨 customization: App icon as menu trigger. Pick "App Icon" as the Single Menu icon and it tracks whichever app icon you've selected in Settings.
 
-🐞 bug fix: Notch mode closing when you interact with the Shiori bookmark popover. It now stays open through the whole bookmark interaction.
-🐞 bug fix: Icons clipped in notch mode with an odd number of apps. The two sides now balance around the notch so nothing gets cut off.
-🐞 bug fix: Notch overlay getting stuck on the previous Space. The bar now follows you when you switch Spaces or enter fullscreen.
+⚙️ settings: Hide keyboard navigation labels. New toggle in Hotkeys settings — the number/letter shortcuts keep working, the overlays just don't show.
+
+🐞 bug fix: Two bars showing when switching modes. Only the active bar appears now.
+
+🐞 bug fix: Open network shares. Finder aliases and smb:// / afp:// paths now open from the bar instead of failing or launching the wrong thing.

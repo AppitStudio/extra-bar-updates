@@ -1,8 +1,16 @@
-VERSION: 1.3.3
+VERSION: 1.3.4
 DETAILS:
 
-improved: Cross-app menu Copy/Move is now easy to use — drilling into another app auto-selects it as the destination, and a new status bar always shows exactly where your items will land
-improved: Menu multi-select now supports batch Delete, and dividers can be selected for Move/Copy alongside actions
-bug fix: Fixed the live bar menu not refreshing after copying or moving items into another app — it now shows the updated menu immediately
-bug fix: Fixed the primary click action on collapsed menus
-renamed: Menu multi-select entry button → "Select" for clarity
+new: Search inside app menus — start typing to instantly filter the actions in any app's menu, with a new search toggle in the menu toolbar
+new: Folder items now reveal their live contents right inside the bar menu, so you can browse into files and subfolders without opening Finder
+new: Move and copy actions (and dividers) between app menus, with a clearer, more reliable destination picker
+new: Multi-select menu editing to batch-delete, move, or copy items, with a clearer selection entry point and the Delete button where you'd expect it
+improved: Onboarding welcome screens now adapt their colors to look great in both Light and Dark mode
+improved: Quick Add for Shiori defaults new bookmarks to your currently active Shiori folder
+improved: Preset hotkeys now require a modifier key, preventing accidental triggers from a single keypress
+improved: Smoother, more stable hover behavior around the notch
+bug fix: Fixed a launch crash that could occur when license validation couldn't reach the server and fell back to local checks
+bug fix: Fixed the primary click not working on collapsed menus
+bug fix: Fixed folder clicks and keyboard shortcuts inside menus
+bug fix: Live bar menus now refresh correctly after moving or copying items between apps
+bug fix: Folder menu configuration and menu styling are now preserved correctly when editing

@@ -1,6 +1,7 @@
-VERSION: 1.3.4
+VERSION: 1.3.5
 DETAILS:
 
+bug fix: Quick hotfix for the Shiori authentication process — connecting and using your Shiori account works reliably again (includes all 1.3.4 features below)
 new: Search inside app menus — start typing to instantly filter the actions in any app's menu, with a new search toggle in the menu toolbar
 new: Folder items now reveal their live contents right inside the bar menu, so you can browse into files and subfolders without opening Finder
 new: Move and copy actions (and dividers) between app menus, with a clearer, more reliable destination picker

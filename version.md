@@ -1,4 +1,4 @@
-VERSION: 1.3.8
+VERSION: 1.3.9
 DETAILS:
 
 bug fix: Quick hotfix for the new move & copy between app menus — reorganizing actions across menus now works smoothly and reliably (includes all 1.3.4 features below)

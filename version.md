@@ -1,7 +1,7 @@
-VERSION: 1.3.7
+VERSION: 1.3.8
 DETAILS:
 
-bug fix: Quick hotfix for the new search inside app menus — filtering actions now works smoothly and reliably (includes all 1.3.4 features below)
+bug fix: Quick hotfix for the new move & copy between app menus — reorganizing actions across menus now works smoothly and reliably (includes all 1.3.4 features below)
 new: Search inside app menus — start typing to instantly filter the actions in any app's menu, with a new search toggle in the menu toolbar
 new: Folder items now reveal their live contents right inside the bar menu, so you can browse into files and subfolders without opening Finder
 new: Move and copy actions (and dividers) between app menus, with a clearer, more reliable destination picker

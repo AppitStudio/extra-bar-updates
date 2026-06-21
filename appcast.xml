@@ -3,28 +3,28 @@
     <channel>
         <title>ExtraBar</title>
         <item>
-            <title>1.3.7</title>
-            <pubDate>Sat, 20 Jun 2026 13:06:46 +0300</pubDate>
-            <sparkle:version>137</sparkle:version>
-            <sparkle:shortVersionString>1.3.7</sparkle:shortVersionString>
+            <title>1.3.8</title>
+            <pubDate>Sun, 21 Jun 2026 15:42:45 +0300</pubDate>
+            <sparkle:version>138</sparkle:version>
+            <sparkle:shortVersionString>1.3.8</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-bar-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
-                <h2>ExtraBar 1.3.7 – Menu Search Quick Fix! 🔍</h2>
+                <h2>ExtraBar 1.3.8 – Move & Copy Quick Fix! 🔁</h2>
 
-                <p><em>A quick follow-up hotfix for the new search inside app menus — it includes all of the 1.3.4 features and improvements below.</em></p>
+                <p><em>A quick follow-up hotfix for the new move &amp; copy between app menus — it includes all of the 1.3.4 features and improvements below.</em></p>
 
                 <h3>🐞 Hotfix</h3>
                 <ul>
-                    <li><strong>Menu Search Fix:</strong> Resolved an issue with the new search inside app menus so filtering actions works smoothly and reliably!</li>
+                    <li><strong>Move &amp; Copy Fix:</strong> Resolved an issue with the new move &amp; copy between app menus so reorganizing actions across menus works smoothly and reliably!</li>
                 </ul>
 
                 <h3>✨ What's New</h3>
                 <ul>
                     <li><strong>Search Inside App Menus:</strong> Start typing to instantly filter the actions in any app's menu — a new search toggle in the menu toolbar makes finding the right command quick, even in long menus!</li>
                     <li><strong>Folders Show Their Contents:</strong> Folder items now reveal their live contents right inside the bar menu, so you can browse into files and subfolders without ever opening Finder!</li>
-                    <li><strong>Move & Copy Between App Menus:</strong> Reorganize freely by copying or moving actions (and dividers) from one app's menu into another, with a clearer, more reliable destination picker!</li>
+                    <li><strong>Move &amp; Copy Between App Menus:</strong> Reorganize freely by copying or moving actions (and dividers) from one app's menu into another, with a clearer, more reliable destination picker!</li>
                     <li><strong>Multi-Select Menu Editing:</strong> Select multiple menu items at once to batch-delete, move, or copy them — the selection entry point is now clearer, with the Delete button right where you'd expect it!</li>
                 </ul>
 
@@ -51,7 +51,7 @@
                 <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraBar community! Your feedback drives every improvement we make.</em></p>
             ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/extra-bar-updates/releases/download/v1.3.7/ExtraBar.dmg" length="13542055" type="application/octet-stream" sparkle:edSignature="6Iy0pIy5DZmgUHmk9qQS08JP57i+XOvYUfFIgHCmW9oXpSAUv93eKyKQnqZTTpNJtka1NpF4MIiKNPIdAdrxCg=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-bar-updates/releases/download/v1.3.8/ExtraBar.dmg" length="13581855" type="application/octet-stream" sparkle:edSignature="WvkECXruSb8izyUd0OkVwnqlMERl6WjLulkQ9sdZi9saQ1L1PYz9LrLEzeo7qjaFWLvv/Lh5bMogEz0tXIR5Dg=="/>
         </item>
     </channel>
 </rss>

@@ -3,46 +3,44 @@
     <channel>
         <title>ExtraBar</title>
         <item>
-            <title>1.3.9</title>
-            <pubDate>Sun, 21 Jun 2026 22:20:55 +0300</pubDate>
-            <sparkle:version>139</sparkle:version>
-            <sparkle:shortVersionString>1.3.9</sparkle:shortVersionString>
+            <title>1.4.0</title>
+            <pubDate>Wed, 01 Jul 2026 22:18:01 +0300</pubDate>
+            <sparkle:version>140</sparkle:version>
+            <sparkle:shortVersionString>1.4.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-bar-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
-                <h2>ExtraBar 1.3.9 – Move & Copy Quick Fix! 🔁</h2>
+                <h2>ExtraBar 1.4.0 – Deep Link Discovery &amp; Batch Everything! 🔗✨</h2>
 
-                <p><em>A quick follow-up hotfix for the new move &amp; copy between app menus — it includes all of the 1.3.4 features and improvements below.</em></p>
-
-                <h3>🐞 Hotfix</h3>
-                <ul>
-                    <li><strong>Move &amp; Copy Fix:</strong> Resolved an issue with the new move &amp; copy between app menus so reorganizing actions across menus works smoothly and reliably!</li>
-                </ul>
+                <p><em>Find deep links for any app with an AI-ready prompt, and batch-edit across even more of ExtraBar — plus a round of reliability fixes.</em></p>
 
                 <h3>✨ What's New</h3>
                 <ul>
-                    <li><strong>Search Inside App Menus:</strong> Start typing to instantly filter the actions in any app's menu — a new search toggle in the menu toolbar makes finding the right command quick, even in long menus!</li>
-                    <li><strong>Folders Show Their Contents:</strong> Folder items now reveal their live contents right inside the bar menu, so you can browse into files and subfolders without ever opening Finder!</li>
-                    <li><strong>Move &amp; Copy Between App Menus:</strong> Reorganize freely by copying or moving actions (and dividers) from one app's menu into another, with a clearer, more reliable destination picker!</li>
-                    <li><strong>Multi-Select Menu Editing:</strong> Select multiple menu items at once to batch-delete, move, or copy them — the selection entry point is now clearer, with the Delete button right where you'd expect it!</li>
+                    <li><strong>Find Deep Links Helper:</strong> Deep link actions now include a "Find Deep Links" card with a ready-made AI prompt — auto-filled with the app's name — that you can copy into any assistant to discover URL schemes and deep links, including actions surfaced by Raycast extensions!</li>
+                    <li><strong>Batch Editing Everywhere:</strong> Multi-select batch editing now extends to widget app menus and folder widgets, so you can move, copy, show, hide, or delete multiple items at once — just like on the bar!</li>
                 </ul>
 
-                <h3>🔧 Improvements</h3>
+                <h3>⚡ Improvements</h3>
                 <ul>
-                    <li><strong>Adaptive Onboarding:</strong> The welcome screens now adapt their colors to look great in both Light and Dark mode!</li>
-                    <li><strong>Smarter Quick Add for Shiori:</strong> New bookmarks default to your currently active Shiori folder, so they always land in the right place!</li>
-                    <li><strong>Safer Preset Shortcuts:</strong> Preset hotkeys now require a modifier key, preventing accidental triggers from a single keypress!</li>
-                    <li><strong>Smoother Notch Hover:</strong> Hover behavior around the notch is now more stable and refined!</li>
+                    <li><strong>More Powerful Multi-Select:</strong> Bar multi-select now does more than move and copy — batch show, hide, and delete your selected items too!</li>
+                    <li><strong>Clearer Confirmations:</strong> Delete and remove confirmations now spell out that the action can't be undone and show the exact number of items being removed!</li>
+                    <li><strong>Inline Remove Button:</strong> Every item row now has an inline remove button for quick one-off deletions!</li>
+                    <li><strong>Copy Action Deep Link:</strong> Folder widget action items now offer "Copy Action Deep Link" so you can grab an action's link directly!</li>
+                    <li><strong>Correct Shiori Pricing:</strong> Shiori lifetime plans now display the correct full price instead of a mismatched or missing amount!</li>
                 </ul>
 
                 <h3>🐞 Bug Fixes</h3>
                 <ul>
-                    <li><strong>Launch Crash Fixed:</strong> Fixed a launch crash that could occur when license validation couldn't reach the server and fell back to local checks!</li>
-                    <li><strong>Collapsed Menu Click:</strong> Fixed the primary click not working on collapsed menus!</li>
-                    <li><strong>Folder Clicks & Shortcuts:</strong> Fixed folder clicks and keyboard shortcuts inside menus!</li>
-                    <li><strong>Live Menu Refresh:</strong> Live bar menus now refresh correctly after moving or copying items between apps!</li>
-                    <li><strong>Preserved Folder Configuration:</strong> Folder menu configuration and menu styling are now preserved correctly when editing!</li>
+                    <li><strong>Search Keeps Focus:</strong> The searchable app action menu no longer loses keyboard focus — the search field stays focused as you type and results rebuild without jumping!</li>
+                    <li><strong>Reliable Shiori Sign-In:</strong> Fixed Shiori authentication so the sign-in flow completes reliably!</li>
+                    <li><strong>Stable Notch Position:</strong> The notch bar no longer keeps a stale position after disconnecting or reconnecting an external display — it recomputes its geometry on display changes!</li>
+                    <li><strong>Hidden Bars Stay Hidden:</strong> Hidden bars are no longer forced back to the front after a display reconfiguration!</li>
+                </ul>
+
+                <h3>🏷️ Renamed</h3>
+                <ul>
+                    <li><strong>"Move/Copy" is now "Select":</strong> The bar's button is renamed to "Select" since it now covers move, copy, show, hide, and delete — not just move and copy!</li>
                 </ul>
 
                 <h3>What's Next?</h3>
@@ -51,7 +49,7 @@
                 <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraBar community! Your feedback drives every improvement we make.</em></p>
             ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/extra-bar-updates/releases/download/v1.3.9/ExtraBar.dmg" length="13611151" type="application/octet-stream" sparkle:edSignature="0rul9NCGb+dMizL7fe6/nBV+uX979AmKfReXfkSXyKOYoCrCbjTVC5oxPGIzuwYvO0KlSAiyC381uGpaBDQSAA=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-bar-updates/releases/download/v1.4.0/ExtraBar.dmg" length="13803968" type="application/octet-stream" sparkle:edSignature="czHFZi2XD3xmYgYFOHworMQE54Il8nrh/BR9N9O38cjGFX4r8t7DWGLcorDTgOg6TpB5ruzFoDuzHHnT9UYlBA=="/>
         </item>
     </channel>
 </rss>

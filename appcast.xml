@@ -3,31 +3,37 @@
     <channel>
         <title>ExtraBar</title>
         <item>
-            <title>1.4.1</title>
-            <pubDate>Thu, 16 Jul 2026 20:27:35 +0300</pubDate>
-            <sparkle:version>141</sparkle:version>
-            <sparkle:shortVersionString>1.4.1</sparkle:shortVersionString>
+            <title>1.4.2</title>
+            <pubDate>Tue, 28 Jul 2026 19:12:01 +0300</pubDate>
+            <sparkle:version>142</sparkle:version>
+            <sparkle:shortVersionString>1.4.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-bar-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
-                <h2>ExtraBar 1.4.1 – Vertical Bars, Tinted Icons &amp; a Bookmark Safety Net! 📐🎨🗑️</h2>
+                <h2>ExtraBar 1.4.2 – Private on Screen, Smarter Hotkeys &amp; a Sharper Menu Bar Icon! 🕶️⌨️✨</h2>
 
-                <p><em>Break free from the top of the screen with vertical bars, give your items a clean monochrome look, and delete bookmarks without fear thanks to a brand-new Recycle Bin.</em></p>
+                <p><em>Hide the bar from screen recordings and shares, take control of the hotkeys that were quietly missing, and enjoy a menu bar icon that finally looks and stays right.</em></p>
 
                 <h3>✨ New Features</h3>
                 <ul>
-                    <li><strong>Vertical Bar Positions:</strong> The floating bar is no longer stuck to the top — dock it to the left or right edge as a vertical bar, with five placements in all: Top, Left, Right, Top Left, and Top Right! A new visual screen-edge picker in Settings → Display Modes lets you choose by clicking directly on a mockup of your screen!</li>
-                    <li><strong>Tint Your Icons:</strong> Match the clean, monochrome look of native macOS menu bar items by tinting any bar item's icon into a single-color silhouette — right-click an item (or use its ⋯ menu) and choose Tint Icon to pick White, Black, or an accent color! Tinting is offered for icons with a real shape (custom icons, SF Symbols, folders, and widgets), full-color app icons are left untouched, and your choice travels with presets on export/import!</li>
-                    <li><strong>Recycle Bin for Bookmarks (Shiori):</strong> Deleting a bookmark now moves it to a Recycle Bin instead of removing it permanently — restore it, Delete Forever, or Empty Trash right from the Bookmark Manager, and search within the bin! Deletions sync quietly across your devices, and a restore always wins over a stale deletion!</li>
+                    <li><strong>Hide from Screen Capture:</strong> A new Privacy toggle in Settings → General keeps the floating bar and its bookmark popovers/panels out of screenshots, screen recordings, and screen sharing — Zoom, QuickTime, ScreenCaptureKit and more! Menu bar icons aren't affected, and turning it back off instantly makes the bar capturable again!</li>
+                    <li><strong>Toggle Notch Mode Hotkey:</strong> Toggle Notch Mode now has its own row in Hotkeys settings — it was always registered on ⌥⌘N but had no way to change or remove it, and now you're in control!</li>
+                    <li><strong>Honest Collapse Mode Hotkey:</strong> Toggle Collapse Mode now tells you when it's inert — the shortcut row shows "Unavailable while Single Menu Merge is on" instead of silently doing nothing!</li>
                 </ul>
 
                 <h3>🔧 Improvements</h3>
                 <ul>
-                    <li><strong>Right-Click the Collapse Icon:</strong> In both floating-bar and menu-bar modes, right-clicking (or ⌃-clicking) the collapse/menu-mode icon now opens the standard app menu — Open ExtraBar, mode toggles, Presets, Bookmark Manager, Settings, and Quit!</li>
-                    <li><strong>Delete the Default Preset:</strong> The default preset can now be deleted, as long as it isn't the active preset and isn't your last one — another preset is instantly promoted to default so you always have one!</li>
-                    <li><strong>Clearer Bookmark Import Feedback:</strong> The Import sheet now scrolls automatically to show the result, and an import that adds zero bookmarks shows an orange "No Bookmarks Imported" (empty file or all duplicates) instead of a misleading green "success"!</li>
-                    <li><strong>Honest Delete Warnings:</strong> Bookmark delete confirmations now say the bookmark moves to the Recycle Bin and can be recovered, rather than "this action cannot be undone" — folder-only and mixed deletions still spell out exactly what's permanent!</li>
+                    <li><strong>Reliable Toggle Position Shortcut:</strong> The Toggle Position default is now ⌥⌘P — macOS reserves ⌥⌘M system-wide, so the old default was rejected by the recorder and never reached the app! Any custom shortcut you've already recorded stays untouched!</li>
+                    <li><strong>Adaptive Menu Bar Icon:</strong> The default menu bar icon now renders as a template image with a transparent background, so it picks up the right contrast in light and dark menu bars instead of showing an opaque colored tile!</li>
+                </ul>
+
+                <h3>🐛 Bug Fixes</h3>
+                <ul>
+                    <li><strong>Menu Bar Icon Position Persists:</strong> The menu bar icon's position, set by ⌘-dragging, now sticks across relaunches!</li>
+                    <li><strong>⌘, Opens Settings:</strong> The standard Command-Comma shortcut now opens Settings as expected!</li>
+                    <li><strong>Reset Defaults Really Resets:</strong> Reset Defaults in Hotkeys settings now actually restores the shortcut defaults — previously it only reset the timing and indicator options!</li>
+                    <li><strong>Cleaner Icon Preview:</strong> The menu bar icon preview in Appearance no longer mutates the shared cached icon image!</li>
                 </ul>
 
                 <h3>What's Next?</h3>
@@ -36,7 +42,7 @@
                 <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraBar community! Your feedback drives every improvement we make.</em></p>
             ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/extra-bar-updates/releases/download/v1.4.1/ExtraBar.dmg" length="13988514" type="application/octet-stream" sparkle:edSignature="u537AW8Ao5vBIl0/dzMAD5EkQPQAKrPhDSgDTCodSRbT+ar9gyGjdUXnK0aqQLuGTz1QMqs1oqgsdYMeUhEYBQ=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-bar-updates/releases/download/v1.4.2/ExtraBar.dmg" length="13986735" type="application/octet-stream" sparkle:edSignature="KM/o6/5iGA51THr3//ENSOWoEfHzaZKf2n/Yp5V5SazmfK9ihPUfv9pEW6O+c59Z7Qiq9lh/Gd+tSegpfBNsDw=="/>
         </item>
     </channel>
 </rss>

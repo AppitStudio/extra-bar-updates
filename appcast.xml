@@ -3,48 +3,43 @@
     <channel>
         <title>ExtraBar</title>
         <item>
-            <title>1.5.0</title>
-            <pubDate>Thu, 13 Aug 2026 11:53:14 +0300</pubDate>
-            <sparkle:version>150</sparkle:version>
-            <sparkle:shortVersionString>1.5.0</sparkle:shortVersionString>
+            <title>1.5.2</title>
+            <pubDate>Wed, 19 Aug 2026 17:40:00 +0300</pubDate>
+            <sparkle:version>152</sparkle:version>
+            <sparkle:shortVersionString>1.5.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-bar-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
-                <h2>ExtraBar 1.5.0 – Meet Your AI Assistant! 🤖✨</h2>
+                <h2>ExtraBar 1.5.2 – Suggestions, Codex &amp; ChatGPT! ✨🤖</h2>
 
-                <p><em>Describe the bar you want and watch it build itself — with every change reviewed, reversible, and never leaving your Mac.</em></p>
+                <p><em>Let your assistant propose a bar built around the apps you actually use — and connect it in one click.</em></p>
 
                 <h3>✨ New Features</h3>
                 <ul>
-                    <li><strong>Connect an AI Assistant:</strong> Claude, Cursor, VS Code, and Raycast can now set up your ExtraBar for you — just describe what you want ("add my daily apps," "build me a Figma menu") and watch it happen!</li>
-                    <li><strong>One-Click Client Setup:</strong> Every supported AI client is a click away in Settings → AI Assistant — install the Claude Desktop extension, copy the Claude Code command, or add ExtraBar to Cursor, VS Code, or Raycast in under a minute!</li>
-                    <li><strong>Five Guided Setups Built In:</strong> Quick-start onboarding, a projects bar wired to your editor and terminal, a script-tool builder, Figma deep links, and a bar-organizing cleanup pass — all ready to run out of the box!</li>
-                    <li><strong>Reorganize a Whole Menu at Once:</strong> Assistants can alphabetize an entire menu (dividers stay put as section boundaries), move a single entry, or clean out several entries in one go!</li>
-                </ul>
-
-                <h3>🔒 Safety &amp; Control</h3>
-                <ul>
-                    <li><strong>Every AI Change Is Safe by Default:</strong> Scripts, API calls, and keyboard shortcuts an assistant creates are held as "(Approval Required)" until you review the exact script, URL, or keys and approve them yourself!</li>
-                    <li><strong>Nothing Gets Deleted Without Asking:</strong> Removing a preset, an item, or a menu entry always asks first — with an option to allow deletions for the rest of your session!</li>
-                    <li><strong>Revert Last AI Change:</strong> One click in Settings → AI Assistant undoes the assistant's most recent edit, restoring the affected preset to exactly how it was before!</li>
-                    <li><strong>Local Audit Log:</strong> Everything an AI assistant does to your bar is tracked and viewable right in the AI Assistant settings pane under Recent AI Changes!</li>
+                    <li><strong>ExtraBar Suggestions:</strong> Ask your assistant to personalize ExtraBar and it builds a setup for you, asking before it changes anything!</li>
+                    <li><strong>Codex and ChatGPT Support:</strong> One command in Settings → AI Assistant connects them, and onboarding can do it for you!</li>
+                    <li><strong>Assistants Can Do More:</strong> Run your saved actions and read the result, and edit widgets in place instead of recreating them!</li>
                 </ul>
 
                 <h3>🔧 Improvements</h3>
                 <ul>
-                    <li><strong>Completely Private:</strong> The AI connection is entirely local to your Mac — no data about your bar setup is ever sent off your device!</li>
-                    <li><strong>App-Wide Bar Position &amp; Appearance:</strong> Position and appearance are now app-wide settings instead of being baked into each preset — switching presets changes your items and menus without moving your bar or changing its colours! The "Include appearance settings" checkbox is gone from the new-preset sheet.</li>
+                    <li><strong>Approve Once, and It Runs:</strong> No second click, and renaming or re-icon'ing an action no longer asks again!</li>
+                </ul>
+
+                <h3>🔒 Safety &amp; Control</h3>
+                <ul>
+                    <li><strong>Scripts Run Exactly as Written:</strong> The shell you picked, and approved script files can't change behind your back!</li>
                 </ul>
 
                 <h3>🐛 Bug Fixes</h3>
                 <ul>
-                    <li><strong>Drag-to-Reorder Works Again:</strong> The handles in the folder and widget menu editors now actually move rows!</li>
-                    <li><strong>Bar Stays Put Across Presets:</strong> Your bar no longer jumps back to an old position or background colour when you switch presets!</li>
-                    <li><strong>No More Fast-Script Crash:</strong> Fixed a crash when running a script action that finished very quickly!</li>
-                    <li><strong>Correct Script Output Lines:</strong> Script output that uses Windows-style line endings now shows up as proper separate lines!</li>
-                    <li><strong>Restored Missing Preset Actions:</strong> The Maps, Photos, Reminders, and Shortcuts presets — plus "Open in Terminal" in the folder preset — no longer silently drop their actions!</li>
-                    <li><strong>Custom Icon Tints Stick:</strong> Custom icon tint colours now persist when you edit an existing item!</li>
+                    <li><strong>Works on a Clean Mac:</strong> Everything the AI connection needs now ships inside the app!</li>
+                </ul>
+
+                <h3>⚠️ Please Note</h3>
+                <ul>
+                    <li><strong>Re-Save 1.5.0 Script Actions:</strong> Approved AI script-file actions from 1.5.0 need to be opened and re-saved once!</li>
                 </ul>
 
                 <h3>What's Next?</h3>
@@ -53,7 +48,7 @@
                 <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraBar community! Your feedback drives every improvement we make.</em></p>
             ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/extra-bar-updates/releases/download/v1.5.0/ExtraBar.dmg" length="19085246" type="application/octet-stream" sparkle:edSignature="X4XA6yvdQnMJdu1HFViJ59iDUOPs951hovoLx1dimWIQn7ywhLUanNAVKGso5dqnTtepDPVeI76JJvuKqUW8BQ=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-bar-updates/releases/download/v1.5.2/ExtraBar.dmg" length="19590968" type="application/octet-stream" sparkle:edSignature="jKQqC43rfACzxMxXINMAgla2PcvaEpiuUko2vzeJas9OboeJaGMhiylYlKFN4Vc6WUS6ig5//Muiojt2NLY8Bg=="/>
         </item>
     </channel>
 </rss>

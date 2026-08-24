@@ -50,5 +50,1415 @@
 
             <enclosure url="https://github.com/AppitStudio/extra-bar-updates/releases/download/v1.5.2/ExtraBar.dmg" length="19590968" type="application/octet-stream" sparkle:edSignature="jKQqC43rfACzxMxXINMAgla2PcvaEpiuUko2vzeJas9OboeJaGMhiylYlKFN4Vc6WUS6ig5//Muiojt2NLY8Bg=="/>
         </item>
+        <item>
+            <title>1.5.0</title>
+            <pubDate>Thu, 13 Aug 2026 11:53:14 +0300</pubDate>
+            <sparkle:version>150</sparkle:version>
+            <sparkle:shortVersionString>1.5.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/extra-bar-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+                <h2>ExtraBar 1.5.0 – Meet Your AI Assistant! 🤖✨</h2>
+
+                <p><em>Describe the bar you want and watch it build itself — with every change reviewed, reversible, and never leaving your Mac.</em></p>
+
+                <h3>✨ New Features</h3>
+                <ul>
+                    <li><strong>Connect an AI Assistant:</strong> Claude, Cursor, VS Code, and Raycast can now set up your ExtraBar for you — just describe what you want ("add my daily apps," "build me a Figma menu") and watch it happen!</li>
+                    <li><strong>One-Click Client Setup:</strong> Every supported AI client is a click away in Settings → AI Assistant — install the Claude Desktop extension, copy the Claude Code command, or add ExtraBar to Cursor, VS Code, or Raycast in under a minute!</li>
+                    <li><strong>Five Guided Setups Built In:</strong> Quick-start onboarding, a projects bar wired to your editor and terminal, a script-tool builder, Figma deep links, and a bar-organizing cleanup pass — all ready to run out of the box!</li>
+                    <li><strong>Reorganize a Whole Menu at Once:</strong> Assistants can alphabetize an entire menu (dividers stay put as section boundaries), move a single entry, or clean out several entries in one go!</li>
+                </ul>
+
+                <h3>🔒 Safety &amp; Control</h3>
+                <ul>
+                    <li><strong>Every AI Change Is Safe by Default:</strong> Scripts, API calls, and keyboard shortcuts an assistant creates are held as "(Approval Required)" until you review the exact script, URL, or keys and approve them yourself!</li>
+                    <li><strong>Nothing Gets Deleted Without Asking:</strong> Removing a preset, an item, or a menu entry always asks first — with an option to allow deletions for the rest of your session!</li>
+                    <li><strong>Revert Last AI Change:</strong> One click in Settings → AI Assistant undoes the assistant's most recent edit, restoring the affected preset to exactly how it was before!</li>
+                    <li><strong>Local Audit Log:</strong> Everything an AI assistant does to your bar is tracked and viewable right in the AI Assistant settings pane under Recent AI Changes!</li>
+                </ul>
+
+                <h3>🔧 Improvements</h3>
+                <ul>
+                    <li><strong>Completely Private:</strong> The AI connection is entirely local to your Mac — no data about your bar setup is ever sent off your device!</li>
+                    <li><strong>App-Wide Bar Position &amp; Appearance:</strong> Position and appearance are now app-wide settings instead of being baked into each preset — switching presets changes your items and menus without moving your bar or changing its colours! The "Include appearance settings" checkbox is gone from the new-preset sheet.</li>
+                </ul>
+
+                <h3>🐛 Bug Fixes</h3>
+                <ul>
+                    <li><strong>Drag-to-Reorder Works Again:</strong> The handles in the folder and widget menu editors now actually move rows!</li>
+                    <li><strong>Bar Stays Put Across Presets:</strong> Your bar no longer jumps back to an old position or background colour when you switch presets!</li>
+                    <li><strong>No More Fast-Script Crash:</strong> Fixed a crash when running a script action that finished very quickly!</li>
+                    <li><strong>Correct Script Output Lines:</strong> Script output that uses Windows-style line endings now shows up as proper separate lines!</li>
+                    <li><strong>Restored Missing Preset Actions:</strong> The Maps, Photos, Reminders, and Shortcuts presets — plus "Open in Terminal" in the folder preset — no longer silently drop their actions!</li>
+                    <li><strong>Custom Icon Tints Stick:</strong> Custom icon tint colours now persist when you edit an existing item!</li>
+                </ul>
+
+                <h3>What's Next?</h3>
+                <p>We're always working on making ExtraBar more powerful and intuitive! More features and improvements are on the way based on your feedback!</p>
+
+                <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraBar community! Your feedback drives every improvement we make.</em></p>
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/extra-bar-updates/releases/download/v1.5.0/ExtraBar.dmg" length="19085246" type="application/octet-stream" sparkle:edSignature="X4XA6yvdQnMJdu1HFViJ59iDUOPs951hovoLx1dimWIQn7ywhLUanNAVKGso5dqnTtepDPVeI76JJvuKqUW8BQ=="/>
+        </item>
+        <item>
+            <title>1.4.2</title>
+            <pubDate>Tue, 28 Jul 2026 19:12:01 +0300</pubDate>
+            <sparkle:version>142</sparkle:version>
+            <sparkle:shortVersionString>1.4.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/extra-bar-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+                <h2>ExtraBar 1.4.2 – Private on Screen, Smarter Hotkeys &amp; a Sharper Menu Bar Icon! 🕶️⌨️✨</h2>
+
+                <p><em>Hide the bar from screen recordings and shares, take control of the hotkeys that were quietly missing, and enjoy a menu bar icon that finally looks and stays right.</em></p>
+
+                <h3>✨ New Features</h3>
+                <ul>
+                    <li><strong>Hide from Screen Capture:</strong> A new Privacy toggle in Settings → General keeps the floating bar and its bookmark popovers/panels out of screenshots, screen recordings, and screen sharing — Zoom, QuickTime, ScreenCaptureKit and more! Menu bar icons aren't affected, and turning it back off instantly makes the bar capturable again!</li>
+                    <li><strong>Toggle Notch Mode Hotkey:</strong> Toggle Notch Mode now has its own row in Hotkeys settings — it was always registered on ⌥⌘N but had no way to change or remove it, and now you're in control!</li>
+                    <li><strong>Honest Collapse Mode Hotkey:</strong> Toggle Collapse Mode now tells you when it's inert — the shortcut row shows "Unavailable while Single Menu Merge is on" instead of silently doing nothing!</li>
+                </ul>
+
+                <h3>🔧 Improvements</h3>
+                <ul>
+                    <li><strong>Reliable Toggle Position Shortcut:</strong> The Toggle Position default is now ⌥⌘P — macOS reserves ⌥⌘M system-wide, so the old default was rejected by the recorder and never reached the app! Any custom shortcut you've already recorded stays untouched!</li>
+                    <li><strong>Adaptive Menu Bar Icon:</strong> The default menu bar icon now renders as a template image with a transparent background, so it picks up the right contrast in light and dark menu bars instead of showing an opaque colored tile!</li>
+                </ul>
+
+                <h3>🐛 Bug Fixes</h3>
+                <ul>
+                    <li><strong>Menu Bar Icon Position Persists:</strong> The menu bar icon's position, set by ⌘-dragging, now sticks across relaunches!</li>
+                    <li><strong>⌘, Opens Settings:</strong> The standard Command-Comma shortcut now opens Settings as expected!</li>
+                    <li><strong>Reset Defaults Really Resets:</strong> Reset Defaults in Hotkeys settings now actually restores the shortcut defaults — previously it only reset the timing and indicator options!</li>
+                    <li><strong>Cleaner Icon Preview:</strong> The menu bar icon preview in Appearance no longer mutates the shared cached icon image!</li>
+                </ul>
+
+                <h3>What's Next?</h3>
+                <p>We're always working on making ExtraBar more powerful and intuitive! More features and improvements are on the way based on your feedback!</p>
+
+                <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraBar community! Your feedback drives every improvement we make.</em></p>
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/extra-bar-updates/releases/download/v1.4.2/ExtraBar.dmg" length="13986735" type="application/octet-stream" sparkle:edSignature="KM/o6/5iGA51THr3//ENSOWoEfHzaZKf2n/Yp5V5SazmfK9ihPUfv9pEW6O+c59Z7Qiq9lh/Gd+tSegpfBNsDw=="/>
+        </item>
+        <item>
+            <title>1.4.1</title>
+            <pubDate>Thu, 16 Jul 2026 20:27:35 +0300</pubDate>
+            <sparkle:version>141</sparkle:version>
+            <sparkle:shortVersionString>1.4.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/extra-bar-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+                <h2>ExtraBar 1.4.1 – Vertical Bars, Tinted Icons &amp; a Bookmark Safety Net! 📐🎨🗑️</h2>
+
+                <p><em>Break free from the top of the screen with vertical bars, give your items a clean monochrome look, and delete bookmarks without fear thanks to a brand-new Recycle Bin.</em></p>
+
+                <h3>✨ New Features</h3>
+                <ul>
+                    <li><strong>Vertical Bar Positions:</strong> The floating bar is no longer stuck to the top — dock it to the left or right edge as a vertical bar, with five placements in all: Top, Left, Right, Top Left, and Top Right! A new visual screen-edge picker in Settings → Display Modes lets you choose by clicking directly on a mockup of your screen!</li>
+                    <li><strong>Tint Your Icons:</strong> Match the clean, monochrome look of native macOS menu bar items by tinting any bar item's icon into a single-color silhouette — right-click an item (or use its ⋯ menu) and choose Tint Icon to pick White, Black, or an accent color! Tinting is offered for icons with a real shape (custom icons, SF Symbols, folders, and widgets), full-color app icons are left untouched, and your choice travels with presets on export/import!</li>
+                    <li><strong>Recycle Bin for Bookmarks (Shiori):</strong> Deleting a bookmark now moves it to a Recycle Bin instead of removing it permanently — restore it, Delete Forever, or Empty Trash right from the Bookmark Manager, and search within the bin! Deletions sync quietly across your devices, and a restore always wins over a stale deletion!</li>
+                </ul>
+
+                <h3>🔧 Improvements</h3>
+                <ul>
+                    <li><strong>Right-Click the Collapse Icon:</strong> In both floating-bar and menu-bar modes, right-clicking (or ⌃-clicking) the collapse/menu-mode icon now opens the standard app menu — Open ExtraBar, mode toggles, Presets, Bookmark Manager, Settings, and Quit!</li>
+                    <li><strong>Delete the Default Preset:</strong> The default preset can now be deleted, as long as it isn't the active preset and isn't your last one — another preset is instantly promoted to default so you always have one!</li>
+                    <li><strong>Clearer Bookmark Import Feedback:</strong> The Import sheet now scrolls automatically to show the result, and an import that adds zero bookmarks shows an orange "No Bookmarks Imported" (empty file or all duplicates) instead of a misleading green "success"!</li>
+                    <li><strong>Honest Delete Warnings:</strong> Bookmark delete confirmations now say the bookmark moves to the Recycle Bin and can be recovered, rather than "this action cannot be undone" — folder-only and mixed deletions still spell out exactly what's permanent!</li>
+                </ul>
+
+                <h3>What's Next?</h3>
+                <p>We're always working on making ExtraBar more powerful and intuitive! More features and improvements are on the way based on your feedback!</p>
+
+                <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraBar community! Your feedback drives every improvement we make.</em></p>
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/extra-bar-updates/releases/download/v1.4.1/ExtraBar.dmg" length="13988514" type="application/octet-stream" sparkle:edSignature="u537AW8Ao5vBIl0/dzMAD5EkQPQAKrPhDSgDTCodSRbT+ar9gyGjdUXnK0aqQLuGTz1QMqs1oqgsdYMeUhEYBQ=="/>
+        </item>
+        <item>
+            <title>1.4.0</title>
+            <pubDate>Wed, 01 Jul 2026 22:18:01 +0300</pubDate>
+            <sparkle:version>140</sparkle:version>
+            <sparkle:shortVersionString>1.4.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/extra-bar-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+                <h2>ExtraBar 1.4.0 – Deep Link Discovery &amp; Batch Everything! 🔗✨</h2>
+
+                <p><em>Find deep links for any app with an AI-ready prompt, and batch-edit across even more of ExtraBar — plus a round of reliability fixes.</em></p>
+
+                <h3>✨ What's New</h3>
+                <ul>
+                    <li><strong>Find Deep Links Helper:</strong> Deep link actions now include a "Find Deep Links" card with a ready-made AI prompt — auto-filled with the app's name — that you can copy into any assistant to discover URL schemes and deep links, including actions surfaced by Raycast extensions!</li>
+                    <li><strong>Batch Editing Everywhere:</strong> Multi-select batch editing now extends to widget app menus and folder widgets, so you can move, copy, show, hide, or delete multiple items at once — just like on the bar!</li>
+                </ul>
+
+                <h3>⚡ Improvements</h3>
+                <ul>
+                    <li><strong>More Powerful Multi-Select:</strong> Bar multi-select now does more than move and copy — batch show, hide, and delete your selected items too!</li>
+                    <li><strong>Clearer Confirmations:</strong> Delete and remove confirmations now spell out that the action can't be undone and show the exact number of items being removed!</li>
+                    <li><strong>Inline Remove Button:</strong> Every item row now has an inline remove button for quick one-off deletions!</li>
+                    <li><strong>Copy Action Deep Link:</strong> Folder widget action items now offer "Copy Action Deep Link" so you can grab an action's link directly!</li>
+                    <li><strong>Correct Shiori Pricing:</strong> Shiori lifetime plans now display the correct full price instead of a mismatched or missing amount!</li>
+                </ul>
+
+                <h3>🐞 Bug Fixes</h3>
+                <ul>
+                    <li><strong>Search Keeps Focus:</strong> The searchable app action menu no longer loses keyboard focus — the search field stays focused as you type and results rebuild without jumping!</li>
+                    <li><strong>Reliable Shiori Sign-In:</strong> Fixed Shiori authentication so the sign-in flow completes reliably!</li>
+                    <li><strong>Stable Notch Position:</strong> The notch bar no longer keeps a stale position after disconnecting or reconnecting an external display — it recomputes its geometry on display changes!</li>
+                    <li><strong>Hidden Bars Stay Hidden:</strong> Hidden bars are no longer forced back to the front after a display reconfiguration!</li>
+                </ul>
+
+                <h3>🏷️ Renamed</h3>
+                <ul>
+                    <li><strong>"Move/Copy" is now "Select":</strong> The bar's button is renamed to "Select" since it now covers move, copy, show, hide, and delete — not just move and copy!</li>
+                </ul>
+
+                <h3>What's Next?</h3>
+                <p>We're always working on making ExtraBar more powerful and intuitive! More features and improvements are on the way based on your feedback!</p>
+
+                <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraBar community! Your feedback drives every improvement we make.</em></p>
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/extra-bar-updates/releases/download/v1.4.0/ExtraBar.dmg" length="13803968" type="application/octet-stream" sparkle:edSignature="czHFZi2XD3xmYgYFOHworMQE54Il8nrh/BR9N9O38cjGFX4r8t7DWGLcorDTgOg6TpB5ruzFoDuzHHnT9UYlBA=="/>
+        </item>
+        <item>
+            <title>1.3.9</title>
+            <pubDate>Sun, 21 Jun 2026 22:20:55 +0300</pubDate>
+            <sparkle:version>139</sparkle:version>
+            <sparkle:shortVersionString>1.3.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/extra-bar-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+                <h2>ExtraBar 1.3.9 – Move & Copy Quick Fix! 🔁</h2>
+
+                <p><em>A quick follow-up hotfix for the new move &amp; copy between app menus — it includes all of the 1.3.4 features and improvements below.</em></p>
+
+                <h3>🐞 Hotfix</h3>
+                <ul>
+                    <li><strong>Move &amp; Copy Fix:</strong> Resolved an issue with the new move &amp; copy between app menus so reorganizing actions across menus works smoothly and reliably!</li>
+                </ul>
+
+                <h3>✨ What's New</h3>
+                <ul>
+                    <li><strong>Search Inside App Menus:</strong> Start typing to instantly filter the actions in any app's menu — a new search toggle in the menu toolbar makes finding the right command quick, even in long menus!</li>
+                    <li><strong>Folders Show Their Contents:</strong> Folder items now reveal their live contents right inside the bar menu, so you can browse into files and subfolders without ever opening Finder!</li>
+                    <li><strong>Move &amp; Copy Between App Menus:</strong> Reorganize freely by copying or moving actions (and dividers) from one app's menu into another, with a clearer, more reliable destination picker!</li>
+                    <li><strong>Multi-Select Menu Editing:</strong> Select multiple menu items at once to batch-delete, move, or copy them — the selection entry point is now clearer, with the Delete button right where you'd expect it!</li>
+                </ul>
+
+                <h3>🔧 Improvements</h3>
+                <ul>
+                    <li><strong>Adaptive Onboarding:</strong> The welcome screens now adapt their colors to look great in both Light and Dark mode!</li>
+                    <li><strong>Smarter Quick Add for Shiori:</strong> New bookmarks default to your currently active Shiori folder, so they always land in the right place!</li>
+                    <li><strong>Safer Preset Shortcuts:</strong> Preset hotkeys now require a modifier key, preventing accidental triggers from a single keypress!</li>
+                    <li><strong>Smoother Notch Hover:</strong> Hover behavior around the notch is now more stable and refined!</li>
+                </ul>
+
+                <h3>🐞 Bug Fixes</h3>
+                <ul>
+                    <li><strong>Launch Crash Fixed:</strong> Fixed a launch crash that could occur when license validation couldn't reach the server and fell back to local checks!</li>
+                    <li><strong>Collapsed Menu Click:</strong> Fixed the primary click not working on collapsed menus!</li>
+                    <li><strong>Folder Clicks & Shortcuts:</strong> Fixed folder clicks and keyboard shortcuts inside menus!</li>
+                    <li><strong>Live Menu Refresh:</strong> Live bar menus now refresh correctly after moving or copying items between apps!</li>
+                    <li><strong>Preserved Folder Configuration:</strong> Folder menu configuration and menu styling are now preserved correctly when editing!</li>
+                </ul>
+
+                <h3>What's Next?</h3>
+                <p>We're always working on making ExtraBar more powerful and intuitive! More features and improvements are on the way based on your feedback!</p>
+
+                <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraBar community! Your feedback drives every improvement we make.</em></p>
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/extra-bar-updates/releases/download/v1.3.9/ExtraBar.dmg" length="13611151" type="application/octet-stream" sparkle:edSignature="0rul9NCGb+dMizL7fe6/nBV+uX979AmKfReXfkSXyKOYoCrCbjTVC5oxPGIzuwYvO0KlSAiyC381uGpaBDQSAA=="/>
+        </item>
+        <item>
+            <title>1.3.8</title>
+            <pubDate>Sun, 21 Jun 2026 15:42:45 +0300</pubDate>
+            <sparkle:version>138</sparkle:version>
+            <sparkle:shortVersionString>1.3.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/extra-bar-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+                <h2>ExtraBar 1.3.8 – Move & Copy Quick Fix! 🔁</h2>
+
+                <p><em>A quick follow-up hotfix for the new move &amp; copy between app menus — it includes all of the 1.3.4 features and improvements below.</em></p>
+
+                <h3>🐞 Hotfix</h3>
+                <ul>
+                    <li><strong>Move &amp; Copy Fix:</strong> Resolved an issue with the new move &amp; copy between app menus so reorganizing actions across menus works smoothly and reliably!</li>
+                </ul>
+
+                <h3>✨ What's New</h3>
+                <ul>
+                    <li><strong>Search Inside App Menus:</strong> Start typing to instantly filter the actions in any app's menu — a new search toggle in the menu toolbar makes finding the right command quick, even in long menus!</li>
+                    <li><strong>Folders Show Their Contents:</strong> Folder items now reveal their live contents right inside the bar menu, so you can browse into files and subfolders without ever opening Finder!</li>
+                    <li><strong>Move &amp; Copy Between App Menus:</strong> Reorganize freely by copying or moving actions (and dividers) from one app's menu into another, with a clearer, more reliable destination picker!</li>
+                    <li><strong>Multi-Select Menu Editing:</strong> Select multiple menu items at once to batch-delete, move, or copy them — the selection entry point is now clearer, with the Delete button right where you'd expect it!</li>
+                </ul>
+
+                <h3>🔧 Improvements</h3>
+                <ul>
+                    <li><strong>Adaptive Onboarding:</strong> The welcome screens now adapt their colors to look great in both Light and Dark mode!</li>
+                    <li><strong>Smarter Quick Add for Shiori:</strong> New bookmarks default to your currently active Shiori folder, so they always land in the right place!</li>
+                    <li><strong>Safer Preset Shortcuts:</strong> Preset hotkeys now require a modifier key, preventing accidental triggers from a single keypress!</li>
+                    <li><strong>Smoother Notch Hover:</strong> Hover behavior around the notch is now more stable and refined!</li>
+                </ul>
+
+                <h3>🐞 Bug Fixes</h3>
+                <ul>
+                    <li><strong>Launch Crash Fixed:</strong> Fixed a launch crash that could occur when license validation couldn't reach the server and fell back to local checks!</li>
+                    <li><strong>Collapsed Menu Click:</strong> Fixed the primary click not working on collapsed menus!</li>
+                    <li><strong>Folder Clicks & Shortcuts:</strong> Fixed folder clicks and keyboard shortcuts inside menus!</li>
+                    <li><strong>Live Menu Refresh:</strong> Live bar menus now refresh correctly after moving or copying items between apps!</li>
+                    <li><strong>Preserved Folder Configuration:</strong> Folder menu configuration and menu styling are now preserved correctly when editing!</li>
+                </ul>
+
+                <h3>What's Next?</h3>
+                <p>We're always working on making ExtraBar more powerful and intuitive! More features and improvements are on the way based on your feedback!</p>
+
+                <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraBar community! Your feedback drives every improvement we make.</em></p>
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/extra-bar-updates/releases/download/v1.3.8/ExtraBar.dmg" length="13581855" type="application/octet-stream" sparkle:edSignature="WvkECXruSb8izyUd0OkVwnqlMERl6WjLulkQ9sdZi9saQ1L1PYz9LrLEzeo7qjaFWLvv/Lh5bMogEz0tXIR5Dg=="/>
+        </item>
+        <item>
+            <title>1.3.7</title>
+            <pubDate>Sat, 20 Jun 2026 13:06:46 +0300</pubDate>
+            <sparkle:version>137</sparkle:version>
+            <sparkle:shortVersionString>1.3.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/extra-bar-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+                <h2>ExtraBar 1.3.7 – Menu Search Quick Fix! 🔍</h2>
+
+                <p><em>A quick follow-up hotfix for the new search inside app menus — it includes all of the 1.3.4 features and improvements below.</em></p>
+
+                <h3>🐞 Hotfix</h3>
+                <ul>
+                    <li><strong>Menu Search Fix:</strong> Resolved an issue with the new search inside app menus so filtering actions works smoothly and reliably!</li>
+                </ul>
+
+                <h3>✨ What's New</h3>
+                <ul>
+                    <li><strong>Search Inside App Menus:</strong> Start typing to instantly filter the actions in any app's menu — a new search toggle in the menu toolbar makes finding the right command quick, even in long menus!</li>
+                    <li><strong>Folders Show Their Contents:</strong> Folder items now reveal their live contents right inside the bar menu, so you can browse into files and subfolders without ever opening Finder!</li>
+                    <li><strong>Move & Copy Between App Menus:</strong> Reorganize freely by copying or moving actions (and dividers) from one app's menu into another, with a clearer, more reliable destination picker!</li>
+                    <li><strong>Multi-Select Menu Editing:</strong> Select multiple menu items at once to batch-delete, move, or copy them — the selection entry point is now clearer, with the Delete button right where you'd expect it!</li>
+                </ul>
+
+                <h3>🔧 Improvements</h3>
+                <ul>
+                    <li><strong>Adaptive Onboarding:</strong> The welcome screens now adapt their colors to look great in both Light and Dark mode!</li>
+                    <li><strong>Smarter Quick Add for Shiori:</strong> New bookmarks default to your currently active Shiori folder, so they always land in the right place!</li>
+                    <li><strong>Safer Preset Shortcuts:</strong> Preset hotkeys now require a modifier key, preventing accidental triggers from a single keypress!</li>
+                    <li><strong>Smoother Notch Hover:</strong> Hover behavior around the notch is now more stable and refined!</li>
+                </ul>
+
+                <h3>🐞 Bug Fixes</h3>
+                <ul>
+                    <li><strong>Launch Crash Fixed:</strong> Fixed a launch crash that could occur when license validation couldn't reach the server and fell back to local checks!</li>
+                    <li><strong>Collapsed Menu Click:</strong> Fixed the primary click not working on collapsed menus!</li>
+                    <li><strong>Folder Clicks & Shortcuts:</strong> Fixed folder clicks and keyboard shortcuts inside menus!</li>
+                    <li><strong>Live Menu Refresh:</strong> Live bar menus now refresh correctly after moving or copying items between apps!</li>
+                    <li><strong>Preserved Folder Configuration:</strong> Folder menu configuration and menu styling are now preserved correctly when editing!</li>
+                </ul>
+
+                <h3>What's Next?</h3>
+                <p>We're always working on making ExtraBar more powerful and intuitive! More features and improvements are on the way based on your feedback!</p>
+
+                <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraBar community! Your feedback drives every improvement we make.</em></p>
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/extra-bar-updates/releases/download/v1.3.7/ExtraBar.dmg" length="13542055" type="application/octet-stream" sparkle:edSignature="6Iy0pIy5DZmgUHmk9qQS08JP57i+XOvYUfFIgHCmW9oXpSAUv93eKyKQnqZTTpNJtka1NpF4MIiKNPIdAdrxCg=="/>
+        </item>
+        <item>
+            <title>1.3.6</title>
+            <pubDate>Sat, 20 Jun 2026 00:15:34 +0300</pubDate>
+            <sparkle:version>136</sparkle:version>
+            <sparkle:shortVersionString>1.3.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/extra-bar-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+                <h2>ExtraBar 1.3.6 – Shiori Sign-In Hotfix! 🔑</h2>
+
+                <p><em>A quick follow-up that further fixes the Shiori authentication process — it includes all of the 1.3.4 features and improvements below.</em></p>
+
+                <h3>🐞 Hotfix</h3>
+                <ul>
+                    <li><strong>Shiori Authentication Fix:</strong> Resolved a remaining issue in the Shiori sign-in process so connecting and using your Shiori account works reliably!</li>
+                </ul>
+
+                <h3>✨ What's New</h3>
+                <ul>
+                    <li><strong>Search Inside App Menus:</strong> Start typing to instantly filter the actions in any app's menu — a new search toggle in the menu toolbar makes finding the right command quick, even in long menus!</li>
+                    <li><strong>Folders Show Their Contents:</strong> Folder items now reveal their live contents right inside the bar menu, so you can browse into files and subfolders without ever opening Finder!</li>
+                    <li><strong>Move & Copy Between App Menus:</strong> Reorganize freely by copying or moving actions (and dividers) from one app's menu into another, with a clearer, more reliable destination picker!</li>
+                    <li><strong>Multi-Select Menu Editing:</strong> Select multiple menu items at once to batch-delete, move, or copy them — the selection entry point is now clearer, with the Delete button right where you'd expect it!</li>
+                </ul>
+
+                <h3>🔧 Improvements</h3>
+                <ul>
+                    <li><strong>Adaptive Onboarding:</strong> The welcome screens now adapt their colors to look great in both Light and Dark mode!</li>
+                    <li><strong>Smarter Quick Add for Shiori:</strong> New bookmarks default to your currently active Shiori folder, so they always land in the right place!</li>
+                    <li><strong>Safer Preset Shortcuts:</strong> Preset hotkeys now require a modifier key, preventing accidental triggers from a single keypress!</li>
+                    <li><strong>Smoother Notch Hover:</strong> Hover behavior around the notch is now more stable and refined!</li>
+                </ul>
+
+                <h3>🐞 Bug Fixes</h3>
+                <ul>
+                    <li><strong>Launch Crash Fixed:</strong> Fixed a launch crash that could occur when license validation couldn't reach the server and fell back to local checks!</li>
+                    <li><strong>Collapsed Menu Click:</strong> Fixed the primary click not working on collapsed menus!</li>
+                    <li><strong>Folder Clicks & Shortcuts:</strong> Fixed folder clicks and keyboard shortcuts inside menus!</li>
+                    <li><strong>Live Menu Refresh:</strong> Live bar menus now refresh correctly after moving or copying items between apps!</li>
+                    <li><strong>Preserved Folder Configuration:</strong> Folder menu configuration and menu styling are now preserved correctly when editing!</li>
+                </ul>
+
+                <h3>What's Next?</h3>
+                <p>We're always working on making ExtraBar more powerful and intuitive! More features and improvements are on the way based on your feedback!</p>
+
+                <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraBar community! Your feedback drives every improvement we make.</em></p>
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/extra-bar-updates/releases/download/v1.3.6/ExtraBar.dmg" length="13534371" type="application/octet-stream" sparkle:edSignature="7De19Vq0K7I5WRzc1DEpuUBpprDdHHPCbt1JUwAd902Xt4gvMgF3Kqu91545giRpeO53do6XPrpAdIhfjxI9Ag=="/>
+        </item>
+        <item>
+            <title>1.3.5</title>
+            <pubDate>Fri, 19 Jun 2026 23:22:13 +0300</pubDate>
+            <sparkle:version>135</sparkle:version>
+            <sparkle:shortVersionString>1.3.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/extra-bar-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+                <h2>ExtraBar 1.3.5 – Shiori Sign-In Hotfix! 🔑</h2>
+
+                <p><em>A quick follow-up to 1.3.4 that fixes the Shiori authentication process — it includes all of the 1.3.4 features and improvements below.</em></p>
+
+                <h3>🐞 Hotfix</h3>
+                <ul>
+                    <li><strong>Shiori Authentication Fix:</strong> Resolved an issue in the Shiori sign-in process so connecting and using your Shiori account works reliably again!</li>
+                </ul>
+
+                <h3>✨ What's New</h3>
+                <ul>
+                    <li><strong>Search Inside App Menus:</strong> Start typing to instantly filter the actions in any app's menu — a new search toggle in the menu toolbar makes finding the right command quick, even in long menus!</li>
+                    <li><strong>Folders Show Their Contents:</strong> Folder items now reveal their live contents right inside the bar menu, so you can browse into files and subfolders without ever opening Finder!</li>
+                    <li><strong>Move & Copy Between App Menus:</strong> Reorganize freely by copying or moving actions (and dividers) from one app's menu into another, with a clearer, more reliable destination picker!</li>
+                    <li><strong>Multi-Select Menu Editing:</strong> Select multiple menu items at once to batch-delete, move, or copy them — the selection entry point is now clearer, with the Delete button right where you'd expect it!</li>
+                </ul>
+
+                <h3>🔧 Improvements</h3>
+                <ul>
+                    <li><strong>Adaptive Onboarding:</strong> The welcome screens now adapt their colors to look great in both Light and Dark mode!</li>
+                    <li><strong>Smarter Quick Add for Shiori:</strong> New bookmarks default to your currently active Shiori folder, so they always land in the right place!</li>
+                    <li><strong>Safer Preset Shortcuts:</strong> Preset hotkeys now require a modifier key, preventing accidental triggers from a single keypress!</li>
+                    <li><strong>Smoother Notch Hover:</strong> Hover behavior around the notch is now more stable and refined!</li>
+                </ul>
+
+                <h3>🐞 Bug Fixes</h3>
+                <ul>
+                    <li><strong>Launch Crash Fixed:</strong> Fixed a launch crash that could occur when license validation couldn't reach the server and fell back to local checks!</li>
+                    <li><strong>Collapsed Menu Click:</strong> Fixed the primary click not working on collapsed menus!</li>
+                    <li><strong>Folder Clicks & Shortcuts:</strong> Fixed folder clicks and keyboard shortcuts inside menus!</li>
+                    <li><strong>Live Menu Refresh:</strong> Live bar menus now refresh correctly after moving or copying items between apps!</li>
+                    <li><strong>Preserved Folder Configuration:</strong> Folder menu configuration and menu styling are now preserved correctly when editing!</li>
+                </ul>
+
+                <h3>What's Next?</h3>
+                <p>We're always working on making ExtraBar more powerful and intuitive! More features and improvements are on the way based on your feedback!</p>
+
+                <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraBar community! Your feedback drives every improvement we make.</em></p>
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/extra-bar-updates/releases/download/v1.3.5/ExtraBar.dmg" length="13536967" type="application/octet-stream" sparkle:edSignature="UizE0G25P2qvi17R/nLDQrWlGveX7mbb+5zGlNd9cnPTxmOszMbxWR4liyPmblqqRSAnj04BYGEcVJXWcUVUAA=="/>
+        </item>
+        <item>
+            <title>1.3.4</title>
+            <pubDate>Fri, 19 Jun 2026 22:22:34 +0300</pubDate>
+            <sparkle:version>134</sparkle:version>
+            <sparkle:shortVersionString>1.3.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/extra-bar-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+                <h2>ExtraBar 1.3.4 – Search, Browse & Organize Your Menus! 🔍📂</h2>
+
+                <h3>✨ What's New</h3>
+                <ul>
+                    <li><strong>Search Inside App Menus:</strong> Start typing to instantly filter the actions in any app's menu — a new search toggle in the menu toolbar makes finding the right command quick, even in long menus!</li>
+                    <li><strong>Folders Show Their Contents:</strong> Folder items now reveal their live contents right inside the bar menu, so you can browse into files and subfolders without ever opening Finder!</li>
+                    <li><strong>Move & Copy Between App Menus:</strong> Reorganize freely by copying or moving actions (and dividers) from one app's menu into another, with a clearer, more reliable destination picker!</li>
+                    <li><strong>Multi-Select Menu Editing:</strong> Select multiple menu items at once to batch-delete, move, or copy them — the selection entry point is now clearer, with the Delete button right where you'd expect it!</li>
+                </ul>
+
+                <h3>🔧 Improvements</h3>
+                <ul>
+                    <li><strong>Adaptive Onboarding:</strong> The welcome screens now adapt their colors to look great in both Light and Dark mode!</li>
+                    <li><strong>Smarter Quick Add for Shiori:</strong> New bookmarks default to your currently active Shiori folder, so they always land in the right place!</li>
+                    <li><strong>Safer Preset Shortcuts:</strong> Preset hotkeys now require a modifier key, preventing accidental triggers from a single keypress!</li>
+                    <li><strong>Smoother Notch Hover:</strong> Hover behavior around the notch is now more stable and refined!</li>
+                </ul>
+
+                <h3>🐞 Bug Fixes</h3>
+                <ul>
+                    <li><strong>Launch Crash Fixed:</strong> Fixed a launch crash that could occur when license validation couldn't reach the server and fell back to local checks!</li>
+                    <li><strong>Collapsed Menu Click:</strong> Fixed the primary click not working on collapsed menus!</li>
+                    <li><strong>Folder Clicks & Shortcuts:</strong> Fixed folder clicks and keyboard shortcuts inside menus!</li>
+                    <li><strong>Live Menu Refresh:</strong> Live bar menus now refresh correctly after moving or copying items between apps!</li>
+                    <li><strong>Preserved Folder Configuration:</strong> Folder menu configuration and menu styling are now preserved correctly when editing!</li>
+                </ul>
+
+                <h3>What's Next?</h3>
+                <p>We're always working on making ExtraBar more powerful and intuitive! More features and improvements are on the way based on your feedback!</p>
+
+                <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraBar community! Your feedback drives every improvement we make.</em></p>
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/extra-bar-updates/releases/download/v1.3.4/ExtraBar.dmg" length="13536432" type="application/octet-stream" sparkle:edSignature="QUqXsy5G31V9hUZM4AbanKmKQefkCGULEDbk/n3DIj/U6slFIjs1HzWzytmqrdlRpZnBFjzEUnf+7ND02hjODw=="/>
+        </item>
+        <item>
+            <title>1.3.3</title>
+            <pubDate>Fri, 12 Jun 2026 18:35:00 +0300</pubDate>
+            <sparkle:version>133</sparkle:version>
+            <sparkle:shortVersionString>1.3.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/extra-bar-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+                <h2>ExtraBar 1.3.3 – Copy, Move & Multi-Select Mastery! 📋✨</h2>
+
+                <h3>⚡ Improvements</h3>
+                <ul>
+                    <li><strong>Effortless Cross-App Copy & Move:</strong> Moving items between apps is now easy to use — drilling into another app automatically selects it as the destination, and a new status bar always shows exactly where your items will land!</li>
+                    <li><strong>More Powerful Multi-Select:</strong> Menu multi-select now supports batch Delete, and dividers can be selected for Move and Copy right alongside your actions!</li>
+                </ul>
+
+                <h3>🐞 Bug Fixes</h3>
+                <ul>
+                    <li><strong>Live Bar Menu Refresh:</strong> Fixed the live bar menu not refreshing after copying or moving items into another app — it now shows the updated menu immediately!</li>
+                    <li><strong>Collapsed Menu Click:</strong> Fixed the primary click action on collapsed menus so it works exactly as expected!</li>
+                </ul>
+
+                <h3>🏷️ Renamed</h3>
+                <ul>
+                    <li><strong>"Select" Button:</strong> The menu multi-select entry button is now called "Select" for extra clarity!</li>
+                </ul>
+
+                <h3>What's Next?</h3>
+                <p>We're always working on making ExtraBar more powerful and intuitive! More features and improvements are on the way based on your feedback!</p>
+
+                <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraBar community! Your feedback drives every improvement we make.</em></p>
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/extra-bar-updates/releases/download/v1.3.3/ExtraBar.dmg" length="13540471" type="application/octet-stream" sparkle:edSignature="dUlzrsaIvFuNzmWf/L32hs4fQFaGmEqUOUKs0GiUmrJKWOp5e2QAhU9YZghkAUE+3y6IpLVXhShVqxTH1xbDDA=="/>
+        </item>
+        <item>
+            <title>1.3.2</title>
+            <pubDate>Sun, 10 May 2026 19:42:43 +0300</pubDate>
+            <sparkle:version>132</sparkle:version>
+            <sparkle:shortVersionString>1.3.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/extra-bar-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+                <h2>ExtraBar 1.3.2 – Team Up & Validate! 👥✅</h2>
+
+                <h3>✨ What's New</h3>
+                <ul>
+                    <li><strong>Teams Validation Process:</strong> Added a robust validation process for teams, ensuring team configurations are verified and consistent before applying changes!</li>
+                </ul>
+
+                <h3>🚀 What's Next?</h3>
+                <p>This is just the beginning of our team features journey! We're working on exciting new team capabilities that will make ExtraBar even more powerful for collaborative workflows. Stay tuned!</p>
+
+                <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraBar community! Your feedback drives every improvement we make – keep it coming! 💙</em></p>
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/extra-bar-updates/releases/download/v1.3.2/ExtraBar.dmg" length="13473572" type="application/octet-stream" sparkle:edSignature="U5+Qwqw9nlPd6ZyvY8lrCZjGJEuORNg0S4hu4X7UxEMxfSI2TaEaw9nepms7tjFMWgdlVENmMBX4674VABJpBQ=="/>
+        </item>
+        <item>
+            <title>1.3.1</title>
+            <pubDate>Fri, 08 May 2026 18:52:17 +0300</pubDate>
+            <sparkle:version>131</sparkle:version>
+            <sparkle:shortVersionString>1.3.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/extra-bar-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+                <h2>ExtraBar 1.3.1 – Double the Power, Pick the Icon! 🔄🎨</h2>
+
+                <h3>✨ What's New</h3>
+                <ul>
+                    <li><strong>Duplicate Apps on Bar:</strong> Add the same app multiple times, each with its own independent menu configuration – perfect for different quick-action sets!</li>
+                    <li><strong>"Duplicate" Context Menu Action:</strong> Right-click any bar item and choose "Duplicate" to quickly clone it with its menu configuration!</li>
+                    <li><strong>Native App Icon Picker:</strong> When customizing an item's icon, you can now browse and pick icons directly from installed applications on your Mac!</li>
+                </ul>
+
+                <h3>🐛 Bug Fixes</h3>
+                <ul>
+                    <li><strong>Icon Sizing:</strong> Fixed icon sizing inconsistencies when using native app icons!</li>
+                    <li><strong>Widget Aliases & Folders:</strong> Widgets now correctly allow selecting Finder aliases and folders as targets!</li>
+                </ul>
+
+                <h3>🚀 What's Next?</h3>
+                <p>We're always working on making ExtraBar more powerful and intuitive! More features and improvements are on the way based on your feedback!</p>
+
+                <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraBar community! Your feedback drives every improvement we make – keep it coming! 💙</em></p>
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/extra-bar-updates/releases/download/v1.3.1/ExtraBar.dmg" length="13136936" type="application/octet-stream" sparkle:edSignature="FdksiIgLxGEnA6vIOBXRoujZFFlOZm+mvzKkLqyRS3KSlXiBZ2gN6s1w6+trceQWoW5BMZeQplr7sCJJVlDbBw=="/>
+        </item>
+        <item>
+            <title>1.3.0</title>
+            <pubDate>Sat, 02 May 2026 14:00:00 +0300</pubDate>
+            <sparkle:version>130</sparkle:version>
+            <sparkle:shortVersionString>1.3.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/extra-bar-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+                <h2>ExtraBar 1.3.0 – One Menu to Rule Them All! 🎯👁️</h2>
+
+                <h3>✨ What's New</h3>
+                <ul>
+                    <li><strong>Single Menu Mode:</strong> Combine ExtraBar's app menu with the bar into one menu bar icon, hide the app icon entirely, or keep them separate – configure it under Settings → General → App Menu!</li>
+                    <li><strong>Hide Items:</strong> New eye toggle in the menu lets you hide apps, actions, and widgets while preserving their configuration – declutter without losing anything!</li>
+                </ul>
+
+                <h3>🎨 Customization</h3>
+                <ul>
+                    <li><strong>App Icon as Menu Trigger:</strong> Pick "App Icon" as the Single Menu icon and it tracks whichever app icon you've selected in Settings – your bar, your look!</li>
+                </ul>
+
+                <h3>⚙️ Settings</h3>
+                <ul>
+                    <li><strong>Hide Keyboard Navigation Labels:</strong> New toggle in Hotkeys settings – the number/letter shortcuts keep working, the overlays just don't show!</li>
+                </ul>
+
+                <h3>🐛 Bug Fixes</h3>
+                <ul>
+                    <li><strong>Dual Bar Display:</strong> Fixed two bars showing when switching modes – only the active bar appears now!</li>
+                    <li><strong>Network Shares:</strong> Finder aliases and smb:// / afp:// paths now open correctly from the bar instead of failing or launching the wrong thing!</li>
+                </ul>
+
+                <h3>🚀 What's Next?</h3>
+                <p>We're always working on making ExtraBar more powerful and intuitive! More features and improvements are on the way based on your feedback!</p>
+
+                <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraBar community! Your feedback drives every improvement we make – keep it coming! 💙</em></p>
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/extra-bar-updates/releases/download/v1.3.0/ExtraBar.dmg" length="13079273" type="application/octet-stream" sparkle:edSignature="hNWPHDzaYgQkIlAlP6glM4ILMLogQa+ykVdl5nehI3Uo3HVj8PDurcd2cr9nq38hdyxAhtMmAZRbIJ3CFQKOBg=="/>
+        </item>
+        <item>
+            <title>1.2.9</title>
+            <pubDate>Fri, 24 Apr 2026 20:56:06 +0300</pubDate>
+            <sparkle:version>129</sparkle:version>
+            <sparkle:shortVersionString>1.2.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/extra-bar-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+                <h2>ExtraBar 1.2.9 – Link Up & Browse Smart! 🔗🧠</h2>
+
+                <h3>✨ What's New</h3>
+                <ul>
+                    <li><strong>Link Groups:</strong> Save a set of URLs and launch them all with one click – right from the bookmark widget or the bookmark manager! Syncs across devices and works offline!</li>
+                    <li><strong>Chrome Profile Routing (Beta):</strong> Route Shiori bookmarks into specific Google Chrome profiles based on their tags! Configure it under Shiori → Browser Routing!</li>
+                    <li><strong>Focused App Destination:</strong> When a bookmark has no matching profile rule, it opens in whatever app you were just using instead of forcing Chrome – seamless browsing!</li>
+                </ul>
+
+                <h3>⚡ Improvements</h3>
+                <ul>
+                    <li><strong>Expanded Free Plan:</strong> Free plan now includes 500 bookmarks and 2 Link Groups (up from 100 bookmarks) – more power for everyone!</li>
+                    <li><strong>Quick Actions Redesign:</strong> Bookmark widget edit/copy/delete buttons now sit side-by-side with a larger hit area and a friendlier edit icon – faster interactions!</li>
+                    <li><strong>Shiori Settings Refresh:</strong> Paid users get a new "Open Dashboard" shortcut and the action buttons have been restyled for a cleaner look!</li>
+                </ul>
+
+                <h3>🐛 Bug Fixes</h3>
+                <ul>
+                    <li><strong>Notch Mode + Shiori:</strong> Fixed notch mode closing when you interact with the Shiori bookmark popover – it now stays open through the whole interaction!</li>
+                    <li><strong>Notch Icon Clipping:</strong> Fixed icons getting clipped in notch mode with an odd number of apps – both sides now balance around the notch!</li>
+                    <li><strong>Notch Space Tracking:</strong> Fixed the notch overlay getting stuck on the previous Space – the bar now follows you when you switch Spaces or enter fullscreen!</li>
+                </ul>
+
+                <h3>🚀 What's Next?</h3>
+                <p>We're always working on making ExtraBar more powerful and intuitive! More features and improvements are on the way based on your feedback!</p>
+
+                <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraBar community! Your feedback drives every improvement we make – keep it coming! 💙</em></p>
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/extra-bar-updates/releases/download/v1.2.9/ExtraBar.dmg" length="12903801" type="application/octet-stream" sparkle:edSignature="9m7AHZZ26FXTr5j/IwVSsfChUZf9FZvwMUULfihxr+RXbNDEUt0xPxieObe3PD64qCb+TeuljeLoRkvNvT1WDA=="/>
+        </item>
+        <item>
+            <title>1.2.8</title>
+            <pubDate>Fri, 10 Apr 2026 15:57:57 +0300</pubDate>
+            <sparkle:version>128</sparkle:version>
+            <sparkle:shortVersionString>1.2.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/extra-bar-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+                <h2>ExtraBar 1.2.8 – Your Bar, Your Way! 🎯✨</h2>
+
+                <h3>✨ What's New</h3>
+                <ul>
+                    <li><strong>Notch Mode:</strong> A brand-new display mode! Place your bar in the notch area for a sleek, integrated look – the perfect use of that screen real estate!</li>
+                    <li><strong>Primary Click Action:</strong> Assign any menu action to run when you click an app – one click, instant execution! Customize every app's click behavior to match your workflow!</li>
+                    <li><strong>App Aliases:</strong> Give any app a custom display name in the bar and menus – personalize your setup to make it truly yours!</li>
+                </ul>
+
+                <h3>⚡ Improvements</h3>
+                <ul>
+                    <li><strong>Silent Shortcuts:</strong> Run Shortcut actions no longer open the Shortcuts app UI when triggered – clean, seamless automation!</li>
+                </ul>
+
+                <h3>🐛 Bug Fixes</h3>
+                <ul>
+                    <li><strong>App Icon Outlines:</strong> Fixed app icon outlines rendering incorrectly in some cases – crisp icons everywhere!</li>
+                    <li><strong>Bar Reappearance:</strong> Fixed the bar not reappearing after switching spaces or exiting fullscreen – your bar is always where you need it!</li>
+                </ul>
+
+                <h3>⚙️ Settings</h3>
+                <ul>
+                    <li><strong>Display Modes Revamped:</strong> Display Modes now shows three clear choices: Menu Bar, Notch, and Floating Bar – pick your perfect mode!</li>
+                </ul>
+
+                <h3>🎨 Customization</h3>
+                <ul>
+                    <li><strong>Duplicate Dividers:</strong> Dividers can now be duplicated in the menu editor – faster setup for your custom layouts!</li>
+                </ul>
+
+                <h3>🚀 What's Next?</h3>
+                <p>We're always working on making ExtraBar more powerful and intuitive! More features and improvements are on the way based on your feedback!</p>
+
+                <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraBar community! Your feedback drives every improvement we make – keep it coming! 💙</em></p>
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/extra-bar-updates/releases/download/v1.2.8/ExtraBar.dmg" length="12431903" type="application/octet-stream" sparkle:edSignature="3fTbWBzNCxf6RYMrGgMF87F+q733Xbf9HpPPbTcg4n++S7bsQi2LUp/Vs5NXPAZXRWUX7LSaAGm0Zpadlx6/Cg=="/>
+        </item>
+        <item>
+            <title>1.2.7</title>
+            <pubDate>Tue, 24 Mar 2026 14:16:39 +0200</pubDate>
+            <sparkle:version>127</sparkle:version>
+            <sparkle:shortVersionString>1.2.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/extra-bar-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+                <h2>ExtraBar 1.2.7 – Welcome Aboard! 🎓✨</h2>
+
+                <h3>✨ What's New</h3>
+                <ul>
+                    <li><strong>Interactive Onboarding:</strong> New users get a guided walkthrough that sets up their bar with real apps, live customization, and pre-built actions – the best first impression yet!</li>
+                    <li><strong>Smart App Detection:</strong> Onboarding detects installed apps like Raycast, Figma, Cursor, VS Code, Bear, Bloom, and CleanShot X and offers to configure them automatically – your bar is ready in seconds!</li>
+                </ul>
+
+                <h3>⚡ Improvements</h3>
+                <ul>
+                    <li><strong>Widget Custom Icon Overrides:</strong> Widgets now support custom icon overrides in both floating bar and menu bar modes – full flexibility!</li>
+                    <li><strong>Crisp SF Symbols:</strong> SF Symbols in the floating bar render at proper sizes – no more clipping on tall symbols!</li>
+                    <li><strong>Scalable Folder Icons:</strong> Widget folder menu icons now scale with your bar size setting!</li>
+                    <li><strong>Safe Deletions:</strong> Deleting a preset or removing a menu action now requires confirmation. Active presets can't be deleted until you switch away!</li>
+                    <li><strong>App Row Context Menu:</strong> Each app row now has a "..." menu with Move/Copy, Change Icon, and Remove – replacing the old delete button!</li>
+                    <li><strong>Preset Row Context Menu:</strong> Preset rows now have a "..." menu with Rename, Duplicate, and Delete!</li>
+                    <li><strong>Better Floating Bar Icons:</strong> Icons now resize correctly according to your Bar Size in Floating Bar mode – no more tiny, hard-to-read menus!</li>
+                </ul>
+
+                <h3>🐛 Bug Fixes</h3>
+                <ul>
+                    <li><strong>Floating Bar Menus:</strong> Fixed menus misbehaving when clicking on apps in Floating Bar mode!</li>
+                    <li><strong>Deep Link Screen Fix:</strong> Fixed the deep link action screen freezing the app when closed via the window's close button!</li>
+                    <li><strong>Consistent Widget Icons:</strong> Fixed widget icons rendering inconsistently across display modes!</li>
+                    <li><strong>Tahoe Tray Fix:</strong> Removed a checkmark incorrectly appearing next to Quit in the system tray on macOS Tahoe!</li>
+                </ul>
+
+                <h3>🏷️ Renamed</h3>
+                <ul>
+                    <li><strong>"Select" → "Move/Copy":</strong> Clearer about what multi-select does – no more guessing!</li>
+                </ul>
+
+                <h3>🚀 What's Next?</h3>
+                <p>We're always working on making ExtraBar more powerful and intuitive! More features and improvements are on the way based on your feedback!</p>
+
+                <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraBar community! Your feedback drives every improvement we make – keep it coming! 💙</em></p>
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/extra-bar-updates/releases/download/v1.2.7/ExtraBar.dmg" length="12263149" type="application/octet-stream" sparkle:edSignature="6yUMQr0Nsm9TuFgMVJ0NWLsvZ+9i+fpUuRFDNQU4w/UNxVSm1mNHSAAtBpxqPxw5wEybxNB5vkPBOAK7f6nwDw=="/>
+        </item>
+        <item>
+            <title>1.2.6</title>
+            <pubDate>Sat, 14 Mar 2026 21:14:30 +0200</pubDate>
+            <sparkle:version>126</sparkle:version>
+            <sparkle:shortVersionString>1.2.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/extra-bar-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+                <h2>ExtraBar 1.2.6 – Redesigned for Clarity! ⚙️✨</h2>
+
+                <h3>⚙️ Settings Overhaul</h3>
+                <ul>
+                    <li><strong>Position Mode Picker:</strong> "Display Modes" is now "Position" with beautiful visual cards – tap to select Menu Bar or Floating Bar instead of the old toggle!</li>
+                    <li><strong>Collapse Mode:</strong> Renamed "Menu Mode" to "Collapse Mode" across the entire app for clarity!</li>
+                    <li><strong>Streamlined Appearance:</strong> Bar Size and Icon Labels moved from Accessibility to Appearance – all visual settings in one place!</li>
+                    <li><strong>Reorganized General:</strong> Dock Icon and Menu Bar Icon pickers now live in General settings for easier access!</li>
+                    <li><strong>Unified Shortcuts:</strong> Three separate hotkey sections merged into one flat "Shortcuts" list – no more hunting for your keyboard shortcuts!</li>
+                    <li><strong>Better Navigation:</strong> Collapse Mode picker changed from toggle to segmented control for clearer mode selection!</li>
+                    <li><strong>Cleaner Labels:</strong> "Toggle Bar" renamed to "Show / Hide Bar" for better clarity!</li>
+                </ul>
+
+                <h3>🎨 UX Polish</h3>
+                <ul>
+                    <li><strong>Simplified Copy:</strong> Removed redundant subtitles and descriptions across all settings – less clutter, more focus!</li>
+                    <li><strong>Specific Language:</strong> Replaced vague "items" with specific terms like "apps" and "icons" – always know what you're working with!</li>
+                    <li><strong>Solid Backgrounds:</strong> All settings now use opaque backgrounds instead of translucent blur – better readability and consistency!</li>
+                    <li><strong>Unified Navigation:</strong> All back buttons now use the same style and position throughout the app!</li>
+                    <li><strong>Smooth Transitions:</strong> Fixed inconsistent button animations when entering or exiting multi-select mode!</li>
+                    <li><strong>Icon-Only Footer:</strong> Footer buttons simplified to icon-only with helpful tooltips – cleaner interface!</li>
+                    <li><strong>Streamlined Permissions:</strong> Simplified the Accessibility permission popover for easier understanding!</li>
+                </ul>
+
+                <h3>⚡ Technical Improvements</h3>
+                <ul>
+                    <li><strong>High-Res App Icons:</strong> App icons now load in high resolution, avoiding macOS Tahoe's padded rendering – crisp and beautiful!</li>
+                    <li><strong>High-Res SF Symbols:</strong> SF Symbols in the floating bar now render at stunning high resolution!</li>
+                    <li><strong>Scalable Menu Icons:</strong> Collapse Mode menu icons now properly scale with your bar size preference!</li>
+                    <li><strong>True Transparency:</strong> Transparent mode now produces a truly invisible bar – hooray for minimalism!</li>
+                    <li><strong>Native Menu Bar Size:</strong> Menu bar icons bumped from 18pt to 22pt to match native macOS status item size!</li>
+                    <li><strong>Smooth Navigation:</strong> Fixed flash when navigating back from the action editor!</li>
+                </ul>
+
+                <h3>🚀 What's Next?</h3>
+                <p>We're constantly refining ExtraBar based on your feedback! This settings redesign makes the app more intuitive and easier to navigate – but we're not stopping here! More improvements are on the way!</p>
+
+                <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraBar community! Your feedback drives every improvement we make – keep it coming! 💙</em></p>
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/extra-bar-updates/releases/download/v1.2.6/ExtraBar.dmg" length="11929611" type="application/octet-stream" sparkle:edSignature="U8Eua27r9CY0ot1OFUJx3rW+zliJFHkIyhefhQnfjFnmShl2CZZ7v6f8yG5bHVloNT5G67E45TT4WDhwqsL2Ag=="/>
+        </item>
+        <item>
+            <title>1.2.5</title>
+            <pubDate>Sun, 08 Mar 2026 23:03:45 +0200</pubDate>
+            <sparkle:version>125</sparkle:version>
+            <sparkle:shortVersionString>1.2.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/extra-bar-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+                <h2>ExtraBar 1.2.5 – Pick It, Link It, Launch It! 🎨🔗</h2>
+
+                <h3>✨ What's New & Improved</h3>
+                <ul>
+                    <li><strong>Unified Icon Picker:</strong> A brand-new icon picker sheet combining Library, SF Symbols, App Icons, and URL icons – one beautiful picker for all your icon needs!</li>
+                    <li><strong>Icons Everywhere:</strong> The unified picker is now available across bar items, widgets, and folder items – consistent icon customization everywhere you look!</li>
+                    <li><strong>Widget Custom Icons:</strong> Widgets now support custom icon overrides! Set SF Symbols, app icons, library icons, or URL icons on any widget with new customization properties!</li>
+                    <li><strong>Custom Icons in All Modes:</strong> Custom icons render perfectly in both the floating bar and menu bar inline mode!</li>
+                </ul>
+
+                <h3>🔗 Action Deep Links</h3>
+                <ul>
+                    <li><strong>URL Scheme Actions:</strong> A powerful new deep link system lets you execute actions directly via URL scheme (extrabar://action/...)!</li>
+                    <li><strong>4 Action Kinds:</strong> Supports menu actions, action widgets, folder widget actions, and folder widget app menu actions – trigger anything from anywhere!</li>
+                    <li><strong>Copy Deep Link:</strong> New "Copy Deep Link" button in menu configuration, folder widget editors, and widget app menu editors – easily share or automate any action!</li>
+                </ul>
+
+                <h3>🐛 Bug Fixes</h3>
+                <ul>
+                    <li><strong>SF Symbol Categories:</strong> Fixed category filtering in the symbol picker for proper browsing!</li>
+                    <li><strong>Code Cleanup:</strong> Various optimizations and code improvements under the hood!</li>
+                </ul>
+
+                <h3>🚀 What's Next?</h3>
+                <p>We're always working on making ExtraBar more powerful and intuitive! More features and improvements are on the way based on your feedback!</p>
+
+                <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraBar community! Your feedback drives every improvement we make – keep it coming! 💙</em></p>
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/extra-bar-updates/releases/download/v1.2.5/ExtraBar.dmg" length="11916905" type="application/octet-stream" sparkle:edSignature="mWk9OdZxc20WDfIp4/B+AgqlV0vfGfVQbKy1ZkQImTxIsFCHGOxt8YcNNNd48fmrNiPSIDUhU72nKtYB9suvCg=="/>
+        </item>
+        <item>
+            <title>1.2.4</title>
+            <pubDate>Sat, 21 Feb 2026 19:27:15 +0200</pubDate>
+            <sparkle:version>124</sparkle:version>
+            <sparkle:shortVersionString>1.2.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/extra-bar-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+                <h2>ExtraBar 1.2.4 – Move It, Make It Yours! 🚀📦</h2>
+
+                <h3>✨ What's New</h3>
+                <ul>
+                    <li><strong>Action Move & Copy:</strong> Move or copy any action or folder anywhere in the app! Multi-select support, maximum flexibility – reorganize your setup exactly how you want!</li>
+                    <li><strong>Per-Preset Menu Mode:</strong> Menu Mode is now a per-preset setting instead of global! Enable or disable it for each preset in Settings, toggle instantly with Option+Shift+Cmd+M (customizable), or use the new toggle in the ExtraBar context menu!</li>
+                    <li><strong>Menu Mode Persistence:</strong> Presets now remember their Menu Mode settings – enabled state and icon are saved per preset for a seamless experience!</li>
+                </ul>
+
+                <h3>🔖 Shiori Bookmarks Improvements</h3>
+                <ul>
+                    <li><strong>Enhanced Bookmark Experience:</strong> UI and UX refinements for a smoother, more polished bookmark workflow!</li>
+                    <li><strong>New Lifetime Plan:</strong> Introducing a fixed-price lifetime plan for ExtraBar users – no limits, one price, forever!</li>
+                </ul>
+
+                <h3>🧹 Cleanup</h3>
+                <ul>
+                    <li><strong>Removed "Import from Preset":</strong> The new move/copy workflow now covers this use case – cleaner UI, less redundancy!</li>
+                </ul>
+
+                <h3>🚀 What's Next?</h3>
+                <p>We're always working on making ExtraBar more powerful and intuitive! More features and improvements are on the way based on your feedback!</p>
+
+                <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraBar community! Your feedback drives every improvement we make – keep it coming! 💙</em></p>
+            ]]></description>
+
+            <enclosure
+                url="https://github.com/AppitStudio/extra-bar-updates/releases/download/v1.2.4/ExtraBar.dmg"
+                length="11719121" type="application/octet-stream"
+                sparkle:edSignature="nPJ6QjWzx/kOhyQZCAe0HfGaf3ZGFpKFBAHh7H4hjernp93ix2Mmtk06kgoZrqjeej+mPWavIpRJ2v3ggg8OAw==" />
+        </item>
+        <item>
+            <title>1.2.3</title>
+            <pubDate>Wed, 11 Feb 2026 20:00:45 +0200</pubDate>
+            <sparkle:version>123</sparkle:version>
+            <sparkle:shortVersionString>1.2.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/extra-bar-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+                <h2>ExtraBar 1.2.3 – Power at Your Fingertips! ⌨️🚀</h2>
+
+                <h3>✨ What's New</h3>
+                <ul>
+                    <li><strong>Keyboard Shortcut Actions:</strong> A brand-new action type that sends keyboard shortcuts to your apps! Configure any key + modifier combination and fire it with a single click – perfect for automating repetitive tasks!</li>
+                    <li><strong>Move & Copy Items Between Presets:</strong> Batch move or copy items between presets and folders! Multi-select, Select All, and context menu support make reorganizing your setup a breeze!</li>
+                    <li><strong>Global Hotkey for Bookmark Manager:</strong> Open Shiori Bookmark Manager instantly with Shift+Cmd+B – fully customizable in Settings!</li>
+                    <li><strong>Auto-Save Indicator:</strong> A subtle inline saving/saved status replaces manual Save buttons on auto-saving screens – cleaner and more intuitive!</li>
+                    <li><strong>Clickable List Rows:</strong> Click anywhere on a preset, app, or widget row to open its settings – no more hunting for the cog icon!</li>
+                </ul>
+
+                <h3>🎨 UI & Experience Improvements</h3>
+                <ul>
+                    <li><strong>Folder Widget Settings Redesign:</strong> Revamped layout with inlined header fields and a dedicated item selection screen – organizing your folders has never felt better!</li>
+                    <li><strong>Streamlined Widget Editors:</strong> A new unified component brings consistent name, icon, and color fields across all widget editors!</li>
+                    <li><strong>Inline Action Parameters:</strong> Action parameters now display inline instead of in a separate popup – fewer clicks, faster setup!</li>
+                    <li><strong>Bookmark Widget Polish:</strong> Improved anchoring, rounded chrome, and better popover positioning for a refined bookmark experience!</li>
+                    <li><strong>Responsive Widget Editor:</strong> Flexible sizing adapts beautifully to different screen sizes!</li>
+                    <li><strong>Keyboard Navigation in Pickers:</strong> Arrow key navigation with visual highlighting in tag and folder pickers – navigate effortlessly!</li>
+                </ul>
+
+                <h3>🐛 Bug Fixes</h3>
+                <ul>
+                    <li><strong>Preset List Sync:</strong> Fixed an issue where the preset item list didn't update after removing an app!</li>
+                    <li><strong>Bookmark Popover Anchor:</strong> Popover now anchors correctly in menu bar mode!</li>
+                    <li><strong>Clearer Sync Status:</strong> Renamed status label from "Fresh" to "Sync" for better clarity!</li>
+                </ul>
+
+                <h3>🚀 What's Next?</h3>
+                <p>We're continuing to refine and expand ExtraBar with more powerful automation features and quality-of-life improvements based on your feedback!</p>
+
+                <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraBar community! Your feedback drives every improvement we make – keep it coming! 💙</em></p>
+            ]]></description>
+
+            <enclosure
+                url="https://github.com/AppitStudio/extra-bar-updates/releases/download/v1.2.3/ExtraBar.dmg"
+                length="11454492" type="application/octet-stream"
+                sparkle:edSignature="YsLfiNZMYrysc+gywSlRvMfuiWHffxxptM3mMhSMM8IUhdeqcJu9rE9OYqR6KhtDY3OcSXG9wyafZ/2Wau22CQ==" />
+        </item>
+        <item>
+            <title>1.2.2</title>
+            <pubDate>Tue, 03 Feb 2026 18:50:27 +0200</pubDate>
+            <sparkle:version>122</sparkle:version>
+            <sparkle:shortVersionString>1.2.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/extra-bar-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+                <h2>ExtraBar 1.2.2 – Your Bookmarks, Always Within Reach! 🔖✨</h2>
+                <a target="_blank" href="https://shiori.extrabar.app/">Check Out Shiori Bookmark Manager</a>
+                <h3>✨ What's New – Shiori Bookmark Manager Integration</h3>
+                <ul>
+                    <li><strong>Bookmark Widget:</strong> Access your entire Shiori bookmark library right from your menu bar! Search, browse folders, and open bookmarks without leaving your workflow!</li>
+                    <li><strong>Full Bookmark Manager:</strong> A dedicated window to organize your bookmarks – create folders, manage tags with color coding, and bulk-edit your library with ease!</li>
+                    <li><strong>Quick Add & Edit:</strong> Add new bookmarks with Cmd+, edit details inline, copy URLs with one click, and delete bookmarks – all from the widget!</li>
+                    <li><strong>Folder Navigation:</strong> Browse your bookmark folders with full subfolder support and smooth keyboard navigation!</li>
+                    <li><strong>Smart Search & Filters:</strong> Find any bookmark instantly by keyword, folder, or tag – your library is always organized!</li>
+                </ul>
+
+                <h3>📥 Import & Export</h3>
+                <ul>
+                    <li><strong>Import From Anywhere:</strong> Bring in bookmarks from browser HTML exports, JSON files, Raindrop.io, Pocket, and Pinboard!</li>
+                    <li><strong>Export Your Way:</strong> Export your bookmarks to JSON, CSV, or browser-compatible HTML – your data, your choice!</li>
+                </ul>
+
+                <h3>🔄 Offline & Sync</h3>
+                <ul>
+                    <li><strong>Offline Access:</strong> Full access to your bookmarks even without an internet connection – cached locally for instant loading!</li>
+                    <li><strong>Background Sync:</strong> Automatic synchronization with configurable intervals and smart network reconnect detection!</li>
+                    <li><strong>Pending Changes:</strong> Offline edits are preserved and synced when you're back online!</li>
+                </ul>
+
+                <h3>🔐 Account & Subscription</h3>
+                <ul>
+                    <li><strong>Keyper Authentication:</strong> Sign in with your Keyper account for streamlined registration and login!</li>
+                    <li><strong>Deep Link Login:</strong> Authenticate directly from the Shiori website into ExtraBar – seamless and secure!</li>
+                    <li><strong>Subscription Management:</strong> View your plan, usage limits, and upgrade options right from Settings!</li>
+                </ul>
+
+                <h3>🔧 Other Improvements</h3>
+                <ul>
+                    <li><strong>Bookmark Manager Menu Item:</strong> Quick access from the application menu!</li>
+                    <li><strong>Improved Keyboard Navigation:</strong> Better focus handling in bar content!</li>
+                    <li><strong>Enhanced Popover Handling:</strong> Smoother bookmark widget popovers in bar and menu bar modes!</li>
+                    <li><strong>Theme Switcher:</strong> Toggle between System, Light, and Dark appearance for the bookmark popover!</li>
+                </ul>
+
+                <h3>🚀 What's Next?</h3>
+                <p>We're excited to bring Shiori integration to ExtraBar! More integrations and improvements are on the way based on your feedback!</p>
+
+                <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraBar community! Your feedback drives every improvement we make – keep it coming! 💙</em></p>
+            ]]></description>
+
+            <enclosure
+                url="https://github.com/AppitStudio/extra-bar-updates/releases/download/v1.2.2/ExtraBar.dmg"
+                length="11049999" type="application/octet-stream"
+                sparkle:edSignature="Aa1j585wUZVpznCAu+wFsFTwwirBnFuiVv0aUURiEZsgX6NzIG1oRLsTw8z8XtQBqjZn22lfbsr/5vLQT0l5CQ==" />
+        </item>
+        <item>
+            <title>1.2.1</title>
+            <pubDate>Thu, 22 Jan 2026 20:42:50 +0200</pubDate>
+            <sparkle:version>121</sparkle:version>
+            <sparkle:shortVersionString>1.2.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/extra-bar-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+                <h2>ExtraBar 1.2.1 – Scripting Supercharged! 🚀💻</h2>
+
+                <h3>✨ Run Script Action – Major Enhancements</h3>
+                <ul>
+                    <li><strong>Inline Script Support:</strong> Write and execute scripts directly without needing external files! Your automation just got way more convenient!</li>
+                    <li><strong>Script Output Window:</strong> New toggle to show real-time script output in a dedicated window with async streaming – see exactly what's happening as it runs!</li>
+                    <li><strong>Shell Environment Options:</strong> Choose how scripts load your shell profile:
+                        <ul>
+                            <li>Default (no profile loading)</li>
+                            <li>zsh with login profile (.zprofile/.zlogin)</li>
+                            <li>zsh interactive (.zshrc)</li>
+                            <li>bash with login profile (.bash_profile/.profile)</li>
+                        </ul>
+                    </li>
+                    <li><strong>Improved Script Editor UI:</strong> Better parameters form with validation and multi-action creation support!</li>
+                    <li><strong>Script Language Selection:</strong> Support for multiple scripting languages with appropriate syntax highlighting!</li>
+                </ul>
+
+                <h3>⚡ Menu Bar Inline Mode Improvements</h3>
+                <ul>
+                    <li><strong>Faster Tooltip Display:</strong> Reimplemented per-item popovers for immediate tooltip response during keyboard navigation!</li>
+                    <li><strong>Improved Popover Management:</strong> Eliminated delays when navigating between items – everything feels snappier!</li>
+                </ul>
+
+                <h3>🐛 Bug Fixes</h3>
+                <ul>
+                    <li><strong>Fixed Dual-Mode Visibility After Wake:</strong> Bar no longer shows in both floating and inline modes after system sleep!</li>
+                    <li><strong>Fixed Tooltip Persistence Issue:</strong> Tooltips now properly clean up when system enters sleep!</li>
+                    <li><strong>Status Items Restore Correctly:</strong> Menu bar items properly restore after system wake!</li>
+                </ul>
+
+                <h3>🚀 What's Next?</h3>
+                <p>We're continuing to enhance ExtraBar's scripting capabilities and polish the experience based on your feedback!</p>
+
+                <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraBar community! Your feedback drives every improvement we make – keep it coming! 💙</em></p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/AppitStudio/extra-bar-updates/releases/download/v1.2.1/ExtraBar.dmg"
+                length="8932615" type="application/octet-stream"
+                sparkle:edSignature="aW4D0Er4FbfK5Lzm2O3BclyB0ci8aWMgVrYALHeAgB/Q8mLcMarrDMZd/G6uYeXJNltzF+aOaYOvzZBGkLCZCA==" />
+        </item>
+        <item>
+            <title>1.2.0</title>
+            <pubDate>Thu, 15 Jan 2026 16:20:45 +0200</pubDate>
+            <sparkle:version>120</sparkle:version>
+            <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/extra-bar-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+                <h2>ExtraBar 1.2.0 – Stability & Style Unleashed! 🎨⚡</h2>
+
+                <h3>✨ What's New & Improved</h3>
+                <ul>
+                    <li><strong>Auto Save:</strong> Every change you make is now saved automatically! Enjoy a faster, more reliable workflow without worrying about losing your customizations!</li>
+                    <li><strong>Enhanced Screens UI/UX:</strong> We've redesigned the screens experience with editable lists by default, improved sorting, and a smoother overall interface!</li>
+                    <li><strong>Live Bar Sync:</strong> Settings and item changes now sync instantly to your bar – no manual refresh needed! See your customizations update in real-time!</li>
+                    <li><strong>Colorful Widget Icons:</strong> Add a splash of personality! You can now set custom colors for each widget icon to match your style or brand!</li>
+                    <li><strong>Full Custom Icons Support:</strong> A brand new icon library tool for all apps and widgets! Upload icons from your Mac or download directly from a URL – unlimited customization awaits!</li>
+                    <li><strong>Three Floating Bar Sizes:</strong> Choose from small, medium, or large bar sizes in floating mode for improved accessibility and the perfect fit for your workflow!</li>
+                    <li><strong>Name on Hover:</strong> See app and item names when hovering or using keyboard navigation – easily toggleable in settings!</li>
+                </ul>
+
+                <h3>🔧 Technical Improvements</h3>
+                <ul>
+                    <li><strong>Stability Focus:</strong> This release is all about reliability! We've squashed bugs and optimized performance throughout the app!</li>
+                    <li><strong>Smoother Experience:</strong> Countless refinements under the hood for a snappier, more responsive ExtraBar!</li>
+                </ul>
+
+                <h3>🚀 What's Next?</h3>
+                <p>We're continuing to polish and perfect ExtraBar based on your feedback! More customization options and exciting features are in development!</p>
+
+                <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraBar community! Your feedback drives every improvement we make – keep it coming! 💙</em></p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/AppitStudio/extra-bar-updates/releases/download/prod/ExtraBar.dmg"
+                length="8678520" type="application/octet-stream"
+                sparkle:edSignature="/e7v5Cwza/9g3APx/l5JEht1wbFjgjYemSV1f+Nawl6Y2OlwnGAkZ5ARGdwAH1Yp+wenGlYnBAXwWHoylQDCAQ==" />
+        </item>
+        <item>
+            <title>1.1.9</title>
+            <pubDate>Sun, 11 Jan 2026 00:02:04 +0200</pubDate>
+            <sparkle:version>119</sparkle:version>
+            <sparkle:shortVersionString>1.1.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/extra-bar-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+                <h2>ExtraBar 1.1.9 – Organize Like Never Before! 📁✨</h2>
+
+                <h3>✨ What's New & Improved</h3>
+                <ul>
+                    <li><strong>Actions Folders:</strong> Group your actions together into folders for a cleaner, more organized menu bar! Perfect for keeping related actions in one place and reducing clutter!</li>
+                    <li><strong>Apps Folders:</strong> Create a single menu bar item that contains multiple apps, each with its own set of actions! One icon, endless possibilities – your workflows just got a whole lot neater!</li>
+                    <li><strong>Action Widget:</strong> Trigger actions instantly without opening any menu! Create a menu bar item that executes an action with a single click – connect it to an app or use it as a custom standalone action!</li>
+                </ul>
+
+                <h3>🚀 The Power of Customization</h3>
+                <p>These three powerful features, combined with the presets from version 1.1.8, unlock the ultimate customization experience. Design your workflow exactly the way you want it – more efficient, more organized, and perfectly tailored to your needs!</p>
+
+                <h3>🔮 What's Next?</h3>
+                <p>The next few versions will focus on stability, UI/UX improvements, performance enhancements, and making existing features even more powerful and easier to use!</p>
+
+                <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraBar community! Your feature requests made this update happen – we love hearing from you! 💙</em></p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/AppitStudio/extra-bar-updates/releases/download/prod/ExtraBar.dmg"
+                length="8330644" type="application/octet-stream"
+                sparkle:edSignature="bipphbE6Qxykt+EcU0rYu+bfWXrqXfYW/D+OoIBXcsLq2OaNGUUhTIrV8nhqZLVN2DubySdMLQRBgqNw795CCA==" />
+        </item>
+        <item>
+            <title>1.1.8</title>
+            <pubDate>Tue, 06 Jan 2026 00:27:49 +0200</pubDate>
+            <sparkle:version>118</sparkle:version>
+            <sparkle:shortVersionString>1.1.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/extra-bar-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+                <h2>ExtraBar 1.1.8 – Bar Presets Have Arrived! 🎛️✨</h2>
+
+                <h3>✨ What's New & Improved</h3>
+                <ul>
+                    <li><strong>Bar Presets:</strong> One of our most requested features is finally here! Create multiple bar configurations and switch between them effortlessly. Perfect for different workflows, projects, or moods!</li>
+                    <li><strong>New Main Screen:</strong> A fresh home screen showcasing all your presets at a glance – your default preset is automatically created when you update!</li>
+                    <li><strong>Easy Preset Management:</strong> Create, edit, copy, and delete presets with just a few clicks!</li>
+                    <li><strong>Flexible Switching:</strong> Switch between presets your way – through the app UI, the main menu bar, or assign a custom hotkey!</li>
+                    <li><strong>Leader Key Support:</strong> Set a key combination to activate preset switching mode – power users rejoice!</li>
+                </ul>
+
+                <h3>🔧 Bug Fixes & Performance</h3>
+                <ul>
+                    <li><strong>Stability Improvements:</strong> We've squashed bugs and optimized performance for a smoother, more stable experience!</li>
+                </ul>
+
+                <h3>🚀 What's Next?</h3>
+                <p>Bar Presets open up so many new possibilities for customizing your workflow! We can't wait to see the creative ways you'll use them. More exciting features are in development!</p>
+
+                <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraBar community! Your feedback made this feature happen – we love hearing from you! 💙</em></p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/AppitStudio/extra-bar-updates/releases/download/prod/ExtraBar.dmg"
+                length="7819629" type="application/octet-stream"
+                sparkle:edSignature="5CUnnEw3ykFCIbZwB+UvxFlzCfWxcKblcW9nQYrxH9jQ94lCKgmSKhiOL6WHuuEYKV3Z4yIO2imI27zweVTaDA==" />
+        </item>
+        <item>
+            <title>1.1.7</title>
+            <pubDate>Fri, 02 Jan 2026 23:27:54 +0200</pubDate>
+            <sparkle:version>117</sparkle:version>
+            <sparkle:shortVersionString>1.1.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/extra-bar-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+                <h2>ExtraBar 1.1.7 – Single Menu Mode is Here! 🎯✨</h2>
+
+                <h3>✨ What's New & Improved</h3>
+                <ul>
+                    <li><strong>Single Menu Mode:</strong> The feature you've been asking for! Now you can have a single, customizable menu bar item that houses all your apps and actions in one place. Choose your perfect icon – SF Symbol, text, or even an emoji 😁!</li>
+                    <li><strong>Two Layout Options:</strong> Pick the layout that works best for you:
+                        <ul>
+                            <li><strong>Submenu Layout:</strong> All items visible at a glance with smooth arrow key navigation!</li>
+                            <li><strong>Single Menu Layout:</strong> A dynamic menu that changes content based on your selection, with full keyboard navigation using number and letter keys!</li>
+                        </ul>
+                    </li>
+                    <li><strong>Full Customization:</strong> Make it yours – customize the look and feel of your single menu bar item to match your workflow perfectly!</li>
+                </ul>
+
+                <h3>🚀 What's Next?</h3>
+                <p>We're thrilled to bring you this highly requested feature! This is just the beginning – we're working hard to make Single Menu Mode even more powerful and useful based on your feedback!</p>
+
+                <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraBar community! Your requests made this feature happen – we can't wait to hear what you think! 💙</em></p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/AppitStudio/extra-bar-updates/releases/download/prod/ExtraBar.dmg"
+                length="6833645" type="application/octet-stream"
+                sparkle:edSignature="o8snk7gYPpNsd8k78H6x4c5t5V9FXV5WY5ImSPlJm8IJPc8RBqWvis44g/Sw38wsxllxybN1Ds4gEfeE85EWBQ==" />
+        </item>
+        <item>
+            <title>1.1.6</title>
+            <pubDate>Thu, 01 Jan 2026 11:53:29 +0200</pubDate>
+            <sparkle:version>116</sparkle:version>
+            <sparkle:shortVersionString>1.1.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/extra-bar-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+                <h2>ExtraBar 1.1.6 – New Year, New Features! 🎉✨</h2>
+
+                <h3>✨ What's New & Improved</h3>
+                <ul>
+                    <li><strong>Smarter Notion Deep Links:</strong> Simply paste a regular Notion link and ExtraBar will automatically convert it to a deep link for you! Plus, we've refreshed the deep link settings UI for Notion to make it even easier to use.</li>
+                    <li><strong>Launch on Startup:</strong> New option in settings to automatically launch ExtraBar when your Mac starts – so your custom menu bar is always ready!</li>
+                    <li><strong>Custom Dividers:</strong> Add dividers to your menu bar items with custom icons, titles, and colors to organize your workflow exactly how you want!</li>
+                </ul>
+
+                <h3>🐛 Bug Fixes</h3>
+                <ul>
+                    <li><strong>Menu Bar Click Fix:</strong> Fixed an issue where clicking on the menu bar item sometimes wouldn't respond. Everything works smoothly now!</li>
+                </ul>
+
+                <h3>🚀 What's Next?</h3>
+                <p>We're kicking off 2026 with exciting plans for ExtraBar! More features and improvements are coming soon. Keep your feedback coming – it helps us build something amazing!</p>
+
+                <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraBar community! Happy New Year and here's to an amazing 2026! 💙🎊</em></p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/AppitStudio/extra-bar-updates/releases/download/prod/ExtraBar.dmg"
+                length="6696718" type="application/octet-stream"
+                sparkle:edSignature="Basei3RwHeNcrGzNCGXioycoDd9vTDCTHa7imAETYSIcAhkwYpiRmbtCVgguRpy0RfyknHrEc3NqvbmXwo22DQ==" />
+        </item>
+        <item>
+            <title>1.1.5</title>
+            <pubDate>Mon, 29 Dec 2025 22:31:43 +0200</pubDate>
+            <sparkle:version>115</sparkle:version>
+            <sparkle:shortVersionString>1.1.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/extra-bar-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+                <h2>ExtraBar 1.1.5 – Enhanced Multi-Monitor Experience! 🖥️✨</h2>
+
+                <h3>✨ What's New & Improved</h3>
+                <ul>
+                    <li><strong>Multi-Monitor Floating Mode:</strong> ExtraBar now supports showing the bar in floating mode on both monitors when using multiple displays! The menu will intelligently appear on the screen with focus when you start using it – fully customizable in settings!</li>
+                </ul>
+
+                <h3>🔧 Technical Improvements</h3>
+                <ul>
+                    <li><strong>macOS Tahoe Enhancements:</strong> Yes, Tahoe again! We're continuously discovering and fixing issues with macOS Tahoe. This version addresses several bugs we've identified, with more improvements on the way!</li>
+                    <li><strong>Bug Fixes & Stability:</strong> Various fixes and improvements to keep ExtraBar running smoothly across all your workflows!</li>
+                </ul>
+
+                <h3>🚀 What's Next?</h3>
+                <p>We're committed to making ExtraBar better with every update! More Tahoe optimizations and exciting features are in development. Keep your feedback coming!</p>
+
+                <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraBar community! Your support and feedback help us build something amazing. 💙</em></p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/AppitStudio/extra-bar-updates/releases/download/prod/ExtraBar.dmg"
+                length="6500225" type="application/octet-stream"
+                sparkle:edSignature="bDk65ygz+oFTGAkROHZvs8Al9eoevjVP9AcfTl8A50hjhTqkMWXBMvfGXnh/kDIVR2eRcJVty4enpDh51vhQCQ==" />
+        </item>
+        <item>
+            <title>1.1.4</title>
+            <pubDate>Sun, 28 Dec 2025 17:49:53 +0200</pubDate>
+            <sparkle:version>114</sparkle:version>
+            <sparkle:shortVersionString>1.1.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/extra-bar-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+                <h2>ExtraBar 1.1.4 – Polish & Perfection! ✨</h2>
+
+                <h3>🎨 What's New & Improved</h3>
+                <ul>
+                    <li><strong>Minor UI Fix:</strong> We've polished up the interface for an even cleaner, more refined look!</li>
+                </ul>
+
+                <h3>🚀 What's Next?</h3>
+                <p>More exciting features and improvements are on the way! Keep your feedback coming – it helps us make ExtraBar even better.</p>
+
+                <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraBar community! Your support means everything to us. 💙</em></p>
+            ]]></description>
+
+            <enclosure
+                url="https://github.com/AppitStudio/extra-bar-updates/releases/download/prod/ExtraBar.dmg"
+                length="6466305" type="application/octet-stream"
+                sparkle:edSignature="CkTSTB+d9AA3EqV7fqpRqRc3IliKwlFFOF+wgoCZJ40Xs/eQ1R2U6DEgchBThUOHzBIT4aII739eMGPef2PBBA==" />
+        </item>
+        <item>
+            <title>1.1.3</title>
+            <pubDate>Sat, 27 Dec 2025 22:50:47 +0200</pubDate>
+            <sparkle:version>113</sparkle:version>
+            <sparkle:shortVersionString>1.1.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/extra-bar-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+                <h2>ExtraBar 1.1.3 – Quick Fix, Smooth Sailing! 🛠️</h2>
+
+                <h3>🐛 Bug Fixes</h3>
+                <ul>
+                    <li><strong>Stability Improvements:</strong> We've squashed a pesky bug to keep ExtraBar running smoothly!</li>
+                </ul>
+
+                <h3>🚀 What's Next?</h3>
+                <p>More features and improvements are on the way! Keep your feedback coming – it helps us make ExtraBar even better.</p>
+
+                <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraBar community! Your support means everything to us. 💙</em></p>
+            ]]></description>
+
+            <enclosure
+                url="https://github.com/AppitStudio/extra-bar-updates/releases/download/prod/ExtraBar.dmg"
+                length="6465786" type="application/octet-stream"
+                sparkle:edSignature="gmS55EIdlmnIWKJXME2v0lSx5BuBw6G2T+zqmBtK2okjanP2UCGeFypCupLxHAJnJgYtsGX1CjwFlxkzlpK4CA==" />
+        </item>
+        <item>
+            <title>1.1.2</title>
+            <pubDate>Sat, 27 Dec 2025 01:02:07 +0200</pubDate>
+            <sparkle:version>112</sparkle:version>
+            <sparkle:shortVersionString>1.1.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/extra-bar-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+                <h2>ExtraBar 1.1.2 – Polished & Ready to Shine! 🌟</h2>
+
+                <h3>🎉 Official Release</h3>
+                <p>ExtraBar is now officially out of beta! We've refined every detail to bring you the best experience possible.</p>
+
+                <h3>🎨 What's New & Improved</h3>
+                <ul>
+                    <li><strong>Refreshed User Interface:</strong> A cleaner, more intuitive UI that makes navigating ExtraBar even easier!</li>
+                    <li><strong>Enhanced Actions & Presets:</strong> We've expanded action options and presets for even more flexibility in your workflows!</li>
+                    <li><strong>Deep Links Integrations:</strong> Improved deep links support for seamless app integrations!</li>
+                </ul>
+
+                <h3>🔧 Under the Hood</h3>
+                <ul>
+                    <li><strong>Better Tahoe Compatibility:</strong> Full support for macOS Tahoe – everything runs smoothly on the latest macOS!</li>
+                    <li><strong>Performance Improvements:</strong> General optimizations for a snappier, more responsive experience!</li>
+                    <li><strong>Refined Settings:</strong> Settings have been polished for better usability!</li>
+                </ul>
+
+                <h3>🚀 What's Next?</h3>
+                <p>We're just getting started! More exciting features and improvements are on the way. Stay tuned!</p>
+
+                <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraBar community! Your support and feedback make all the difference. 💙</em></p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/AppitStudio/extra-bar-updates/releases/download/prod/ExtraBar.dmg"
+                length="6472110" type="application/octet-stream"
+                sparkle:edSignature="8JyOSduxYrOCFb+QZnkXVh8stbwpWIXWcwJbTQtANYmvqaX96r93qo3t0HjgHnCM5olFapkGwnffP1vpG7XhAA=="/>
+        </item>
+        <item>
+            <title>1.1</title>
+            <pubDate>Sun, 21 Dec 2025 13:32:35 +0200</pubDate>
+            <sparkle:version>101</sparkle:version>
+            <sparkle:shortVersionString>1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/extra-bar-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+                <h2>ExtraBar 1.1 – Smoother, Sleeker, Better! ✨</h2>
+
+                <h3>🎨 What's New & Improved</h3>
+                <ul>
+                    <li><strong>Refreshed UI:</strong> We've given ExtraBar a visual makeover to make everything cleaner and more intuitive!</li>
+                    <li><strong>Enhanced User Experience:</strong> Smoother interactions and improved navigation throughout the app!</li>
+                    <li><strong>Better Usability:</strong> We've streamlined common workflows so you can get things done faster!</li>
+                </ul>
+
+                <h3>🔧 Under the Hood</h3>
+                <ul>
+                    <li><strong>Performance Optimizations:</strong> The app feels snappier and more responsive than ever!</li>
+                    <li><strong>Polished Interactions:</strong> Subtle refinements that make using ExtraBar a joy!</li>
+                </ul>
+
+                <h3>🚀 What's Next?</h3>
+                <p>This is just the beginning! We're listening to your feedback and have exciting features planned for upcoming releases. Stay tuned!</p>
+
+                <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraBar community! Your support means the world to us. 💙</em></p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/AppitStudio/extra-bar-updates/releases/download/prod/ExtraBar.dmg"
+                length="5115842" type="application/octet-stream"
+                sparkle:edSignature="kq66L4oLr2yhfngzzx9TIvnqJ6M14KyBQc0yuqK9ivHK/NOMFj6af25Vv2hNM7BGpRA2L5CLblVtE+gkyhy8CA=="/>
+        </item>
+        <item>
+            <title>1.0</title>
+            <pubDate>Sat, 20 Dec 2025 17:38:48 +0200</pubDate>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/extra-bar-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+                <h2>ExtraBar 1.0 – Your Mac, Your Rules, Your Bar! 🎉</h2>
+
+                <h3>✨ Introducing ExtraBar</h3>
+                <p>Welcome to <strong>ExtraBar</strong> – the customizable menu bar that finally gives power users the control they deserve!</p>
+
+                <h3>🚀 Core Features</h3>
+                <ul>
+                    <li><strong>Two Display Modes:</strong> Choose between a sleek floating bar or native menu bar integration – whatever fits your workflow!</li>
+                    <li><strong>16 Custom Action Types:</strong> Go beyond "Open" and "Quit" – run scripts, trigger shortcuts, make API calls, and more!</li>
+                    <li><strong>Deep Links:</strong> Jump directly into Zoom meetings, Slack channels, Spotify playlists, and Notion pages with one click!</li>
+                    <li><strong>36+ App Presets:</strong> Works out of the box with your favorite apps – VS Code, Figma, Zoom, Slack, Notion, and many more!</li>
+                    <li><strong>Full Keyboard Support:</strong> Navigate and trigger actions without touching your mouse!</li>
+                    <li><strong>Multi-Monitor Support:</strong> Seamless experience across all your displays!</li>
+                </ul>
+
+                <h3>💡 Perfect For</h3>
+                <ul>
+                    <li><strong>Meeting Warriors:</strong> One-click access to all your recurring Zoom meetings!</li>
+                    <li><strong>Developers:</strong> Deep links to your 30+ projects – no more "recent items" limitations!</li>
+                    <li><strong>Designers:</strong> Jump straight into your Figma files and design systems!</li>
+                    <li><strong>Power Users:</strong> Automate complex workflows with scripts and shortcuts!</li>
+                </ul>
+
+                <h3>🎯 What Makes ExtraBar Different</h3>
+                <ul>
+                    <li>Unlike Bartender/Ice – we don't just organize, we <strong>create</strong> new functionality!</li>
+                    <li>Unlike Alfred/Raycast – we're <strong>visual and persistent</strong>, always at your fingertips!</li>
+                    <li>Unlike the native Dock – we're about <strong>using</strong> apps, not just launching them!</li>
+                </ul>
+
+                <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraBar journey! We can't wait to see how you customize your workflow. 💙</em></p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/AppitStudio/extra-bar-updates/releases/download/prod/ExtraBar.dmg"
+                length="4358404" type="application/octet-stream"
+                sparkle:edSignature="QgbhBXDM4aKfYhYW2Tyuv1rGmfT4CIQJf3dPMtBREuFtZnlFXT6XVH3MlMXZXJfXAxJFYhFCjDJsJkR34QMTDw=="/>
+        </item>
     </channel>
 </rss>

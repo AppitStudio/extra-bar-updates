@@ -10,10 +10,10 @@ This repository manages the Sparkle auto-update feed for ExtraBar, a macOS dock 
 
 ### Core Files
 - **`appcast.xml`** - Production Sparkle update feed in RSS format
-  - Contains a single `<item>` element with the latest version information
+  - Append-only: newest `<item>` first, with all verified historical items retained
   - Critical fields: `sparkle:version` (build number), `sparkle:shortVersionString` (display version), `enclosure url` (DMG download link), `sparkle:edSignature` (EdDSA security signature)
   - Links to `release-notes.html` via `sparkle:fullReleaseNotesLink`
-  - Hosted URL: `https://appitstudio.github.io/extra-dock-updates/appcast.xml`
+  - Hosted URL: `https://appitstudio.github.io/extra-bar-updates/appcast.xml`
 
 - **`release-notes.html`** - Styled HTML page displayed in the Sparkle updater window
   - Each version is wrapped in a `<div data-sparkle-version="X.Y.Z">` container
@@ -36,6 +36,7 @@ This repository manages the Sparkle auto-update feed for ExtraBar, a macOS dock 
 When publishing a new version of ExtraBar:
 
 1. **Update `appcast.xml`:**
+   - Add the new item above all retained items; never replace or delete history
    - Increment `sparkle:version` (integer build number, e.g., 390 → 391)
    - Update `sparkle:shortVersionString` (semantic version, e.g., "3.9" → "3.9.1")
    - Update `pubDate` to current timestamp in RFC 2822 format
@@ -50,7 +51,9 @@ When publishing a new version of ExtraBar:
    - Use emojis in headings for visual appeal (following existing pattern)
    - Keep content user-focused and enthusiastic in tone
 
-3. **Commit:**
+3. **Validate and commit:**
+   - Run `python3 scripts/sync_keyper_releases.py --validate-only`
+   - Run `xmllint --noout appcast.xml`
    - Use simple commit messages following repository patterns: "bump v3.9", "V3.8", "version bump"
    - Single commit per version bump
 
@@ -70,9 +73,12 @@ When publishing a new version of ExtraBar:
 
 - **No build process:** This is a static file repository - direct XML/HTML editing only
 - **GitHub Pages:** Repository is configured to serve files via GitHub Pages
-- **No programming languages:** Pure XML/HTML/CSS content management
+- **Minimal tooling:** Release content is XML/HTML/CSS; the Python standard-library
+  validator/sync script is the only automation code
 - **Linear history:** Version bumps follow a simple sequential commit pattern
-- **Validation:** Sparkle framework handles XML validation when the app checks for updates
+- **Validation:** The repository script validates XML release metadata, uniqueness,
+  ordering, signatures, and timestamps before GitHub Actions registers releases
+  with Keyper using the server-only `KEYPER_RELEASE_TOKEN` secret.
 
 ## Historical Context
 

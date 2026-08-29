@@ -3,6 +3,48 @@
     <channel>
         <title>ExtraBar</title>
         <item>
+            <title>1.5.4</title>
+            <pubDate>Sat, 29 Aug 2026 15:35:00 +0300</pubDate>
+            <sparkle:version>154</sparkle:version>
+            <sparkle:shortVersionString>1.5.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/extra-bar-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+                <h2>ExtraBar 1.5.4 – Meet Launcher! 🚀✨</h2>
+
+                <p><em>Hit your shortcut, start typing, press Return. Your whole bar, from the keyboard.</em></p>
+
+                <h3>🚀 New: Launcher</h3>
+                <ul>
+                    <li><strong>A Search Bar for Your Bar:</strong> Press your Show / Hide ExtraBar shortcut and a search panel opens right in the middle of your screen!</li>
+                    <li><strong>Type to Find, Return to Go:</strong> Start typing to narrow things down, then press Return to open the one you want!</li>
+                    <li><strong>See Every Action:</strong> Press Space, → or ⌘K on anything to see all its actions, without lifting your hands off the keyboard!</li>
+                    <li><strong>Finds What's Tucked Away:</strong> Search reaches inside your folders and menus too, and shows you exactly where each result lives!</li>
+                    <li><strong>Blur the Rest Away:</strong> Turn on Blur &amp; Dim Background to fade everything behind Launcher and keep your focus!</li>
+                    <li><strong>Turn It On Anytime:</strong> Settings → Display Modes → Launcher, and your usual shortcut does the rest!</li>
+                </ul>
+
+                <h3>🔧 Improvements</h3>
+                <ul>
+                    <li><strong>Instant Results:</strong> Even with a big setup, results appear the moment you type!</li>
+                </ul>
+
+                <h3>🐛 Bug Fixes</h3>
+                <ul>
+                    <li><strong>The Bar Stays Out of the Way:</strong> In Launcher mode your floating bar no longer pops back up when you switch spaces, plug in a display or leave full screen!</li>
+                    <li><strong>Fast Typing Keeps Up:</strong> Typing quickly no longer leaves the wrong result selected!</li>
+                </ul>
+
+                <h3>What's Next?</h3>
+                <p>We're always working on making ExtraBar more powerful and intuitive! More features and improvements are on the way based on your feedback!</p>
+
+                <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraBar community! Your feedback drives every improvement we make.</em></p>
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/extra-bar-updates/releases/download/v1.5.4/ExtraBar.dmg" length="20479030" type="application/octet-stream" sparkle:edSignature="FDB/O3pHtBEV0+GOwO4IHIdmBTKBE+CiL0axBrxNFRGb/JqnpxU3TrKS59WI3DaPg4y7gNrciyzzeDqWxsaaCA=="/>
+        </item>
+        <item>
             <title>1.5.2</title>
             <pubDate>Wed, 19 Aug 2026 17:40:00 +0300</pubDate>
             <sparkle:version>152</sparkle:version>

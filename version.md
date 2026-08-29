@@ -1,10 +1,12 @@
-VERSION: 1.5.2
+VERSION: 1.5.4
 DETAILS:
 
-new: ExtraBar Suggestions — ask your assistant to personalize ExtraBar and it builds a setup for you, asking before it changes anything
-new: Codex and ChatGPT support — one command in Settings → AI Assistant connects them, and onboarding can do it for you
-new: Assistants can run your saved actions and read the result, and edit widgets in place instead of recreating them
-improved: Approve once, and it runs — no second click, and renaming or re-icon'ing an action no longer asks again
-improved: Scripts run exactly as written — the shell you picked, and approved script files can't change behind your back
-bug fix: Works on a clean Mac — everything the AI connection needs now ships inside the app
-note: Approved AI script-file actions from 1.5.0 need to be opened and re-saved once
+new: Launcher — press your Show / Hide ExtraBar shortcut and a search panel opens in the middle of your screen
+new: Type to find anything in your bar, press Return to open it
+new: Press Space, → or ⌘K on a result to see all of its actions, all from the keyboard
+new: Search reaches inside your folders and menus and shows you where each result lives
+new: Blur & Dim Background fades everything behind Launcher so you stay focused
+new: Turn it on in Settings → Display Modes → Launcher
+improved: Results appear the moment you type, even with a big setup
+bug fix: In Launcher mode the floating bar no longer pops back up when you switch spaces, plug in a display or leave full screen
+bug fix: Typing quickly no longer leaves the wrong result selected

@@ -3,6 +3,25 @@
     <channel>
         <title>ExtraBar</title>
         <item>
+            <title>1.5.7</title>
+            <pubDate>Mon, 31 Aug 2026 22:27:38 +0300</pubDate>
+            <sparkle:version>157</sparkle:version>
+            <sparkle:shortVersionString>1.5.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/extra-bar-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+                <h2>ExtraBar 1.5.7 – Authentication Improvements</h2>
+
+                <h3>Improvements</h3>
+                <ul>
+                    <li><strong>License Authentication:</strong> License authentication flow improved.</li>
+                </ul>
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/extra-bar-updates/releases/download/v1.5.7/ExtraBar.dmg" length="21641028" type="application/octet-stream" sparkle:edSignature="TaBnxM0GMNoOuXZBZ0WKorZnOQo2WOlJnpGdoocLv7KYvH9ipK6Kb4E1pM83+Os5DOI8LLAQDpowOluDFCyqDw=="/>
+        </item>
+        <item>
             <title>1.5.4</title>
             <pubDate>Sat, 29 Aug 2026 15:35:00 +0300</pubDate>
             <sparkle:version>154</sparkle:version>

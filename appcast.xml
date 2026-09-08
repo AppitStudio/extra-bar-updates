@@ -3,6 +3,33 @@
     <channel>
         <title>ExtraBar</title>
         <item>
+            <title>1.5.8</title>
+            <pubDate>Tue, 08 Sep 2026 13:37:11 +0300</pubDate>
+            <sparkle:version>158</sparkle:version>
+            <sparkle:shortVersionString>1.5.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/extra-bar-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+                <h2>ExtraBar 1.5.8 – DockFlow, Right in Your Bar! 🔗✨</h2>
+
+                <h3>🔗 New: DockFlow Widget</h3>
+                <ul>
+                    <li><strong>Switch DockFlow Presets from ExtraBar:</strong> Add the new DockFlow widget to list your presets, see which one is active, and switch with a click!</li>
+                    <li><strong>Pair Once, Stay Connected:</strong> Connect from Settings → DockFlow with a pairing code from DockFlow (Settings → Integrations → ExtraBar), and ExtraBar keeps the connection securely!</li>
+                    <li><strong>You Stay in Control:</strong> DockFlow shows exactly what ExtraBar may do, and you can revoke access any time!</li>
+                    <li><em>Requires DockFlow 1.81 or later.</em></li>
+                </ul>
+
+                <h3>🛠 Bug Fixes</h3>
+                <ul>
+                    <li><strong>Shortcuts Run Quietly:</strong> Shortcuts now run in the background via Shortcuts Events, so the Shortcuts app no longer jumps in front of your work!</li>
+                </ul>
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/extra-bar-updates/releases/download/v1.5.8/ExtraBar.dmg" length="22551829" type="application/octet-stream" sparkle:edSignature="R0T0HCpwBHnhyGW6+42Ljlpiw28qzs3Cn15/ZZJHBbV+eKmvv/0k8mjQuFqhwtxT4+kRWOU8d4L8h77pJbdsAg=="/>
+        </item>
+        <item>
             <title>1.5.7</title>
             <pubDate>Mon, 31 Aug 2026 22:27:38 +0300</pubDate>
             <sparkle:version>157</sparkle:version>

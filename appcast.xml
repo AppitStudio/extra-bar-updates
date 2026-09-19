@@ -3,6 +3,37 @@
     <channel>
         <title>ExtraBar</title>
         <item>
+            <title>1.6.1</title>
+            <pubDate>Sat, 19 Sep 2026 23:15:29 +0300</pubDate>
+            <sparkle:version>161</sparkle:version>
+            <sparkle:shortVersionString>1.6.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/extra-bar-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+                <h2>ExtraBar 1.6.1 – Every Symbol, Tidier Folders! 🎨📁</h2>
+
+                <h3>🎨 New: Full SF Symbols 7 Icon Picker</h3>
+                <ul>
+                    <li><strong>Every Symbol at Your Fingertips:</strong> The icon picker now offers the complete SF Symbols 7.2 catalog, all 7,007 symbols, under "All Symbols"!</li>
+                    <li><strong>Browse by Category:</strong> Twenty curated categories like Communication, Navigation, Media, Devices, Finance and Accessibility make the right icon easy to find!</li>
+                    <li><strong>Smarter Search:</strong> Search understands everyday words, so "settings" finds gears and sliders, "delete" finds the trash, and "home" finds the house, with the best matches first!</li>
+                    <li><strong>Exact Name Entry:</strong> Know the symbol name already? Type it in and use it directly, with a heads-up if the name is not recognized!</li>
+                    <li><strong>Works on Every Mac:</strong> On macOS versions before 26.2, symbols your system cannot draw are hidden automatically, so you never see an empty cell!</li>
+                </ul>
+
+                <h3>📁 New: Dividers in Folder Widgets</h3>
+                <ul>
+                    <li><strong>Add a Divider:</strong> The folder widget editor's Add library now offers a Divider card right next to apps, actions, and bookmarks!</li>
+                    <li><strong>Make It Yours:</strong> Give each divider an optional title, an SF Symbol, and a color using the same divider form you already know from the bar!</li>
+                    <li><strong>Looks Right in Menus:</strong> Dividers render inside folder widget menus just like main-bar dividers, and respect show/hide like any other item!</li>
+                    <li><strong>Presets Included:</strong> Dividers travel with your presets through export, import, copy, and duplicate!</li>
+                </ul>
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/extra-bar-updates/releases/download/v1.6.1/ExtraBar.dmg" length="22668767" type="application/octet-stream" sparkle:edSignature="FclGP4+VOi5C8Qbw82j1eOll9MuSGykGtwaQ/gW0wHPOz5avoe2ldf8xWSw/RK+2saxWnYrX1nm9epwCUPx1BA=="/>
+        </item>
+        <item>
             <title>1.5.8</title>
             <pubDate>Tue, 08 Sep 2026 13:37:11 +0300</pubDate>
             <sparkle:version>158</sparkle:version>

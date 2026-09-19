@@ -1,5 +1,5 @@
-VERSION: 1.5.8
+VERSION: 1.6.1
 DETAILS:
 
-new: DockFlow widget – list, see and switch DockFlow presets from ExtraBar over a paired, consented local connection (requires DockFlow 1.81 or later)
-bug fix: Shortcuts run quietly in the background via Shortcuts Events instead of bringing the Shortcuts app forward
+new: Full SF Symbols 7.2 catalog in the icon picker (7,007 symbols) with 20 browsable categories, synonym-aware ranked search, and an exact-name entry field; unrenderable symbols are hidden on macOS before 26.2
+new: Dividers in folder widgets with optional title, SF Symbol, and color; rendered in folder menus, respect show/hide, and survive preset export/import/copy

@@ -3,6 +3,29 @@
     <channel>
         <title>ExtraBar</title>
         <item>
+            <title>1.6.2</title>
+            <pubDate>Sat, 26 Sep 2026 17:52:10 +0300</pubDate>
+            <sparkle:version>162</sparkle:version>
+            <sparkle:shortVersionString>1.6.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/extra-bar-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+                <h2>ExtraBar 1.6.2 – Presets That Keep Their Icons! 🎨📦</h2>
+
+                <h3>📦 Improved: Custom Icons in Preset Exports</h3>
+                <ul>
+                    <li><strong>Your Icons Travel With You:</strong> Exported presets now bundle every custom icon they use, including icons inside folder widgets, so importing on another Mac shows your icons instead of the defaults!</li>
+                    <li><strong>One Tidy File:</strong> Exports are saved as a single <code>.extrabar</code> file holding your preset and its icons together!</li>
+                    <li><strong>No Duplicate Icons:</strong> On import, icons you already have are recognized and reused, so your icon library stays clean!</li>
+                    <li><strong>Older Exports Still Work:</strong> Preset files exported by earlier versions of ExtraBar import just like before!</li>
+                    <li><strong>Private by Design:</strong> Only the icons themselves are exported, never the file paths they came from!</li>
+                </ul>
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/extra-bar-updates/releases/download/v1.6.2/ExtraBar.dmg" length="22923002" type="application/octet-stream" sparkle:edSignature="JTeO7AIgK2TMLBd1JHF9H6EaZj6tvq3m3VMpqWjFBxGnts4PyC4A5/ASm81B5Mb4Pedk7kNsJE0fOSlj6/goBQ=="/>
+        </item>
+        <item>
             <title>1.6.1</title>
             <pubDate>Sat, 19 Sep 2026 23:15:29 +0300</pubDate>
             <sparkle:version>161</sparkle:version>

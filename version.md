@@ -1,5 +1,4 @@
-VERSION: 1.6.1
+VERSION: 1.6.2
 DETAILS:
 
-new: Full SF Symbols 7.2 catalog in the icon picker (7,007 symbols) with 20 browsable categories, synonym-aware ranked search, and an exact-name entry field; unrenderable symbols are hidden on macOS before 26.2
-new: Dividers in folder widgets with optional title, SF Symbol, and color; rendered in folder menus, respect show/hide, and survive preset export/import/copy
+improved: Preset exports are now a single .extrabar archive that bundles every referenced custom icon (bar items, widgets, nested folder-widget children); import de-duplicates icons against the local library, legacy .json exports still import, and only icon images are exported (no file paths)

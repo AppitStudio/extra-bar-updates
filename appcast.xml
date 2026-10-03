@@ -3,6 +3,35 @@
     <channel>
         <title>ExtraBar</title>
         <item>
+            <title>1.6.3</title>
+            <pubDate>Sat, 03 Oct 2026 10:24:02 +0300</pubDate>
+            <sparkle:version>163</sparkle:version>
+            <sparkle:shortVersionString>1.6.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/extra-bar-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+                <h2>ExtraBar 1.6.3 – Your Apps, Connected! 🔗✨</h2>
+
+                <h3>🔗 New: Integrations Library</h3>
+                <ul>
+                    <li><strong>Connect Your Appit Studio Apps:</strong> ExtraBar, DockFlow and ExtraDock now find each other automatically in a new Integrations library, with no more pairing codes!</li>
+                    <li><strong>DockFlow in ExtraBar:</strong> Open Settings → Talk Integrations, select <strong>DockFlow</strong>, review what ExtraBar may do (see your presets, switch presets, get live updates) and press <strong>Connect</strong>. You can also start the connection from DockFlow's own Integrations library!</li>
+                    <li><strong>Reconnects on Its Own:</strong> Approve a connection once and it comes back by itself after restarts!</li>
+                    <li><strong>You Stay in Control:</strong> Seeing your presets is required; switching presets and live updates are optional and can be changed later. DockFlow does not gain any control over ExtraBar!</li>
+                    <li><strong>Works With:</strong> DockFlow 1.85 or later!</li>
+                </ul>
+
+                <h3>🛠 Fixed: Misleading License Renewal Screen</h3>
+                <ul>
+                    <li><strong>Accurate License Status:</strong> If ExtraBar couldn't check your license after an upgrade (for example, because you were offline), it could wrongly say your updates had expired and ask you to renew. It now says it was unable to verify this version and offers <strong>Refresh License</strong>, so you only see the renewal options when your updates have really expired!</li>
+                    <li><strong>Copy Diagnostics:</strong> A new <strong>Copy Diagnostics</strong> button copies technical details for support. License keys and device identifiers are never included!</li>
+                </ul>
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/extra-bar-updates/releases/download/v1.6.3/ExtraBar.dmg" length="23098427" type="application/octet-stream" sparkle:edSignature="eobFHdUrQpr5WfJnQepYeViV/4MqWpLciiQQMMS6h61/0FpcAeiG3cxe3YKwrXAb6V+WvSSOeDn+QzMGRsoxCQ=="/>
+        </item>
+        <item>
             <title>1.6.2</title>
             <pubDate>Sat, 26 Sep 2026 17:52:10 +0300</pubDate>
             <sparkle:version>162</sparkle:version>

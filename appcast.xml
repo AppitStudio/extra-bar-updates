@@ -3,6 +3,65 @@
     <channel>
         <title>ExtraBar</title>
         <item>
+            <title>1.7.1</title>
+            <pubDate>Tue, 13 Oct 2026 10:33:35 +0300</pubDate>
+            <sparkle:version>171</sparkle:version>
+            <sparkle:shortVersionString>1.7.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/extra-bar-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+                <h2>ExtraBar 1.7.1 – Themes, Real Glass &amp; a Bar That Folds Away! 🎨🪟</h2>
+
+                <h3>🎨 New: Launcher Themes</h3>
+                <ul>
+                    <li><strong>38 Built-In Themes:</strong> Give Launcher mode a whole new look with Glass styles (including real Liquid Glass), popular terminal themes like Dracula, Catppuccin, Tokyo Night, Nord, Gruvbox, Solarized, One Dark and Rosé Pine, bold Neon styles, clean Minimal styles, and eye-catching 3D themes with depth, tilt and glowing borders!</li>
+                    <li><strong>Make Your Own:</strong> Customize any theme's colors, border, glow, font, row style and blur, or swap the blur for a solid color or a simple pattern with gentle motion, all with a live preview!</li>
+                    <li><strong>Share Themes:</strong> Export your themes as files and import themes from friends!</li>
+                    <li><strong>Easy to Find:</strong> Open the new <strong>Settings → Launcher Themes</strong> page, or click the new <strong>Themes</strong> button at the bottom of the Launcher!</li>
+                </ul>
+
+                <h3>📥 New: Collapse Bar</h3>
+                <ul>
+                    <li><strong>Fold It Away:</strong> Fold the floating bar into a single icon and click it to bring the bar back. Turn it on at the top of the <strong>Collapse Mode</strong> settings page!</li>
+                    <li><strong>Make It Yours:</strong> Choose where the collapse button sits and what it looks like (arrow, symbol, text or app icon, in any color), or hide the button and use a keyboard shortcut instead (<strong>Hotkeys → Collapse / Expand Bar</strong>)!</li>
+                    <li><strong>Always Within Reach:</strong> Collapse and expand from the bar's right-click menu too, and ExtraBar remembers a collapsed bar after a relaunch!</li>
+                    <li><strong>Good to Know:</strong> Collapse Bar works with the floating bar. It pauses in menu bar, notch and Launcher modes, and while "Collapse into a Menu" is on or the app menu is merged into the bar as one icon.</li>
+                </ul>
+
+                <h3>🪟 New: Real Liquid Glass</h3>
+                <ul>
+                    <li><strong>The Same Glass as the Dock:</strong> On macOS 26, the Liquid Glass background now uses the same real glass as the macOS Dock, so it reflects what's behind the bar and looks the same whether or not ExtraBar is the active app!</li>
+                    <li><strong>Glass Look:</strong> A new <strong>Regular</strong> or <strong>Clear</strong> option in Appearance, and your tint color still works on top of the glass!</li>
+                    <li><strong>Earlier macOS Versions:</strong> Macs before macOS 26 keep the previous look.</li>
+                </ul>
+
+                <h3>🔗 New: DockFlow Logo in the DockFlow Widget</h3>
+                <ul>
+                    <li><strong>Logo Styles:</strong> The DockFlow widget now shows the DockFlow logo, with a <strong>Logo style</strong> picker: Color, Monochrome, Dark, White, Simple Black and Simple White!</li>
+                </ul>
+
+                <h3>⚡ Smoother and Lighter</h3>
+                <ul>
+                    <li><strong>Smoother Launcher:</strong> The Launcher opens more smoothly, even the very first time after launch!</li>
+                    <li><strong>One-Step Preset Switching:</strong> Switching presets now happens in one smooth step instead of the bar shrinking and growing one item at a time!</li>
+                    <li><strong>Less Redrawing:</strong> Hovering the bar, adding or removing items, and editing icons no longer redraw the whole bar!</li>
+                    <li><strong>Lower CPU Use:</strong> Menu bar mode and notch auto-hide use much less CPU while you're not using them!</li>
+                    <li><strong>Steady Results List:</strong> Moving the pointer over Launcher results no longer scrolls the list under it!</li>
+                </ul>
+
+                <h3>🛠 Fixes</h3>
+                <ul>
+                    <li><strong>New Window Stays on Your Space:</strong> ExtraBar now opens a new window through the app's own <strong>File → New Window</strong> menu and only brings the app forward once the window is on your current Space, so apps like Chrome and Safari no longer jump you to another Space!</li>
+                    <li><strong>Safari With Profiles:</strong> New Window now opens a regular window instead of leaving Safari's New Window menu open on screen!</li>
+                    <li><strong>No Surprise Space Switches:</strong> If an app doesn't open a new window, ExtraBar no longer switches you to that app's windows on another Space!</li>
+                    <li><strong>Notch Approval Prompts:</strong> In notch mode, approval prompts no longer disappear when the bar auto-hides!</li>
+                </ul>
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/extra-bar-updates/releases/download/v1.7.1/ExtraBar.dmg" length="24334626" type="application/octet-stream" sparkle:edSignature="5h6cbj/KiKfsn9uo/BlET1F2w3zbbm7Z45qsHT0jayUxlUS/nqx+tR0zYrP+9moxgn+S1devlR9H5cJFMwLKCA=="/>
+        </item>
+        <item>
             <title>1.6.3</title>
             <pubDate>Sat, 03 Oct 2026 10:24:02 +0300</pubDate>
             <sparkle:version>163</sparkle:version>

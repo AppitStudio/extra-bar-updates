@@ -1,11 +1,10 @@
-VERSION: 1.7.1
+VERSION: 1.7.3
 DETAILS:
 
-new: Launcher Themes - 38 built-in themes (Glass incl. real Liquid Glass, terminal themes, Neon, Minimal, 3D), a theme editor with live preview, theme import/export, Settings → Launcher Themes page and a Themes button in the Launcher footer
-new: Collapse Bar - fold the floating bar into a single icon (configurable button position/icon, right-click menu, optional Collapse / Expand Bar hotkey), remembered across relaunches; floating bar only
-new: Real Liquid Glass background on macOS 26 (same glass as the Dock) with a Regular / Clear Glass Look option; tint still applies
-new: DockFlow widget shows the DockFlow logo with a Logo style picker (Color, Monochrome, Dark, White, Simple Black, Simple White)
-improved: Smoother Launcher opening (including first open after launch), one-step preset switching, less bar redrawing on hover/edit, lower CPU in menu bar mode and notch auto-hide
-bug fix: Launcher results no longer scroll under the pointer
-bug fix: New Window uses the app's File → New Window menu and activates the app only once the window is on the current Space (no more Space jumps; Safari profiles open a regular window)
-bug fix: Notch mode approval prompts no longer disappear when the bar auto-hides
+new: Launcher widget - open the Launcher from the bar (Add → Add Launcher Widget) without switching to Launcher mode; works on the floating bar, notch and menu bar modes; Open Launcher hotkey and right-click menu item; the Launcher warms up in the background for a faster first open
+new: Sort A–Z button in Settings → Apps & Widgets, the folder widget editor and the menu editors (sorts by displayed names, keeps dividers, asks first)
+improved: Fewer Keychain password prompts - license, action-link token and Shiori sign-in are stored securely without asking for your Mac password
+improved: Built-in updater moved to Sparkle 2.10 with the latest security fixes; update windows come to the front
+improved: Much less disk writing (cleans up leftover settings, caps script history and website icons, tidies temp files) and less memory use over long sessions
+improved: Shiori offline queue is capped, stops retrying after repeated failures and never sends changes with a different account
+note: ExtraBar 1.7.1 and older can't import presets that contain a Launcher widget

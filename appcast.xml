@@ -3,6 +3,42 @@
     <channel>
         <title>ExtraBar</title>
         <item>
+            <title>1.7.6</title>
+            <pubDate>Mon, 09 Nov 2026 21:01:30 +0200</pubDate>
+            <sparkle:version>180</sparkle:version>
+            <sparkle:shortVersionString>1.7.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/extra-bar-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+                <h2>ExtraBar 1.7.6 – Search Your Mac &amp; a New Color Picker! 🔍🎨</h2>
+
+                <h3>🆕 What's New</h3>
+                <ul>
+                    <li><strong>Search Your Mac from the Launcher:</strong> Type in the Launcher to find apps, System Settings and quick answers, right below your ExtraBar items. It's on by default, needs no permissions, and everything stays on your Mac!</li>
+                    <li><strong>Calculator &amp; Conversions:</strong> Type 2+2*3, 15% of 80, 5 km to mi or 100 °F to C in the Launcher, then press Return to copy the result!</li>
+                    <li><strong>Smarter Results:</strong> Apps you open from the Launcher move up over time, typos are forgiven (“chorme” still finds Chrome), and apps with Chinese names can be found by their pinyin. Nothing found? Search the web or Finder in one step. Choose what gets searched in <strong>Settings → Launcher Search</strong>, or turn it off to keep the Launcher exactly as it was!</li>
+                    <li><strong>Add Apps to Your Bar from Search:</strong> Press ⌘K on an app in the results and choose <strong>Add to</strong> your preset!</li>
+                    <li><strong>A New Color Picker Everywhere:</strong> Every color choice in ExtraBar now opens the Appit color picker: the bar's background, tint and border, menu bar and Collapse Bar icons, menu dividers, Launcher themes, SF Symbol icons, and Shiori folders and tags. Start from ready-made colors and your recent ones, pick any color and opacity, type a hex code, or grab a color from the screen with the eyedropper. Settings that have a default get a one-click <strong>Default</strong> button!</li>
+                    <li><strong>Tint Icon Menu:</strong> Pick a preset from the Appit palette, use <strong>White</strong> or <strong>Black</strong> to match the menu bar's own icons, or choose <strong>Custom Color…</strong> to tint an icon any color you like. Your existing colors and tints stay exactly as they were!</li>
+                </ul>
+
+                <h3>✨ Improvements</h3>
+                <ul>
+                    <li><strong>The Launcher Searches Every Preset:</strong> Launcher search now finds items in all your presets, not just the one on screen!</li>
+                    <li><strong>Shiori Remembers Your Library Location:</strong> The Shiori widget remembers where your account's library lives, so everyday use doesn't keep asking the server, and your cached bookmarks stay available when Shiori's server can't be reached. To move your library, use Library Settings on the Shiori website, then choose <strong>Refresh Account Location</strong> in ExtraBar Settings!</li>
+                    <li><strong>Ready for macOS 27:</strong> On macOS 27, permission text uses Apple's new name, “Device Control and Data Access”!</li>
+                </ul>
+
+                <h3>🐛 Bug Fixes</h3>
+                <ul>
+                    <li><strong>Show / Hide Shortcut Works Every Time:</strong> One press always shows or hides the Floating Bar, and the Hide Bar / Show Bar menu item works in one click, even right after using the shortcut!</li>
+                </ul>
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/extra-bar-updates/releases/download/v1.7.6/ExtraBar.dmg" length="26823152" type="application/octet-stream" sparkle:edSignature="ZIUg4iyQZechCZ7uZYNi4TLcM2Ehn03oc3iLlWP6VXji+OTIhj7V3k5O/RtQ6g+k88sizKZOHIq12blvie16CA=="/>
+        </item>
+        <item>
             <title>1.7.5</title>
             <pubDate>Mon, 02 Nov 2026 09:45:52 +0200</pubDate>
             <sparkle:version>175</sparkle:version>

@@ -1,13 +1,11 @@
-VERSION: 1.7.7
+VERSION: 1.7.9
 DETAILS:
 
-new: Search Your Files from the Launcher - The Launcher can now find Files & Folders, and even words inside your documents with Text in Documents. Both stay off until you turn them on in Settings → Launcher Search → Search your Mac. A short explanation appears first, and nothing is searched until you press Continue!
-new: Notch Background Color - Position → Notch → Background now offers Black, Color (any color you like) or Floating. Icons and text on the notch switch between light and dark automatically, so they always stay easy to read!
-improved: Shortcuts Work with Any Keyboard - Letter shortcuts in Bookmarks and the Launcher (like ⌘K, ⌘W and ⌘O) now work with Russian, Hebrew, Greek and other non-Latin keyboard layouts. On AZERTY keyboards, the number-row keys pick items 1–9!
-improved: New Window & Close All Windows in Every Language - Both now work on Macs set to any language, and with apps whose menus are translated!
-improved: AI Assistants Know Your App Names - AI assistants connected to ExtraBar can find apps by the name your Mac shows, like “Calendrier” or “メール” on a French or Japanese Mac!
-bug fix: Bars Stay on the Right Screen - Bars on some displays could jump to another screen after you changed your Mac's language. They now stay put!
-bug fix: Fullscreen Detection in More Languages - ExtraBar now recognizes the Dock on Macs set to languages like Chinese, so fullscreen detection works as expected!
-bug fix: Renamed Action Widgets Keep Their Name - Picking another action no longer replaces the name you gave an Action widget on non-English Macs!
-bug fix: No Duplicate Example Preset - After you rename the Example Preset, onboarding no longer adds a second copy!
-bug fix: Readable Notch Icons in Light Mode - Symbol icons on a black notch are now light and easy to see with the light theme!
+new: Switch Bar Presets with Focus - ExtraBar now has its own Focus filter. In System Settings → Focus, add an ExtraBar filter to a Focus and pick a preset: when that Focus turns on, your bar switches to it. Needs macOS 13 or later!
+new: Switch Back When the Focus Ends - Turn on Switch Back When Focus Ends in Settings → Hotkeys → Switch Presets with Focus, and ExtraBar returns to the preset you had before the Focus. If you picked another preset yourself in the meantime, your choice stays. It's off by default!
+new: Search Your Settings - A search field now sits at the top of the Settings sidebar. Type things like “border”, “leader key” or “auto hide”, pick a result, and ExtraBar opens the right page and briefly highlights the setting!
+new: Tag Several Shiori Bookmarks at Once - In the Shiori widget and the Bookmark Manager, select several bookmarks and choose Add Tags. Each bookmark keeps the tags it already had!
+new: Add Tags While Importing - The Import Bookmarks sheet can now add tags you choose to every newly imported bookmark!
+improved: Settings Open Instantly - Switching pages in Settings no longer pauses, even the first time you open a page, and sliders and switches stay smooth!
+improved: Talk Integrations Opens Without a Freeze - ExtraBar now checks for DockFlow in the background, so the Talk Integrations page opens right away and shows “Checking…” for a moment instead of asking you to install DockFlow!
+bug fix: Export Logs Keeps Crash Details - Crash reports in exported logs now include the full crash information, so we can find the cause when you send us one, and exporting is much faster!

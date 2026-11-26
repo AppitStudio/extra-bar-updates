@@ -3,6 +3,40 @@
     <channel>
         <title>ExtraBar</title>
         <item>
+            <title>1.7.9</title>
+            <pubDate>Thu, 26 Nov 2026 16:53:21 +0200</pubDate>
+            <sparkle:version>184</sparkle:version>
+            <sparkle:shortVersionString>1.7.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/extra-bar-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+                <h2>ExtraBar 1.7.9 – Focus Presets &amp; Search Your Settings! 🌙🔍</h2>
+
+                <h3>🆕 What's New</h3>
+                <ul>
+                    <li><strong>Switch Bar Presets with Focus:</strong> ExtraBar now has its own Focus filter. In <strong>System Settings → Focus</strong>, add an ExtraBar filter to a Focus and pick a preset: when that Focus turns on, your bar switches to it. Needs macOS 13 or later!</li>
+                    <li><strong>Switch Back When the Focus Ends:</strong> Turn on <strong>Switch Back When Focus Ends</strong> in <strong>Settings → Hotkeys → Switch Presets with Focus</strong>, and ExtraBar returns to the preset you had before the Focus. If you picked another preset yourself in the meantime, your choice stays. It's off by default!</li>
+                    <li><strong>Search Your Settings:</strong> A search field now sits at the top of the Settings sidebar. Type things like “border”, “leader key” or “auto hide”, pick a result, and ExtraBar opens the right page and briefly highlights the setting!</li>
+                    <li><strong>Tag Several Shiori Bookmarks at Once:</strong> In the Shiori widget and the Bookmark Manager, select several bookmarks and choose <strong>Add Tags</strong>. Each bookmark keeps the tags it already had!</li>
+                    <li><strong>Add Tags While Importing:</strong> The Import Bookmarks sheet can now add tags you choose to every newly imported bookmark!</li>
+                </ul>
+
+                <h3>✨ Improvements</h3>
+                <ul>
+                    <li><strong>Settings Open Instantly:</strong> Switching pages in Settings no longer pauses, even the first time you open a page, and sliders and switches stay smooth!</li>
+                    <li><strong>Talk Integrations Opens Without a Freeze:</strong> ExtraBar now checks for DockFlow in the background, so the Talk Integrations page opens right away and shows “Checking…” for a moment instead of asking you to install DockFlow!</li>
+                </ul>
+
+                <h3>🐛 Bug Fixes</h3>
+                <ul>
+                    <li><strong>Export Logs Keeps Crash Details:</strong> Crash reports in exported logs now include the full crash information, so we can find the cause when you send us one, and exporting is much faster!</li>
+                </ul>
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/extra-bar-updates/releases/download/v1.7.9/ExtraBar.dmg" length="27463762" type="application/octet-stream" sparkle:edSignature="hAnwlBCfZq8HD30Rm6+wLQYG8Q+V3uIAlEjLMMvWHRcjZBReK1KEK1MbayD8/c4aMiF9K3IalI6zMSg0opfGCg=="/>
+        </item>
+        <item>
             <title>1.7.7</title>
             <pubDate>Thu, 19 Nov 2026 20:23:04 +0200</pubDate>
             <sparkle:version>181</sparkle:version>
